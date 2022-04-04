@@ -36,28 +36,40 @@ def img2score(img, username):
         assert False
 
     if not (h == game_height and w == game_width):
-        return None, None, None
+        return None, None, True
 
     #mask out leader boards
     cv2.rectangle(img,(lb_x1,lb_y1),(lb_x2,lb_y2),(255,255,255),-1)
 
     score = img[score_y1:score_y2, score_x1:score_x2]
+
+    score = cv2.cvtColor(score, cv2.COLOR_BGR2GRAY)
+    score = cv2.GaussianBlur(score,(5,5),0)
+
+    # score = cv2.adaptiveThreshold(score,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,cv2.THRESH_BINARY_INV,11,2)
+
     score_str = pytesseract.image_to_string(score)
+    # print (score_str)
+    # cv2.imshow("score",score)
+    # cv2.waitKey(0)
+
+
     if "score" in score_str.lower():
-        score = int(re.findall(r'\d+',score_str.split(" ")[1].strip())[0])
-        done = False
+        try:
+            score = int(re.findall(r'\d+',score_str)[0])
+        except IndexError:
+            return None, None, True
+        failed = False
     else:
         #TODO: could trigger early if blob is in score label region
         score = None
-        done = True
+        failed = True
     #mask out score
     cv2.rectangle(img,(score_x1,score_y1),(score_x2,score_y2),(255,255,255),-1)
 
 
-    return img,score,done
-
-img = cv2.imread("agent_observations/6.png")
-img, score, done = img2score(img,"alex")
-print (score,done)
-cv2.imshow("img",img)
-cv2.waitKey(0)
+    return img,score,failed
+# 
+# img = cv2.imread("agent_observations/27.png")
+# img, score, done = img2score(img,"steph")
+# print (score,done)
