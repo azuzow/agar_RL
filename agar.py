@@ -22,7 +22,7 @@ class env:
 		self.actions=self.actions.T
 		self.actions_taken=[]
 		self.name=name
-	
+
 	def reset(self):
 		try:
 			self.driver.quit()
@@ -39,7 +39,9 @@ class env:
 		game_screen = self.driver.find_element(By.XPATH,'//*[@id="canvas"]')
 		self.screen_height=int(game_screen.get_attribute('height'))
 		self.screen_width=int(game_screen.get_attribute('width'))
-		self.action_selector.move_by_offset(self.screen_width/2,self.screen_height/2).perform()
+		# self.action_selector.move_by_offset(self.screen_width/2,self.screen_height/2).perform()
+		self.action_selector.move_to_element(game_screen)
+
 
 	def step(self,action):
 		obs_path= '/agent_observations/'+ str(state)+'.png'
@@ -49,7 +51,7 @@ class env:
 		if len(self.actions_taken)>1:
 			x_offset = self.x_actions[self.actions_taken[-1]]-self.x_actions[self.actions_taken[-2]]
 			y_offset= self.y_actions[self.actions_taken[-1]]-self.y_actions[self.actions_taken[-2]]
-			
+
 			self.action_selector.move_by_offset(x_offset,y_offset).perform()
 		else:
 			self.action_selector.move_by_offset(self.x_actions[self.actions_taken[0]],self.y_actions[self.actions_taken[0]]).perform()
@@ -57,14 +59,14 @@ class env:
 		# score = self.driver.find_element(By.XPATH,'//*[@id="statsGraph"]')
 
 		#check if game is over
-		done=False 
+		done=False
 		try:
-			print('====================================================================')
+			# print('====================================================================')
 			exit_button = self.driver.find_element(By.XPATH,'//*[@id="statsContinue"]')
 			exit_button.click()
 			done=True
 		except Exception as e:
-			print('====================================================================')
+			# print('====================================================================')
 			pass
 		reward = 0
 		return obs_path,reward,done
@@ -91,4 +93,3 @@ while True:
 	state+=1
 	# if state == 50:
 	# 	break
-
