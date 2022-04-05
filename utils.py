@@ -3,6 +3,17 @@ import pytesseract
 import re
 import numpy as np
 
+
+def format_term_img(obs_path):
+    img = cv2.imread(obs_path)
+    #mask out bottom bar
+    cv2.rectangle(img,(0,1128),(1221,1154),(255,255,255),-1)
+    #mask out leaderboard
+    cv2.rectangle(img,(1020,7),(1212,250),(255,255,255),-1)
+    cv2.imwrite(obs_path,img)
+    return img
+
+
 def img2score(img, username,timestep):
     h,w,c = img.shape
 

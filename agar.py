@@ -11,7 +11,7 @@ import timeit
 import cv2
 import os
 
-from utils import img2score
+from utils import img2score, format_term_img
 name='cs394r'
 
 class env:
@@ -92,20 +92,18 @@ class env:
 
 
         masked_img,score,failed = img2score(cv2.imread(obs_path),"alex",timestep)
-        
+
         print ("Score: ",score)
         # os.remove(obs_path)
         restart = False
 
         if  failed:
-
             self.n_fails+=1
             if self.n_fails >1:
                 os.remove(obs_path)
             if self.n_fails >=3:
                 restart=True
-               
-            masked_img = None
+            masked_img = format_term_img(obs_path)
         else:
             cv2.imwrite(obs_path,masked_img)
             # os.remove(obs_path)
