@@ -95,12 +95,12 @@ class env:
        
         return obs_path,score,failed
 
-
 path_to_adblock = r'1.42.2_0'
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option('useAutomationExtension', False)
 chrome_options.add_argument('--disable-blink-features=AutomationControlled')
 chrome_options.add_argument('load-extension=' + path_to_adblock)
+
 # chrome_options.add_argument("--window-size=1154,1221")
 
 agar1 = env(chrome_options,name)
@@ -131,12 +131,13 @@ while True:
     if n_fails >=3:
         restart=True
 
-
+    timestep +=1
+    
     if  restart:
         agar1.reset()
         n_fails=0
         restart=False
         timestep = 0
         episode +=1
-    timestep +=1
+    
     
