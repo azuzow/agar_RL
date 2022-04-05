@@ -44,8 +44,8 @@ class env:
         self.n_fails = 0
         try:
             self.driver = webdriver.Chrome(ChromeDriverManager().install(),options=self.chrome_options)
-            self.action_selector = ActionChains(self.driver,duration=0)
-            # self.action_selector = ActionChains(self.driver)
+            # self.action_selector = ActionChains(self.driver,duration=0)
+            self.action_selector = ActionChains(self.driver)
 
             # self.action_selector.duration = 0
 
@@ -91,22 +91,29 @@ class env:
                 self.action_selector.move_by_offset(self.actions_taken[0][0],self.actions_taken[0][1]).perform()
 
 
-        masked_img,score,failed = img2score(cv2.imread(obs_path),"alex",timestep)
+        masked_img,score,failed = img2score(cv2.imread(obs_path),"steph",timestep)
         os.remove(obs_path)
         print ("Score: ",score)
         # os.remove(obs_path)
+        restart = False
+
         if  failed:
-            masked_img = None
+
             self.n_fails+=1
+            if self.n_fails >=3:
+                restart=True
+                if timestep > 10:
+                    cv2.imwrite(obs_path,masked_img)
+            masked_img = None
         else:
             cv2.imwrite(obs_path,masked_img)
             # os.remove(obs_path)
             # obs_path=None
             self.n_fails=0
+        #
 
-        restart = False
-        if self.n_fails >=3:
-            restart=True
+
+
 
         return masked_img,score,failed, restart
 
