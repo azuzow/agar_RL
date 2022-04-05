@@ -7,7 +7,7 @@ def img2score(img, username,timestep):
     h,w,c = img.shape
 
     if username == "steph":
-        game_height = 1280
+        game_height = 1286
         game_width = 2400
 
         lb_x1 = 2025
@@ -15,9 +15,9 @@ def img2score(img, username,timestep):
         lb_y1 = 15
         lb_y2 = 460
 
-        score_x1 = 15
-        score_x2 = 156
-        score_y1 = 1222
+        score_x1 = 18
+        score_x2 = 153
+        score_y1 = 1231
         score_y2 = 1265
     elif username == "alex":
         game_height = 1154
@@ -47,8 +47,8 @@ def img2score(img, username,timestep):
     lower = np.array([0,0,0], dtype = "uint16")
     upper = np.array([235,235,235], dtype = "uint16")
     score = cv2.inRange(score,lower,upper)
-    
-    
+
+
     # score = cv2.adaptiveThreshold(score,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,cv2.THRESH_BINARY_INV,11,2)
     # score =  cv2.threshold(score, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
     # score = 255-score
@@ -57,8 +57,8 @@ def img2score(img, username,timestep):
     # score = cv2.cvtColor(score, cv2.COLOR_BGR2GRAY)
 
     # ret, score =cv2.threshold(score,30,255,cv2.THRESH_BINARY+cv2.THRESH_OTSU)
-    
-   
+
+
     # score = cv2.cvtColor(score, cv2.COLOR_BGR2GRAY)
     # score= cv2.dilate(score, kernel, iterations = 1)
     # score= cv2.morphologyEx(score, cv2.MORPH_OPEN, kernel)
@@ -66,9 +66,9 @@ def img2score(img, username,timestep):
     # score =cv2.Canny(score, 50, 100)
     # score = cv2.dilate(score, kernel)
     # score=cv2.erode(score,kernel)
-   
-    path = '/home/alexzuzow/Desktop/agar_multiagent/scores/score'+str(timestep)+'.png'
-    cv2.imwrite(path,score)
+
+    # path = '/home/alexzuzow/Desktop/agar_multiagent/scores/score'+str(timestep)+'.png'
+    # cv2.imwrite(path,score)
     score_str = pytesseract.image_to_string(score)
     # print (score_str)
     # cv2.imshow("score",score)
@@ -90,7 +90,10 @@ def img2score(img, username,timestep):
 
 
     return img,score,failed
-#
-# img = cv2.imread("/Users/stephanehatgiskessell/Downloads/agent_observations/94.png")
-# img, score, done = img2score(img,"alex")
+# #
+# img = cv2.imread("agent_observations/4.png")
+# # #
+# # # cv2.imshow("img",img)
+# # # cv2.waitKey(0)
+# img, score, done = img2score(img,"steph",1)
 # print (score,done)

@@ -25,13 +25,14 @@ class env:
         actions = np.radians(actions)
         x_actions= 200*np.cos(actions)
         y_actions= 200*np.sin(actions)
-    
+
         self.actions_taken=[]
         self.name=name
         self.action_space = dict()
         self.action_space[0]= Keys.SPACE
         for i in range(len(actions)):
             self.action_space[i+1]= tuple((x_actions[i],y_actions[i]))
+        self.n_fails = 0
 
     def reset(self):
         try:
@@ -40,9 +41,12 @@ class env:
             pass
         self.actions_taken=[]
         self.steps_no_score = 0
+        self.n_fails = 0
         try:
             self.driver = webdriver.Chrome(ChromeDriverManager().install(),options=self.chrome_options)
             self.action_selector = ActionChains(self.driver,duration=0)
+            # self.action_selector = ActionChains(self.driver)
+
             # self.action_selector.duration = 0
 
 
@@ -60,13 +64,13 @@ class env:
         except Exception as e:
             print(e)
             self.reset()
-          
+
 
 
     def step(self,action,timestep,episode):
 
-        
-        
+
+
         obs_path= 'agent_observations/'+ str(timestep+episode)+'.png'
         print(action)
         self.driver.save_screenshot(obs_path)
@@ -74,7 +78,7 @@ class env:
             print(self.action_space[action])
             self.action_selector.send_keys(self.action_space[action]).perform()
         else:
-            
+
             self.actions_taken.append(self.action_space[action])
             #move cursor back to center of screen
             # tic = timeit.default_timer()
@@ -86,14 +90,25 @@ class env:
                 print(self.actions_taken[0][0],self.actions_taken[0][1])
                 self.action_selector.move_by_offset(self.actions_taken[0][0],self.actions_taken[0][1]).perform()
 
-       
-        masked_img,score,failed = img2score(cv2.imread(obs_path),"alex",timestep)
 
+        masked_img,score,failed = img2score(cv2.imread(obs_path),"alex",timestep)
+        os.remove(obs_path)
+        print ("Score: ",score)
+        # os.remove(obs_path)
         if  failed:
-            os.remove(obs_path)
-            obs_path=None
-       
-        return obs_path,score,failed
+            masked_img = None
+            self.n_fails+=1
+        else:
+            cv2.imwrite(obs_path,masked_img)
+            # os.remove(obs_path)
+            # obs_path=None
+            self.n_fails=0
+
+        restart = False
+        if self.n_fails >=3:
+            restart=True
+
+        return masked_img,score,failed, restart
 
 path_to_adblock = r'1.42.2_0'
 chrome_options = webdriver.ChromeOptions()
@@ -110,34 +125,19 @@ time.sleep(1)
 
 timestep = 0
 episode = 0
-n_fails=0
-restart=False
 while True:
-    
+
     action = np.random.randint(len(agar1.action_space))
 
     # tic = timeit.default_timer()
-    obs_path,score,failed = agar1.step(action,timestep,episode)
+    masked_img,score,failed,restart = agar1.step(action,timestep,episode)
     # toc = timeit.default_timer()
     # print ("step time: " + str(toc-tic))
-    
-    if failed:
-        n_fails+=1
-        print('failed',n_fails,'/',timestep)
-        
-    else:
-        n_fails=0
 
-    if n_fails >=3:
-        restart=True
 
     timestep +=1
-    
+
     if  restart:
         agar1.reset()
-        n_fails=0
-        restart=False
         timestep = 0
         episode +=1
-    
-    
