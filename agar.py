@@ -96,9 +96,9 @@ class env:
         if self.steps_no_score > 3 and timestep <5:
             restart = True
             score = 0
-        failed = False
-        restart = False
-        # score = 0
+        # failed = False
+        # restart = False
+        # # score = 0
         return obs_path,score,done,failed,restart
 
 

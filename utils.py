@@ -28,10 +28,10 @@ def img2score(img, username):
         lb_y1 = 9
         lb_y2 = 245
 
-        score_x1 = 15
+        score_x1 = 17
         score_x2 = 90
-        score_y1 = 1117
-        score_y2 = 1140
+        score_y1 = 1120
+        score_y2 = 1138
     else:
         assert False
 
@@ -44,7 +44,8 @@ def img2score(img, username):
     score = img[score_y1:score_y2, score_x1:score_x2]
 
     score = cv2.cvtColor(score, cv2.COLOR_BGR2GRAY)
-    score = cv2.GaussianBlur(score,(5,5),0)
+    if username == "steph":
+        score = cv2.GaussianBlur(score,(5,5),0)
 
     # score = cv2.adaptiveThreshold(score,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,cv2.THRESH_BINARY_INV,11,2)
 
@@ -69,7 +70,7 @@ def img2score(img, username):
 
 
     return img,score,failed
-# 
-# img = cv2.imread("agent_observations/27.png")
-# img, score, done = img2score(img,"steph")
+#
+# img = cv2.imread("/Users/stephanehatgiskessell/Downloads/agent_observations/94.png")
+# img, score, done = img2score(img,"alex")
 # print (score,done)
