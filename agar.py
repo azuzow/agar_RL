@@ -8,6 +8,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 import timeit
 import cv2
+import os
 
 from utils import img2score
 name='cs394r'
@@ -27,7 +28,7 @@ class env:
         self.actions=self.actions.T
         self.actions_taken=[]
         self.name=name
-        self.steps_no_score = 0
+
 
     def reset(self):
         try:
@@ -36,31 +37,38 @@ class env:
             pass
         self.actions_taken=[]
         self.steps_no_score = 0
+        try:
+            self.driver = webdriver.Chrome(ChromeDriverManager().install(),options=self.chrome_options)
+            self.action_selector = ActionChains(self.driver,)
+            # self.action_selector.duration = 0
 
-        self.driver = webdriver.Chrome(ChromeDriverManager().install(),options=self.chrome_options)
-        self.action_selector = ActionChains(self.driver)
-        # self.action_selector.duration = 0
 
+            self.driver.get("https://agar.io/#ffa")
+            menu = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="nick"]')))
+            menu.send_keys(self.name)
+            play_button = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="play"]')))
+            play_button.click()
+            game_screen = self.driver.find_element(By.XPATH,'//*[@id="canvas"]')
+            self.screen_height=int(game_screen.get_attribute('height'))
+            self.screen_width=int(game_screen.get_attribute('width'))
 
-        self.driver.get("https://agar.io/#ffa")
-        menu = WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="nick"]')))
-        menu.send_keys(name)
-        play_button = WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="play"]')))
-        play_button.click()
-        game_screen = self.driver.find_element(By.XPATH,'//*[@id="canvas"]')
-        self.screen_height=int(game_screen.get_attribute('height'))
-        self.screen_width=int(game_screen.get_attribute('width'))
-
-        # self.action_selector.move_by_offset(self.screen_width/2,self.screen_height/2).perform()
-        self.action_selector.move_to_element(game_screen)
-
+            # self.action_selector.move_by_offset(self.screen_width/2,self.screen_height/2).perform()
+            self.action_selector.move_to_element(game_screen)
+        except Exception as e:
+            print('=======================================')
+            print('=======================================')
+            print(e)
+            self.reset()
+            print('=======================================')
+            print('=======================================')
 
 
     def step(self,action,timestep,episode):
 
+        
+        
         obs_path= 'agent_observations/'+ str(timestep+episode)+'.png'
         self.driver.save_screenshot(obs_path)
-
         self.actions_taken.append(action)
         #move cursor back to center of screen
         # tic = timeit.default_timer()
@@ -71,36 +79,14 @@ class env:
         else:
             self.action_selector.move_by_offset(self.x_actions[self.actions_taken[0]],self.y_actions[self.actions_taken[0]]).perform()
 
-        # score = self.driver.find_element(By.XPATH,'//*[@id="statsGraph"]')
-
-        #check if game is over
-        done=False
-        try:
-            # print('====================================================================')
-            exit_button = self.driver.find_element(By.XPATH,'//*[@id="statsContinue"]')
-            exit_button.click()
-            done=True
-        except Exception as e:
-            # print('====================================================================')
-            pass
-
-
-        # tic = timeit.default_timer()
+       
         masked_img,score,failed = img2score(cv2.imread(obs_path),"alex",timestep)
-        # toc = timeit.default_timer()
-        # print ("get score time: " + str(toc-tic))
 
-        restart = False
-        if timestep <5 and failed:
-            self.steps_no_score +=1
-        if self.steps_no_score > 3 and timestep <5:
-            restart = True
-            score = 0
-        # failed = False
-        # restart = False
-        # # score = 0
-        print(done)
-        return obs_path,score,done,failed,restart
+        if  failed:
+            os.remove(obs_path)
+            obs_path=None
+       
+        return obs_path,score,failed
 
 
 path_to_adblock = r'1.42.2_0'
@@ -118,25 +104,32 @@ time.sleep(1)
 timestep = 0
 episode = 0
 n_fails=0
+restart=False
 while True:
-    print ("stepping...")
+    
     action = np.random.randint(50)
 
-    tic = timeit.default_timer()
-    obs_path,score,done,failed,restart = agar1.step(action,timestep,episode)
-    toc = timeit.default_timer()
-    print ("step time: " + str(toc-tic))
+    # tic = timeit.default_timer()
+    obs_path,score,failed = agar1.step(action,timestep,episode)
+    # toc = timeit.default_timer()
+    # print ("step time: " + str(toc-tic))
     
     if failed:
         n_fails+=1
         print('failed',n_fails,'/',timestep)
-        timestep+=1
-        continue
+        
+    else:
+        n_fails=0
 
-    # print(done,score)
-    if done or restart:
+    if n_fails >=3:
+        restart=True
+
+
+    if  restart:
         agar1.reset()
+        n_fails=0
+        restart=False
         timestep = 0
         episode +=1
-
     timestep +=1
+    
