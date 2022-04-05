@@ -86,7 +86,7 @@ class env:
 
 
         # tic = timeit.default_timer()
-        masked_img,score,failed = img2score(cv2.imread(obs_path),"steph")
+        masked_img,score,failed = img2score(cv2.imread(obs_path),"alex",timestep)
         # toc = timeit.default_timer()
         # print ("get score time: " + str(toc-tic))
 
@@ -99,6 +99,7 @@ class env:
         # failed = False
         # restart = False
         # # score = 0
+        print(done)
         return obs_path,score,done,failed,restart
 
 
@@ -112,11 +113,11 @@ chrome_options.add_argument('load-extension=' + path_to_adblock)
 agar1 = env(chrome_options,name)
 agar1.reset()
 
-time.sleep(2)
+time.sleep(1)
 
 timestep = 0
 episode = 0
-
+n_fails=0
 while True:
     print ("stepping...")
     action = np.random.randint(50)
@@ -125,20 +126,15 @@ while True:
     obs_path,score,done,failed,restart = agar1.step(action,timestep,episode)
     toc = timeit.default_timer()
     print ("step time: " + str(toc-tic))
-
-    if restart:
-        print ("NEEDS RESTARTING")
-        timestep = 0
-        agar1 = env(chrome_options,name)
-        agar1.reset()
-
-
+    
     if failed:
+        n_fails+=1
+        print('failed',n_fails,'/',timestep)
         timestep+=1
         continue
 
-    print(done,score)
-    if done:
+    # print(done,score)
+    if done or restart:
         agar1.reset()
         timestep = 0
         episode +=1
