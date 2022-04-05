@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from webdriver_manager.chrome import ChromeDriverManager
 import time
@@ -22,13 +23,15 @@ class env:
         self.screen_height=None
         actions=np.linspace(1,360,50)
         actions = np.radians(actions)
-        self.x_actions= 200*np.cos(actions)
-        self.y_actions= 200*np.sin(actions)
-        self.actions = np.array([self.x_actions,self.y_actions])
-        self.actions=self.actions.T
+        x_actions= 200*np.cos(actions)
+        y_actions= 200*np.sin(actions)
+    
         self.actions_taken=[]
         self.name=name
-
+        self.action_space = dict()
+        self.action_space[0]= Keys.SPACE
+        for i in range(len(actions)):
+            self.action_space[i+1]= tuple((x_actions[i],y_actions[i]))
 
     def reset(self):
         try:
@@ -39,7 +42,7 @@ class env:
         self.steps_no_score = 0
         try:
             self.driver = webdriver.Chrome(ChromeDriverManager().install(),options=self.chrome_options)
-            self.action_selector = ActionChains(self.driver,)
+            self.action_selector = ActionChains(self.driver,duration=0)
             # self.action_selector.duration = 0
 
 
@@ -55,12 +58,9 @@ class env:
             # self.action_selector.move_by_offset(self.screen_width/2,self.screen_height/2).perform()
             self.action_selector.move_to_element(game_screen)
         except Exception as e:
-            print('=======================================')
-            print('=======================================')
             print(e)
             self.reset()
-            print('=======================================')
-            print('=======================================')
+          
 
 
     def step(self,action,timestep,episode):
@@ -68,16 +68,23 @@ class env:
         
         
         obs_path= 'agent_observations/'+ str(timestep+episode)+'.png'
+        print(action)
         self.driver.save_screenshot(obs_path)
-        self.actions_taken.append(action)
-        #move cursor back to center of screen
-        # tic = timeit.default_timer()
-        if len(self.actions_taken)>1:
-            x_offset = self.x_actions[self.actions_taken[-1]]-self.x_actions[self.actions_taken[-2]]
-            y_offset= self.y_actions[self.actions_taken[-1]]-self.y_actions[self.actions_taken[-2]]
-            self.action_selector.move_by_offset(x_offset,y_offset).perform()
+        if action==0:
+            print(self.action_space[action])
+            self.action_selector.send_keys(self.action_space[action]).perform()
         else:
-            self.action_selector.move_by_offset(self.x_actions[self.actions_taken[0]],self.y_actions[self.actions_taken[0]]).perform()
+            
+            self.actions_taken.append(self.action_space[action])
+            #move cursor back to center of screen
+            # tic = timeit.default_timer()
+            if len(self.actions_taken)>1:
+                x_offset = self.actions_taken[-1][0]-self.actions_taken[-2][0]
+                y_offset= self.actions_taken[-1][1]-self.actions_taken[-2][1]
+                self.action_selector.move_by_offset(x_offset,y_offset).perform()
+            else:
+                print(self.actions_taken[0][0],self.actions_taken[0][1])
+                self.action_selector.move_by_offset(self.actions_taken[0][0],self.actions_taken[0][1]).perform()
 
        
         masked_img,score,failed = img2score(cv2.imread(obs_path),"alex",timestep)
@@ -107,7 +114,7 @@ n_fails=0
 restart=False
 while True:
     
-    action = np.random.randint(50)
+    action = np.random.randint(len(agar1.action_space))
 
     # tic = timeit.default_timer()
     obs_path,score,failed = agar1.step(action,timestep,episode)
