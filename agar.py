@@ -35,6 +35,7 @@ class env:
         for i in range(len(actions)):
             self.action_space[i+1]= tuple((x_actions[i],y_actions[i]))
         self.n_fails = 0
+        self.first_fail_frames = []
 
     def reset(self):
         try:
@@ -102,6 +103,7 @@ class env:
         frames.append(masked_img_1)
 
         masked_img,score,failed = img2score(obs,"steph",timestep)
+        frames.append(masked_img)
 
         obs_2 = self.get_screenshot()
         masked_img_2 = format_frame (obs_2, "steph")
@@ -118,21 +120,21 @@ class env:
         restart = False
 
         if failed:
+            if self.n_fails == 0 and timestep >= 3:
+                self.first_fail_frames = frames
+                masked_img = format_term_img(obs)
+                self.first_fail_frames[1] = masked_img
+                cv2.imwrite(obs_path,masked_img)
+
             self.n_fails+=1
             # if self.n_fails >1:
             #     os.remove(obs_path)
             if self.n_fails >=3:
-                if timestep >= 5:
-                    masked_img = format_term_img(obs)
-                    cv2.imwrite(obs_path,masked_img)
+                frames = self.first_fail_frames
                 restart=True
         else:
             self.n_fails=0
             cv2.imwrite(obs_path,masked_img)
-
-        frames.append(masked_img)
-
-
 
         return frames,score,failed, restart
 
