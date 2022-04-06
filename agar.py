@@ -6,12 +6,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from webdriver_manager.chrome import ChromeDriverManager
+from PIL import Image
 import time
 import timeit
 import cv2
 import os
-
-from utils import img2score, format_term_img
+import io
+from utils import img2score
 name='cs394r'
 
 class env:
@@ -73,7 +74,9 @@ class env:
 
         obs_path= 'agent_observations/'+ str(timestep+episode)+'.png'
         print(action)
-        self.driver.save_screenshot(obs_path)
+        obs = io.BytesIO(self.driver.get_screenshot_as_png())
+        obs =Image.open(obs)
+        obs = cv2.cvtColor(np.array(obs), cv2.COLOR_RGB2BGR)
         if action==0:
             print(self.action_space[action])
             self.action_selector.send_keys(self.action_space[action]).perform()
@@ -91,23 +94,21 @@ class env:
                 self.action_selector.move_by_offset(self.actions_taken[0][0],self.actions_taken[0][1]).perform()
 
 
-        masked_img,score,failed = img2score(cv2.imread(obs_path),"alex",timestep)
-
+        masked_img,score,failed = img2score(obs,"alex",timestep)
+        
         print ("Score: ",score)
-        # os.remove(obs_path)
+        
         restart = False
-
+        cv2.imwrite(obs_path,masked_img)
         if  failed:
+
             self.n_fails+=1
             if self.n_fails >1:
                 os.remove(obs_path)
             if self.n_fails >=3:
                 restart=True
-            masked_img = format_term_img(obs_path)
+            masked_img = None
         else:
-            cv2.imwrite(obs_path,masked_img)
-            # os.remove(obs_path)
-            # obs_path=None
             self.n_fails=0
         #
 
