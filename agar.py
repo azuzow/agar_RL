@@ -12,7 +12,8 @@ import timeit
 import cv2
 import os
 import io
-from utils import img2score
+
+from utils import img2score,format_frame,format_term_img
 name='cs394r'
 
 class env:
@@ -46,7 +47,7 @@ class env:
         try:
             self.driver = webdriver.Chrome(ChromeDriverManager().install(),options=self.chrome_options)
             # self.action_selector = ActionChains(self.driver,duration=0)
-            self.action_selector = ActionChains(self.driver,duration=0)
+            self.action_selector = ActionChains(self.driver)
 
             # self.action_selector.duration = 0
 
@@ -66,17 +67,17 @@ class env:
             print(e)
             self.reset()
 
-
-
-    def step(self,action,timestep,episode):
-
-
-
-        obs_path= 'agent_observations/'+ str(timestep+episode)+'.png'
-        print(action)
+    def get_screenshot(self):
         obs = io.BytesIO(self.driver.get_screenshot_as_png())
         obs =Image.open(obs)
         obs = cv2.cvtColor(np.array(obs), cv2.COLOR_RGB2BGR)
+        return obs
+
+    def step(self,action,timestep,episode):
+
+        obs_path= 'agent_observations/'+ str(timestep+episode)+'.png'
+        print(action)
+        obs = self.get_screenshot()
         if action==0:
             print(self.action_space[action])
             self.action_selector.send_keys(self.action_space[action]).perform()
@@ -94,28 +95,46 @@ class env:
                 self.action_selector.move_by_offset(self.actions_taken[0][0],self.actions_taken[0][1]).perform()
 
 
-        masked_img,score,failed = img2score(obs,"alex",timestep)
-        
-        print ("Score: ",score)
-        
-        restart = False
-        cv2.imwrite(obs_path,masked_img)
-        if  failed:
+        frames = []
 
+        obs_1 = self.get_screenshot()
+        masked_img_1 = format_frame (obs_1, "steph")
+        frames.append(masked_img_1)
+
+        masked_img,score,failed = img2score(obs,"steph",timestep)
+
+        obs_2 = self.get_screenshot()
+        masked_img_2 = format_frame (obs_2, "steph")
+        frames.append(masked_img_2)
+
+        obs_3 = self.get_screenshot()
+        masked_img_3 = format_frame (obs_3, "steph")
+        frames.append(masked_img_3)
+
+        # masked_img,score,failed = img2score(obs,"alex",timestep)
+
+        print ("Score: ",score)
+
+        restart = False
+
+        if failed:
             self.n_fails+=1
-            if self.n_fails >1:
-                os.remove(obs_path)
+            # if self.n_fails >1:
+            #     os.remove(obs_path)
             if self.n_fails >=3:
+                if timestep >= 5:
+                    masked_img = format_term_img(obs)
+                    cv2.imwrite(obs_path,masked_img)
                 restart=True
-            masked_img = None
         else:
             self.n_fails=0
-        #
+            cv2.imwrite(obs_path,masked_img)
+
+        frames.append(masked_img)
 
 
 
-
-        return masked_img,score,failed, restart
+        return frames,score,failed, restart
 
 path_to_adblock = r'1.42.2_0'
 chrome_options = webdriver.ChromeOptions()
@@ -137,13 +156,10 @@ while True:
     action = np.random.randint(len(agar1.action_space))
 
     # tic = timeit.default_timer()
-    masked_img,score,failed,restart = agar1.step(action,timestep,episode)
+    frames,score,failed,restart = agar1.step(action,timestep,episode)
     # toc = timeit.default_timer()
     # print ("step time: " + str(toc-tic))
-
-
     timestep +=1
-
     if  restart:
         agar1.reset()
         timestep = 0

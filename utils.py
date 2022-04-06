@@ -4,17 +4,15 @@ import re
 import numpy as np
 
 
-def format_term_img(obs_path):
-    img = cv2.imread(obs_path)
+def format_term_img(img):
     #mask out bottom bar
     cv2.rectangle(img,(0,1128),(1221,1154),(255,255,255),-1)
     #mask out leaderboard
     cv2.rectangle(img,(1020,7),(1212,250),(255,255,255),-1)
-    cv2.imwrite(obs_path,img)
     return img
 
 
-def img2score(img, username,timestep):
+def format_frame (img, username,get_score=False):
     h,w,c = img.shape
 
     if username == "steph":
@@ -47,60 +45,45 @@ def img2score(img, username,timestep):
         assert False
 
     if not (h == game_height and w == game_width):
+        print (h,w)
         return None, None, True
 
     #mask out leader boards
     cv2.rectangle(img,(lb_x1,lb_y1),(lb_x2,lb_y2),(255,255,255),-1)
 
-    score = img[score_y1:score_y2, score_x1:score_x2]
 
-    # score = cv2.cvtColor(score, cv2.COLOR_BGR2GRAY)
-    lower = np.array([0,0,0], dtype = "uint16")
-    upper = np.array([235,235,235], dtype = "uint16")
-    score = cv2.inRange(score,lower,upper)
+    if get_score:
+        score = img[score_y1:score_y2, score_x1:score_x2]
 
+        # score = cv2.cvtColor(score, cv2.COLOR_BGR2GRAY)
+        lower = np.array([0,0,0], dtype = "uint16")
+        upper = np.array([235,235,235], dtype = "uint16")
+        score = cv2.inRange(score,lower,upper)
+        score_str = pytesseract.image_to_string(score)
 
-    # score = cv2.adaptiveThreshold(score,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,cv2.THRESH_BINARY_INV,11,2)
-    # score =  cv2.threshold(score, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
-    # score = 255-score
-    # score = cv2.GaussianBlur(score,(5,5),0)
-
-    # score = cv2.cvtColor(score, cv2.COLOR_BGR2GRAY)
-
-    # ret, score =cv2.threshold(score,30,255,cv2.THRESH_BINARY+cv2.THRESH_OTSU)
-
-
-    # score = cv2.cvtColor(score, cv2.COLOR_BGR2GRAY)
-    # score= cv2.dilate(score, kernel, iterations = 1)
-    # score= cv2.morphologyEx(score, cv2.MORPH_OPEN, kernel)
-    # score = cv2.erode(score, kernel, iterations = 1)
-    # score =cv2.Canny(score, 50, 100)
-    # score = cv2.dilate(score, kernel)
-    # score=cv2.erode(score,kernel)
-
-    # path = '/home/alexzuzow/Desktop/agar_multiagent/scores/score'+str(timestep)+'.png'
-    # cv2.imwrite(path,score)
-    score_str = pytesseract.image_to_string(score)
-    # print (score_str)
-    # cv2.imshow("score",score)
-    # cv2.waitKey(0)
-
-
-    if "score" in score_str.lower():
-        try:
-            score = int(re.findall(r'\d+',score_str)[0])
-        except IndexError:
-            return None, None, True
-        failed = False
-    else:
-        #TODO: could trigger early if blob is in score label region
-        score = None
-        failed = True
+        if "score" in score_str.lower():
+            try:
+                score = int(re.findall(r'\d+',score_str)[0])
+            except IndexError:
+                return None, None, True
+            failed = False
+        else:
+            #TODO: could trigger early if blob is in score label region
+            score = None
+            failed = True
     #mask out score
     cv2.rectangle(img,(score_x1,score_y1),(score_x2,score_y2),(255,255,255),-1)
 
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-    return img,score,failed
+    if get_score:
+        return img,score,failed
+    else:
+        return img
+
+def img2score(img, username,timestep):
+
+    return format_frame (img, username,get_score=True)
 # #
 # img = cv2.imread("agent_observations/4.png")
 # # #
