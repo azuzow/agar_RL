@@ -68,17 +68,19 @@ class env:
             print(e)
             self.reset()
 
-    def get_screenshot(self):
-        obs = io.BytesIO(self.driver.get_screenshot_as_png())
-        obs =Image.open(obs)
-        obs = cv2.cvtColor(np.array(obs), cv2.COLOR_RGB2BGR)
+    def get_screenshot(self,obs_path):
+        # obs = io.BytesIO(self.driver.get_screenshot_as_png())
+        # obs =Image.open(obs)
+        self.driver.save_screenshot(obs_path)
+        img = cv2.imread(obs_path)
+        obs = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
         return obs
 
     def step(self,action,timestep,episode):
 
         obs_path= 'agent_observations/'+ str(timestep+episode)+'.png'
         print(action)
-        obs = self.get_screenshot()
+
         if action==0:
             print(self.action_space[action])
             self.action_selector.send_keys(self.action_space[action]).perform()
@@ -98,18 +100,19 @@ class env:
 
         frames = []
 
-        obs_1 = self.get_screenshot()
+        obs_1 = self.get_screenshot("f1.png")
         masked_img_1 = format_frame (obs_1, "steph")
         frames.append(masked_img_1)
 
+        obs = self.get_screenshot(obs_path)
         masked_img,score,failed = img2score(obs,"steph",timestep)
         frames.append(masked_img)
 
-        obs_2 = self.get_screenshot()
+        obs_2 = self.get_screenshot("f2.png")
         masked_img_2 = format_frame (obs_2, "steph")
         frames.append(masked_img_2)
 
-        obs_3 = self.get_screenshot()
+        obs_3 = self.get_screenshot("f3.png")
         masked_img_3 = format_frame (obs_3, "steph")
         frames.append(masked_img_3)
 
@@ -124,7 +127,7 @@ class env:
                 self.first_fail_frames = frames
                 masked_img = format_term_img(obs)
                 self.first_fail_frames[1] = masked_img
-                cv2.imwrite(obs_path,masked_img)
+                # cv2.imwrite(obs_path,masked_img)
 
             self.n_fails+=1
             # if self.n_fails >1:
@@ -134,7 +137,7 @@ class env:
                 restart=True
         else:
             self.n_fails=0
-            cv2.imwrite(obs_path,masked_img)
+            # cv2.imwrite(obs_path,masked_img)
 
         return frames,score,failed, restart
 
@@ -157,10 +160,10 @@ while True:
 
     action = np.random.randint(len(agar1.action_space))
 
-    # tic = timeit.default_timer()
+    tic = timeit.default_timer()
     frames,score,failed,restart = agar1.step(action,timestep,episode)
-    # toc = timeit.default_timer()
-    # print ("step time: " + str(toc-tic))
+    toc = timeit.default_timer()
+    print ("step time: " + str(toc-tic))
     timestep +=1
     if  restart:
         agar1.reset()
