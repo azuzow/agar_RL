@@ -9,6 +9,7 @@ def format_term_img(img):
     cv2.rectangle(img,(0,1128),(1221,1154),(255,255,255),-1)
     #mask out leaderboard
     cv2.rectangle(img,(1020,7),(1212,250),(255,255,255),-1)
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     return img
 
 
