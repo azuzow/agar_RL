@@ -75,7 +75,7 @@ def format_frame (img, username,get_score=False):
     h,w,c = img.shape
 
     if username == "steph":
-        game_height = 1280
+        game_height = 1286
         game_width = 2400
 
         lb_x1 = 2025

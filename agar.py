@@ -75,22 +75,31 @@ class env:
         masked_img_1 = format_frame (obs, "steph")
         masked_img_1 = torchvision.transforms.functional.to_tensor(masked_img_1)
 
-        obs= self.get_screenshot("f1.png")
+        obs= self.get_screenshot("f2.png")
         masked_img_2 = format_frame (obs, "steph")
         masked_img_2 = torchvision.transforms.functional.to_tensor(masked_img_2)
 
-        obs= self.get_screenshot("f1.png")
+        obs= self.get_screenshot("f3.png")
         masked_img_3 = format_frame (obs, "steph")
         masked_img_3 = torchvision.transforms.functional.to_tensor(masked_img_3)
 
         frames = torch.cat((masked_img_1, masked_img_2, masked_img_3))
         return frames
 
+    # def get_screenshot(self,obs_path):
+    #     # obs = io.BytesIO(self.driver.get_screenshot_as_png())
+    #     # obs =Image.open(obs)
+    #     self.driver.save_screenshot(obs_path)
+    #     img = cv2.imread(obs_path)
+    #     obs = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
+    #     return obs
+
     def get_screenshot(self,obs_path):
         # obs = io.BytesIO(self.driver.get_screenshot_as_png())
         # obs =Image.open(obs)
-        self.driver.save_screenshot(obs_path)
-        img = cv2.imread(obs_path)
+        img = self.driver.get_screenshot_as_png()
+        img = np.frombuffer(img, np.uint8)
+        img = cv2.imdecode(img, cv2.IMREAD_COLOR)
         obs = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
         return obs
 

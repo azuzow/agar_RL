@@ -103,7 +103,10 @@ for episode in range(N_EPISODES):
     while True:
 
         action = np.random.randint(len(agar1.action_space))
+        s = timeit.default_timer()
         next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
+        e = timeit.default_timer()
+        print ("step time: " + str(e-s))
         if not failed:
             reward = score - prev_score
             episode_return+=reward
@@ -124,7 +127,7 @@ for episode in range(N_EPISODES):
                 episode_rewards.append(episode_return)
             break
     if episode % TARGET_UPDATE == 0:
-        target_net.load_state_dict(policy_net.state_dict())
+        target_DQN.load_state_dict(policy_DQN.state_dict())
     if episode % SAVE_UPDATE == 0:
         torch.save(target_DQN.state_dict(), "saved_models/target_DQN")
         torch.save(policy_DQN.state_dict(), "saved_models/policy_DQN")
