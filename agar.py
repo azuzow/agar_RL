@@ -12,9 +12,10 @@ import timeit
 import cv2
 import os
 import io
+import torch
+import torchvision
 
 from utils import img2score,format_frame,format_term_img
-name='cs394r'
 
 class env:
     def __init__(self,chrome_options,name):
@@ -68,6 +69,23 @@ class env:
             print(e)
             self.reset()
 
+
+
+        obs= self.get_screenshot("f1.png")
+        masked_img_1 = format_frame (obs, "steph")
+        masked_img_1 = torchvision.transforms.functional.to_tensor(masked_img_1)
+
+        obs= self.get_screenshot("f1.png")
+        masked_img_2 = format_frame (obs, "steph")
+        masked_img_2 = torchvision.transforms.functional.to_tensor(masked_img_2)
+
+        obs= self.get_screenshot("f1.png")
+        masked_img_3 = format_frame (obs, "steph")
+        masked_img_3 = torchvision.transforms.functional.to_tensor(masked_img_3)
+
+        frames = torch.cat((masked_img_1, masked_img_2, masked_img_3))
+        return frames
+
     def get_screenshot(self,obs_path):
         # obs = io.BytesIO(self.driver.get_screenshot_as_png())
         # obs =Image.open(obs)
@@ -100,32 +118,39 @@ class env:
 
         frames = []
 
-        obs_1 = self.get_screenshot("f1.png")
-        masked_img_1 = format_frame (obs_1, "steph")
-        frames.append(masked_img_1)
+
 
         obs = self.get_screenshot(obs_path)
         masked_img,score,failed = img2score(obs,"steph",timestep)
-        frames.append(masked_img)
+        masked_img = torchvision.transforms.functional.to_tensor(masked_img)
+
+
+        obs_1 = self.get_screenshot("f1.png")
+        masked_img_1 = format_frame (obs_1, "steph")
+        masked_img_1 = torchvision.transforms.functional.to_tensor(masked_img_1)
+
 
         obs_2 = self.get_screenshot("f2.png")
         masked_img_2 = format_frame (obs_2, "steph")
-        frames.append(masked_img_2)
+        masked_img_2 = torchvision.transforms.functional.to_tensor(masked_img_2)
+        frames = torch.cat((masked_img,masked_img_1,masked_img_2))
 
-        obs_3 = self.get_screenshot("f3.png")
-        masked_img_3 = format_frame (obs_3, "steph")
-        frames.append(masked_img_3)
+        # obs_3 = self.get_screenshot("f3.png")
+        # masked_img_3 = format_frame (obs_3, "steph")
+        # frames.append(masked_img_3)
 
         # masked_img,score,failed = img2score(obs,"alex",timestep)
 
         print ("Score: ",score)
 
         restart = False
+        done = False
 
         if failed:
             if self.n_fails == 0 and timestep >= 3:
                 self.first_fail_frames = frames
                 masked_img = format_term_img(obs)
+                masked_img = torchvision.transforms.functional.to_tensor(masked_img)
                 self.first_fail_frames[1] = masked_img
                 # cv2.imwrite(obs_path,masked_img)
 
@@ -133,39 +158,13 @@ class env:
             # if self.n_fails >1:
             #     os.remove(obs_path)
             if self.n_fails >=3:
+                if timestep >= 6:
+                    done = True
+
                 frames = self.first_fail_frames
                 restart=True
         else:
             self.n_fails=0
             # cv2.imwrite(obs_path,masked_img)
 
-        return frames,score,failed, restart
-
-path_to_adblock = r'1.42.2_0'
-chrome_options = webdriver.ChromeOptions()
-chrome_options.add_experimental_option('useAutomationExtension', False)
-chrome_options.add_argument('--disable-blink-features=AutomationControlled')
-chrome_options.add_argument('load-extension=' + path_to_adblock)
-
-# chrome_options.add_argument("--window-size=1154,1221")
-
-agar1 = env(chrome_options,name)
-agar1.reset()
-
-time.sleep(1)
-
-timestep = 0
-episode = 0
-while True:
-
-    action = np.random.randint(len(agar1.action_space))
-
-    tic = timeit.default_timer()
-    frames,score,failed,restart = agar1.step(action,timestep,episode)
-    toc = timeit.default_timer()
-    print ("step time: " + str(toc-tic))
-    timestep +=1
-    if  restart:
-        agar1.reset()
-        timestep = 0
-        episode +=1
+        return frames,score,failed,restart,done
