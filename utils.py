@@ -71,7 +71,7 @@ def format_term_img(img):
     return img
 
 
-def format_frame (img, username,get_score=False):
+def format_frame (img, username,prev_fail,get_score=False):
     h,w,c = img.shape
 
     if username == "steph":
@@ -96,10 +96,12 @@ def format_frame (img, username,get_score=False):
         lb_y1 = 9
         lb_y2 = 245
 
-        score_x1 = 17
-        score_x2 = 100
+        score_x1 = 21
+        score_x2 = 85
         score_y1 = 1120
-        score_y2 = 1138
+        score_y2 = 1135
+        if prev_fail==2:
+            score_x2+=10
     else:
         assert False
 
@@ -118,6 +120,7 @@ def format_frame (img, username,get_score=False):
         lower = np.array([0,0,0], dtype = "uint16")
         upper = np.array([235,235,235], dtype = "uint16")
         score = cv2.inRange(score,lower,upper)
+
         score_str = pytesseract.image_to_string(score)
 
         if "score" in score_str.lower():
@@ -140,9 +143,9 @@ def format_frame (img, username,get_score=False):
     else:
         return img
 
-def img2score(img, username,timestep):
+def img2score(img, username,timestep,prev_fail):
 
-    return format_frame (img, username,get_score=True)
+    return format_frame (img, username,prev_fail,get_score=True)
 # #
 # img = cv2.imread("agent_observations/4.png")
 # # #

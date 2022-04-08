@@ -39,6 +39,7 @@ class env:
         self.first_fail_frames = []
 
     def reset(self):
+        frames=None
         try:
             self.driver.quit()
         except:
@@ -48,8 +49,8 @@ class env:
         self.n_fails = 0
         try:
             self.driver = webdriver.Chrome(ChromeDriverManager().install(),options=self.chrome_options)
-            # self.action_selector = ActionChains(self.driver,duration=0)
-            self.action_selector = ActionChains(self.driver)
+            self.action_selector = ActionChains(self.driver,duration=0)
+            # self.action_selector = ActionChains(self.driver)
 
             # self.action_selector.duration = 0
 
@@ -65,25 +66,25 @@ class env:
 
             # self.action_selector.move_by_offset(self.screen_width/2,self.screen_height/2).perform()
             self.action_selector.move_to_element(game_screen)
+
+
+            obs= self.get_screenshot("f1.png")
+            masked_img_1 = format_frame (obs, "alex",self.n_fails)
+            masked_img_1 = torchvision.transforms.functional.to_tensor(masked_img_1)
+
+            obs= self.get_screenshot("f2.png")
+            masked_img_2 = format_frame (obs, "alex",self.n_fails)
+            masked_img_2 = torchvision.transforms.functional.to_tensor(masked_img_2)
+
+            obs= self.get_screenshot("f3.png")
+            masked_img_3 = format_frame (obs, "alex",self.n_fails)
+            masked_img_3 = torchvision.transforms.functional.to_tensor(masked_img_3)
+
+            frames = torch.cat((masked_img_1, masked_img_2, masked_img_3))
         except Exception as e:
             print(e)
             self.reset()
 
-
-
-        obs= self.get_screenshot("f1.png")
-        masked_img_1 = format_frame (obs, "steph")
-        masked_img_1 = torchvision.transforms.functional.to_tensor(masked_img_1)
-
-        obs= self.get_screenshot("f2.png")
-        masked_img_2 = format_frame (obs, "steph")
-        masked_img_2 = torchvision.transforms.functional.to_tensor(masked_img_2)
-
-        obs= self.get_screenshot("f3.png")
-        masked_img_3 = format_frame (obs, "steph")
-        masked_img_3 = torchvision.transforms.functional.to_tensor(masked_img_3)
-
-        frames = torch.cat((masked_img_1, masked_img_2, masked_img_3))
         return frames
 
     # def get_screenshot(self,obs_path):
@@ -130,17 +131,17 @@ class env:
 
 
         obs = self.get_screenshot(obs_path)
-        masked_img,score,failed = img2score(obs,"steph",timestep)
+        masked_img,score,failed = img2score(obs,"alex",timestep,self.n_fails)
         masked_img = torchvision.transforms.functional.to_tensor(masked_img)
 
 
         obs_1 = self.get_screenshot("f1.png")
-        masked_img_1 = format_frame (obs_1, "steph")
+        masked_img_1 = format_frame (obs_1, "alex",self.n_fails)
         masked_img_1 = torchvision.transforms.functional.to_tensor(masked_img_1)
 
 
         obs_2 = self.get_screenshot("f2.png")
-        masked_img_2 = format_frame (obs_2, "steph")
+        masked_img_2 = format_frame (obs_2, "alex",self.n_fails)
         masked_img_2 = torchvision.transforms.functional.to_tensor(masked_img_2)
         frames = torch.cat((masked_img,masked_img_1,masked_img_2))
 

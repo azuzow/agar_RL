@@ -36,8 +36,8 @@ agar1 = env(chrome_options,name)
 memory = ReplayMemory(100000)
 target_DQN = Net(n_actions = len(agar1.action_space)).to(device)
 policy_DQN = Net(n_actions = len(agar1.action_space)).to(device)
-
-target_DQN.load_state_dict(policy_DQN.state_dict())
+policy_DQN.load_state_dict(torch.load('/home/alexzuzow/Desktop/saved_models/policy_DQN.pt'))
+target_DQN.load_state_dict(torch.load('/home/alexzuzow/Desktop/saved_models/target_DQN.pt'))
 target_DQN.eval()
 optimizer = optim.RMSprop(policy_DQN.parameters())
 
@@ -80,7 +80,7 @@ def update_model():
     # Compute Huber loss
     criterion = nn.SmoothL1Loss()
     loss = criterion(torch.squeeze(state_action_values), expected_state_action_values)
-
+    print('====',loss,'====')
     # Optimize the model
     optimizer.zero_grad()
     loss.backward()
@@ -90,16 +90,20 @@ def update_model():
     optimizer.step()
     # print ("UPDATED MODEL, LOSS=",loss)
     # print ("\n")
+    
 
 
 episode = 0
 episode_rewards = []
+episode_timestamps=[]
+episode_loss=[]
+
 for episode in range(N_EPISODES):
     episode_return = 0
     prev_score = 10
     timestep = 0
     state = agar1.reset()
-    time.sleep(1)
+    time.sleep(.5)
     while True:
 
         action = np.random.randint(len(agar1.action_space))
@@ -112,23 +116,27 @@ for episode in range(N_EPISODES):
             episode_return+=reward
             prev_score = score
 
-            if not done:
+            if not done and state is not None:
                 memory.push(state.unsqueeze(0), torch.tensor([action]), next_state.unsqueeze(0), torch.tensor([reward]))
-            else:
+            elif state is not None:
                 memory.push(state.unsqueeze(0), torch.tensor([action]), None, torch.tensor([reward]))
 
 
         update_model()
-
+        
         timestep +=1
         if  restart:
             episode +=1
             if episode_return != 0:
                 episode_rewards.append(episode_return)
+                episode_timestamps.append(timestep)
+                # episode_loss.append(loss)
             break
     if episode % TARGET_UPDATE == 0:
         target_DQN.load_state_dict(policy_DQN.state_dict())
     if episode % SAVE_UPDATE == 0:
-        torch.save(target_DQN.state_dict(), "saved_models/target_DQN")
-        torch.save(policy_DQN.state_dict(), "saved_models/policy_DQN")
+        torch.save(target_DQN.state_dict(), "/home/alexzuzow/Desktop/saved_models/target_DQN.pt")
+        torch.save(policy_DQN.state_dict(), "/home/alexzuzow/Desktop/saved_models/policy_DQN.pt")
         np.save("episode_rewards.npy",episode_rewards)
+        # np.save("episode_losses.npy",episode_loss)
+        np.save("episode_timestamps.npy",episode_timestamps)
