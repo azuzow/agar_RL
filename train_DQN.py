@@ -16,6 +16,7 @@ import random
 import numpy as np
 import time
 import timeit
+import math
 
 from agar import env
 import utils
@@ -36,8 +37,10 @@ agar1 = env(chrome_options,name)
 memory = ReplayMemory(100000)
 target_DQN = Net(n_actions = len(agar1.action_space)).to(device)
 policy_DQN = Net(n_actions = len(agar1.action_space)).to(device)
-policy_DQN.load_state_dict(torch.load('/home/alexzuzow/Desktop/saved_models/policy_DQN.pt'))
-target_DQN.load_state_dict(torch.load('/home/alexzuzow/Desktop/saved_models/target_DQN.pt'))
+target_DQN.load_state_dict(policy_DQN.state_dict())
+
+# policy_DQN.load_state_dict(torch.load('/home/alexzuzow/Desktop/saved_models/policy_DQN.pt'))
+# target_DQN.load_state_dict(torch.load('/home/alexzuzow/Desktop/saved_models/target_DQN.pt'))
 target_DQN.eval()
 optimizer = optim.RMSprop(policy_DQN.parameters())
 
@@ -47,12 +50,25 @@ TARGET_UPDATE = 5
 SAVE_UPDATE = 20
 N_EPISODES = 500
 
-def select_action(state, epsilon=0.1):
+EPS_START = 0.9
+EPS_END = 0.05
+EPS_DECAY = 200
+
+def select_action(state,steps_done):
     sample = random.random()
-    if sample <= epsilon:
-        return random.randrange(0,len(agar1.action_space))
+    eps_threshold = EPS_END + (EPS_START - EPS_END) * math.exp(-1. * steps_done / EPS_DECAY)
+    print (eps_threshold)
+    steps_done+=1
+    if sample <= eps_threshold:
+        return random.randrange(0,len(agar1.action_space)),steps_done
     else:
-        return policy_DQN(torch.tensor(state))
+
+        with torch.no_grad():
+            # t.max(1) will return largest column value of each row.
+            # second column on max result is index of where max element was
+            # found, so we pick action with the larger expected re
+            action =  torch.squeeze(policy_DQN(state.unsqueeze(0)).max(1)[1].view(1, 1))
+            return action.item(),steps_done
 
 def update_model():
     #For the sake of efficiency, a lot of this code was taken from: https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html
@@ -90,23 +106,25 @@ def update_model():
     optimizer.step()
     # print ("UPDATED MODEL, LOSS=",loss)
     # print ("\n")
-    
+
 
 
 episode = 0
 episode_rewards = []
 episode_timestamps=[]
 episode_loss=[]
+steps_done = 0
 
 for episode in range(N_EPISODES):
     episode_return = 0
     prev_score = 10
     timestep = 0
+
     state = agar1.reset()
     time.sleep(.5)
     while True:
 
-        action = np.random.randint(len(agar1.action_space))
+        action,steps_done = select_action(state,steps_done)
         s = timeit.default_timer()
         next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
         e = timeit.default_timer()
@@ -123,7 +141,7 @@ for episode in range(N_EPISODES):
 
 
         update_model()
-        
+
         timestep +=1
         if  restart:
             episode +=1
