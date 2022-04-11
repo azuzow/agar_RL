@@ -123,8 +123,12 @@ for episode in range(N_EPISODES):
     state = agar1.reset()
     time.sleep(.5)
     while True:
+        if state is not None:
+            action,steps_done = select_action(state,steps_done)
+        else:
+            action = random.randrange(0,len(agar1.action_space))
+            steps_done +=1
 
-        action,steps_done = select_action(state,steps_done)
         s = timeit.default_timer()
         next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
         e = timeit.default_timer()
