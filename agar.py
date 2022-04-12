@@ -128,11 +128,12 @@ class env:
 
         frames = []
 
-
-
         obs = self.get_screenshot(obs_path)
         masked_img,score,failed = img2score(obs,"alex",timestep,self.n_fails)
-        masked_img = torchvision.transforms.functional.to_tensor(masked_img)
+        if not failed:
+            masked_img = torchvision.transforms.functional.to_tensor(masked_img)
+        else:
+            masked_img = torch.zeros((128,128))
 
 
         obs_1 = self.get_screenshot("f1.png")
@@ -161,7 +162,7 @@ class env:
                 self.first_fail_frames = frames
                 masked_img = format_term_img(obs)
                 masked_img = torchvision.transforms.functional.to_tensor(masked_img)
-                self.first_fail_frames[1] = masked_img
+                self.first_fail_frames[0] = masked_img
                 # cv2.imwrite(obs_path,masked_img)
 
             self.n_fails+=1
