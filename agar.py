@@ -51,7 +51,7 @@ class env:
             self.driver = webdriver.Chrome(ChromeDriverManager().install(),options=self.chrome_options)
             self.action_selector = ActionChains(self.driver,duration=0)
             # self.action_selector = ActionChains(self.driver)
-
+            self.driver.set_window_size(1000, 1000)
             # self.action_selector.duration = 0
 
 
@@ -81,6 +81,7 @@ class env:
             masked_img_3 = torchvision.transforms.functional.to_tensor(masked_img_3)
 
             frames = torch.cat((masked_img_1, masked_img_2, masked_img_3))
+            return frames
         except Exception as e:
             print(e)
             self.reset()
@@ -133,7 +134,7 @@ class env:
         if not failed:
             masked_img = torchvision.transforms.functional.to_tensor(masked_img)
         else:
-            masked_img = torch.zeros((128,128))
+            masked_img = torch.zeros((1,128,128))
 
 
         obs_1 = self.get_screenshot("f1.png")

@@ -96,12 +96,10 @@ def format_frame (img, username,prev_fail,get_score=False):
         lb_y1 = 10
         lb_y2 = 191
 
-        score_x1 = 17
-        score_x2 = 69
-        score_y1 = 799
-        score_y2 = 812
-        if prev_fail==2:
-            score_x2+=10
+        score_x1 = 10
+        score_x2 = 80
+        score_y1 = 790
+        score_y2 = 820
     else:
         assert False
 
@@ -115,12 +113,47 @@ def format_frame (img, username,prev_fail,get_score=False):
 
     if get_score:
         score = img[score_y1:score_y2, score_x1:score_x2]
-        # cv2.imshow("img",score)
-        # cv2.waitKey(0)
-        # score = cv2.cvtColor(score, cv2.COLOR_BGR2GRAY)
+        img_=img[score_y1:score_y2, score_x1:score_x2]
+        # score= np.array(score)
+        # cv2.imwrite('1.png',score)
+      
+
+        lower = np.array([150,150,150], dtype = "uint16")
+        upper = np.array([180,180,180], dtype = "uint16")
+        score_ = cv2.inRange(score,lower,upper)
+
         lower = np.array([0,0,0], dtype = "uint16")
         upper = np.array([230,230,230], dtype = "uint16")
-        score = cv2.inRange(score,lower,upper)
+        img_ = cv2.inRange(img_,lower,upper)
+        contours,hierarchy = cv2.findContours(score_, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+        x_=np.inf
+        y_=np.inf
+        h_=0
+        w_=0                                     
+        bounded=False
+        for contour in contours:
+            (x,y,w,h) = cv2.boundingRect(contour)
+            cv2.rectangle(score, (x,y), (x+w,y+h), (0, 255, 0), 1)
+            x_ = min(x_,x)
+            w_  +=w
+            bounded=True
+        if bounded:
+            if h*w!=0:
+                score_ = score_[10:-11, x_+5:x_+w_-4]
+                img_ = img_[10:-11, x_+5:x_+w_-4]
+
+
+        cv2.imwrite('2.png',score)
+        cv2.imwrite('3.png',score_)
+        cv2.imwrite('4.png',img_)
+        
+
+        score =  cv2.bitwise_or(img_,score_)
+        cv2.imwrite('5.png',score)
+        # score_ = cv2.GaussianBlur(score,(5,5),0,0)
+       
+        
+        
         # cv2.imshow("img",score)
         # cv2.waitKey(0)
 
