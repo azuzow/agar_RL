@@ -57,7 +57,7 @@ EPS_DECAY = 200
 def select_action(state,steps_done):
     sample = random.random()
     eps_threshold = EPS_END + (EPS_START - EPS_END) * math.exp(-1. * steps_done / EPS_DECAY)
-    print (eps_threshold)
+    # print (eps_threshold)
     steps_done+=1
     if sample <= eps_threshold:
         return random.randrange(0,len(agar1.action_space)),steps_done
@@ -96,7 +96,7 @@ def update_model():
     # Compute Huber loss
     criterion = nn.SmoothL1Loss()
     loss = criterion(torch.squeeze(state_action_values), expected_state_action_values)
-    print('====',loss,'====')
+    print('loss:',loss[0])
     # Optimize the model
     optimizer.zero_grad()
     loss.backward()

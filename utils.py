@@ -88,23 +88,24 @@ def format_frame (img, username,prev_fail,get_score=False):
         score_y1 = 1231
         score_y2 = 1265
     elif username == "alex":
-        game_height = 829
-        game_width = 956
+        game_height = 1229
+        game_width = 1356
 
-        lb_x1 = 800
-        lb_x2 = 948
+
+        lb_x1 = 1135
+        lb_x2 = 1350
         lb_y1 = 10
-        lb_y2 = 191
+        lb_y2 = 257
 
         score_x1 = 10
-        score_x2 = 80
-        score_y1 = 790
-        score_y2 = 820
+        score_x2 = 100
+        score_y1 = 1185
+        score_y2 = 1220
     else:
         assert False
 
     if not (h == game_height and w == game_width):
-        print (h,w)
+        # print (h,w)
         return None, None, True
 
     #mask out leader boards
@@ -113,49 +114,19 @@ def format_frame (img, username,prev_fail,get_score=False):
 
     if get_score:
         score = img[score_y1:score_y2, score_x1:score_x2]
-        img_=img[score_y1:score_y2, score_x1:score_x2]
-        # score= np.array(score)
+
+        
         # cv2.imwrite('1.png',score)
-      
+        score_=cv2.cvtColor(score, cv2.COLOR_BGR2GRAY)
 
-        lower = np.array([150,150,150], dtype = "uint16")
-        upper = np.array([180,180,180], dtype = "uint16")
-        score_ = cv2.inRange(score,lower,upper)
+        # print('=====================')
+        # print(score_.shape)
+        # print('=====================')
+        score_ = np.where(score_>253,255,0).astype(np.uint8)
 
-        lower = np.array([0,0,0], dtype = "uint16")
-        upper = np.array([230,230,230], dtype = "uint16")
-        img_ = cv2.inRange(img_,lower,upper)
-        contours,hierarchy = cv2.findContours(score_, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
-        x_=np.inf
-        y_=np.inf
-        h_=0
-        w_=0                                     
-        bounded=False
-        for contour in contours:
-            (x,y,w,h) = cv2.boundingRect(contour)
-            cv2.rectangle(score, (x,y), (x+w,y+h), (0, 255, 0), 1)
-            x_ = min(x_,x)
-            w_  +=w
-            bounded=True
-        if bounded:
-            if h*w!=0:
-                score_ = score_[10:-11, x_+5:x_+w_-4]
-                img_ = img_[10:-11, x_+5:x_+w_-4]
+        score =  cv2.bitwise_not(score_)
 
-
-        cv2.imwrite('2.png',score)
-        cv2.imwrite('3.png',score_)
-        cv2.imwrite('4.png',img_)
-        
-
-        score =  cv2.bitwise_or(img_,score_)
-        cv2.imwrite('5.png',score)
-        # score_ = cv2.GaussianBlur(score,(5,5),0,0)
-       
-        
-        
-        # cv2.imshow("img",score)
-        # cv2.waitKey(0)
+   
 
 
         score_str = pytesseract.image_to_string(score)

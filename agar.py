@@ -51,7 +51,7 @@ class env:
             self.driver = webdriver.Chrome(ChromeDriverManager().install(),options=self.chrome_options)
             self.action_selector = ActionChains(self.driver,duration=0)
             # self.action_selector = ActionChains(self.driver)
-            self.driver.set_window_size(1000, 1000)
+            self.driver.set_window_size(1400, 1400)
             # self.action_selector.duration = 0
 
 
@@ -108,7 +108,7 @@ class env:
     def step(self,action,timestep,episode):
 
         obs_path= 'agent_observations/'+ str(timestep+episode)+'.png'
-        print(action)
+        # print(action)
 
         if action==0:
             print(self.action_space[action])
@@ -128,7 +128,10 @@ class env:
 
 
         frames = []
-
+        # self.driver.save_screenshot('f1.png')
+        # self.driver.save_screenshot('f2.png')
+        # self.driver.save_screenshot('f3.png')
+        # self.driver.save_screenshot('f4.png')
         obs = self.get_screenshot(obs_path)
         masked_img,score,failed = img2score(obs,"alex",timestep,self.n_fails)
         if not failed:
