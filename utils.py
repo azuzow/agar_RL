@@ -88,18 +88,18 @@ def format_frame (img, username,prev_fail,get_score=False):
         score_y1 = 1231
         score_y2 = 1265
     elif username == "alex":
-        game_height = 1154
-        game_width = 1221
+        game_height = 829
+        game_width = 956
 
-        lb_x1 = 1020
-        lb_x2 = 1211
-        lb_y1 = 9
-        lb_y2 = 245
+        lb_x1 = 800
+        lb_x2 = 948
+        lb_y1 = 10
+        lb_y2 = 191
 
-        score_x1 = 21
-        score_x2 = 85
-        score_y1 = 1120
-        score_y2 = 1135
+        score_x1 = 17
+        score_x2 = 69
+        score_y1 = 799
+        score_y2 = 812
         if prev_fail==2:
             score_x2+=10
     else:
@@ -115,11 +115,15 @@ def format_frame (img, username,prev_fail,get_score=False):
 
     if get_score:
         score = img[score_y1:score_y2, score_x1:score_x2]
-
+        # cv2.imshow("img",score)
+        # cv2.waitKey(0)
         # score = cv2.cvtColor(score, cv2.COLOR_BGR2GRAY)
         lower = np.array([0,0,0], dtype = "uint16")
-        upper = np.array([235,235,235], dtype = "uint16")
+        upper = np.array([230,230,230], dtype = "uint16")
         score = cv2.inRange(score,lower,upper)
+        # cv2.imshow("img",score)
+        # cv2.waitKey(0)
+
 
         score_str = pytesseract.image_to_string(score)
 
@@ -146,10 +150,10 @@ def format_frame (img, username,prev_fail,get_score=False):
 def img2score(img, username,timestep,prev_fail):
 
     return format_frame (img, username,prev_fail,get_score=True)
-# #
+
 # img = cv2.imread("agent_observations/4.png")
-# # #
-# # # cv2.imshow("img",img)
-# # # cv2.waitKey(0)
+
+# cv2.imshow("img",img)
+# cv2.waitKey(0)
 # img, score, done = img2score(img,"steph",1)
 # print (score,done)
