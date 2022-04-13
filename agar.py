@@ -155,7 +155,8 @@ class env:
         # frames.append(masked_img_3)
 
         # masked_img,score,failed = img2score(obs,"alex",timestep)
-
+        if score==None:
+            score=-100
         print ("Score: ",score)
 
         restart = False
@@ -172,7 +173,7 @@ class env:
             self.n_fails+=1
             # if self.n_fails >1:
             #     os.remove(obs_path)
-            if self.n_fails >=3:
+            if self.n_fails >=1:
                 if timestep >= 6:
                     done = True
 

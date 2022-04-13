@@ -96,7 +96,7 @@ def update_model():
     # Compute Huber loss
     criterion = nn.SmoothL1Loss()
     loss = criterion(torch.squeeze(state_action_values), expected_state_action_values)
-    print('loss:',loss[0])
+    print('loss:',loss.item())
     # Optimize the model
     optimizer.zero_grad()
     loss.backward()
@@ -133,15 +133,14 @@ for episode in range(N_EPISODES):
         next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
         e = timeit.default_timer()
         print ("step time: " + str(e-s))
-        if not failed:
-            reward = score - prev_score
-            episode_return+=reward
-            prev_score = score
+        reward = score - prev_score
+        episode_return+=reward
+        prev_score = score
 
-            if not done and state is not None:
-                memory.push(state.unsqueeze(0), torch.tensor([action]), next_state.unsqueeze(0), torch.tensor([reward]))
-            elif state is not None:
-                memory.push(state.unsqueeze(0), torch.tensor([action]), None, torch.tensor([reward]))
+        if not done and state is not None:
+            memory.push(state.unsqueeze(0), torch.tensor([action]), next_state.unsqueeze(0), torch.tensor([reward]))
+        elif state is not None:
+            memory.push(state.unsqueeze(0), torch.tensor([action]), None, torch.tensor([reward]))
 
 
         update_model()
