@@ -39,16 +39,16 @@ target_DQN = Net(n_actions = len(agar1.action_space)).to(device)
 policy_DQN = Net(n_actions = len(agar1.action_space)).to(device)
 target_DQN.load_state_dict(policy_DQN.state_dict())
 
-# policy_DQN.load_state_dict(torch.load('/home/alexzuzow/Desktop/saved_models/policy_DQN.pt'))
-# target_DQN.load_state_dict(torch.load('/home/alexzuzow/Desktop/saved_models/target_DQN.pt'))
+policy_DQN.load_state_dict(torch.load('/home/alexzuzow/Desktop/saved_models/policy_DQN.pt'))
+target_DQN.load_state_dict(torch.load('/home/alexzuzow/Desktop/saved_models/target_DQN.pt'))
 target_DQN.eval()
 optimizer = optim.RMSprop(policy_DQN.parameters())
 
-BATCH_SIZE = 32
+BATCH_SIZE = 64
 GAMMA = 0.9
-TARGET_UPDATE = 200
-SAVE_UPDATE = 200
-N_EPISODES = 1000
+TARGET_UPDATE = 5
+SAVE_UPDATE = 20
+N_EPISODES = 500
 
 EPS_START = 0.9
 EPS_END = 0.05
@@ -107,10 +107,9 @@ def update_model():
     # print ("UPDATED MODEL, LOSS=",loss)
     # print ("\n")
 
-
-
 episode = 0
 episode_rewards = []
+episode_rewards=np.load("episode_rewards.npy")
 episode_timestamps=[]
 episode_loss=[]
 steps_done = 0
@@ -131,13 +130,19 @@ for episode in range(N_EPISODES):
 
         s = timeit.default_timer()
         next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
-        if score ==None:
-            score = prev_score
-        
-        reward = score - prev_score
+        e = timeit.default_timer()
+        print ("step time: " + str(e-s))
+        if not done:
+            reward = score - prev_score
+        else:
+            reward = score
+
         episode_return+=reward
+        
         prev_score = score
 
+        episode_rewards.append(episode_return)
+        
         if not done and state is not None:
             memory.push(state.unsqueeze(0), torch.tensor([action]), next_state.unsqueeze(0), torch.tensor([reward]))
         elif state is not None:
@@ -145,19 +150,17 @@ for episode in range(N_EPISODES):
 
 
         update_model()
-        e = timeit.default_timer()
-        print ("step time: " + str(e-s))
+
         timestep +=1
         if  restart:
             episode +=1
-            if episode_return != 0:
-                episode_rewards.append(episode_return)
-                episode_timestamps.append(timestep)
+
+            episode_timestamps.append(timestep)
                 # episode_loss.append(loss)
             break
-    if steps_done % TARGET_UPDATE == 0:
+    if episode % TARGET_UPDATE == 0:
         target_DQN.load_state_dict(policy_DQN.state_dict())
-    if steps_done % SAVE_UPDATE == 0:
+    if episode % SAVE_UPDATE == 0:
         torch.save(target_DQN.state_dict(), "/home/alexzuzow/Desktop/saved_models/target_DQN.pt")
         torch.save(policy_DQN.state_dict(), "/home/alexzuzow/Desktop/saved_models/policy_DQN.pt")
         np.save("episode_rewards.npy",episode_rewards)
