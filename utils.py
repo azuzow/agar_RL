@@ -20,18 +20,20 @@ class Net(nn.Module):
         self.bn1 = nn.BatchNorm2d(16)
         self.conv2 = nn.Conv2d(16, 32, kernel_size=5, stride=2)
         self.bn2 = nn.BatchNorm2d(32)
-        self.conv3 = nn.Conv2d(32, 32, kernel_size=5, stride=2)
-        self.bn3 = nn.BatchNorm2d(32)
+        self.conv3 = nn.Conv2d(32, 64, kernel_size=5, stride=2)
+        self.bn3 = nn.BatchNorm2d(64)
+        self.conv4 = nn.Conv2d(64, 64, kernel_size=5, stride=2)
+        self.bn4 = nn.BatchNorm2d(64)
 
         # Number of Linear input connections depends on output of conv2d layers
         # and therefore the input image size, so compute it.
         def conv2d_size_out(size, kernel_size = 5, stride = 2):
             return (size - (kernel_size - 1) - 1) // stride  + 1
-        convw = conv2d_size_out(conv2d_size_out(conv2d_size_out(w)))
-        convh = conv2d_size_out(conv2d_size_out(conv2d_size_out(h)))
-        linear_input_size = convw * convh * 32
+        convw = conv2d_size_out(conv2d_size_out(conv2d_size_out(conv2d_size_out(w))))
+        convh = conv2d_size_out(conv2d_size_out(conv2d_size_out(conv2d_size_out(h))))
+        linear_input_size = convw * convh * 64
         self.head = nn.Linear(linear_input_size, n_actions)
-        self.float()
+
 
     # Called with either one element to determine next action, or a batch
     # during optimization. Returns tensor([[left0exp,right0exp]...]).
@@ -42,6 +44,7 @@ class Net(nn.Module):
         x = F.relu(self.bn1(self.conv1(x)))
         x = F.relu(self.bn2(self.conv2(x)))
         x = F.relu(self.bn3(self.conv3(x)))
+        x = F.relu(self.bn4(self.conv4(x)))
         return self.head(x.view(x.size(0), -1))
 
 Transition = namedtuple('Transition',
@@ -90,50 +93,59 @@ def format_frame (img, username,prev_fail,get_score=False):
         score_y1 = 1231
         score_y2 = 1265
     elif username == "alex":
-        game_height = 1229
-        game_width = 1356
+        game_height = 629
+        game_width = 756
 
 
-        lb_x1 = 1135
-        lb_x2 = 1350
-        lb_y1 = 10
+        lb_x1 = 633
+        lb_x2 = 754
+        lb_y1 = 4
         lb_y2 = 257
 
-        score_x1 = 10
-        score_x2 = 100
-        score_y1 = 1185
-        score_y2 = 1220
+        score_x1 = 45
+        score_x2 = 70
+        score_y1 = 604
+        score_y2 = 612
     else:
         assert False
 
     if not (h == game_height and w == game_width):
-        # print (h,w)
+        print('height',h,'width',w)
         return None, None, True
 
     #mask out leader boards
     cv2.rectangle(img,(lb_x1,lb_y1),(lb_x2,lb_y2),(255,255,255),-1)
-
-
+   
     if get_score:
         score = img[score_y1:score_y2, score_x1:score_x2]
-
+ 
         
-        # cv2.imwrite('1.png',score)
         score_=cv2.cvtColor(score, cv2.COLOR_BGR2GRAY)
 
+        score_ = cv2.resize(score_,(100,40),interpolation=cv2.INTER_CUBIC)
+        
+        score_ = np.where(score_>=235,255,0).astype(np.uint8)
+        cv2.imwrite('3.png',score_)
+        contours, hier = cv2.findContours(score_,cv2.RETR_LIST,cv2.CHAIN_APPROX_SIMPLE)
+        for cnt in contours:
+            if 300<cv2.contourArea(cnt):
+                cv2.drawContours(score_,[cnt],0,0,-1)
+                
+       
         # print('=====================')
         # print(score_.shape)
         # print('=====================')
-        score_ = np.where(score_>253,255,0).astype(np.uint8)
 
         score =  cv2.bitwise_not(score_)
-
-   
-
-
+        cv2.imwrite('0.png',score)
+        cv2.imwrite('1.png',score_)
+        score_ = cv2.resize(score_,(100,40),interpolation=cv2.INTER_CUBIC)
+        
         score_str = pytesseract.image_to_string(score)
-
-        if "score" in score_str.lower():
+        print('===========')
+        print(score_str)
+        print('===========')
+        if  score_str!= None:
             try:
                 score = int(re.findall(r'\d+',score_str)[0])
             except IndexError:
@@ -141,7 +153,7 @@ def format_frame (img, username,prev_fail,get_score=False):
             failed = False
         else:
             #TODO: could trigger early if blob is in score label region
-            score = None
+            
             failed = True
     #mask out score
     cv2.rectangle(img,(score_x1,score_y1),(score_x2,score_y2),(255,255,255),-1)

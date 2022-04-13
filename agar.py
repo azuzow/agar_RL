@@ -51,7 +51,7 @@ class env:
             self.driver = webdriver.Chrome(ChromeDriverManager().install(),options=self.chrome_options)
             self.action_selector = ActionChains(self.driver,duration=0)
             # self.action_selector = ActionChains(self.driver)
-            self.driver.set_window_size(1400, 1400)
+            self.driver.set_window_size(800, 800)
             # self.action_selector.duration = 0
 
 
@@ -155,8 +155,7 @@ class env:
         # frames.append(masked_img_3)
 
         # masked_img,score,failed = img2score(obs,"alex",timestep)
-        if score==None:
-            score=-100
+
         print ("Score: ",score)
 
         restart = False
@@ -173,14 +172,15 @@ class env:
             self.n_fails+=1
             # if self.n_fails >1:
             #     os.remove(obs_path)
-            if self.n_fails >=1:
+            if self.n_fails >=2:
                 if timestep >= 6:
                     done = True
-
+                    score=-100
                 frames = self.first_fail_frames
                 restart=True
         else:
             self.n_fails=0
+
             # cv2.imwrite(obs_path,masked_img)
 
         return frames,score,failed,restart,done

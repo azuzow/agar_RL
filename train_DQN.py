@@ -44,11 +44,11 @@ target_DQN.load_state_dict(policy_DQN.state_dict())
 target_DQN.eval()
 optimizer = optim.RMSprop(policy_DQN.parameters())
 
-BATCH_SIZE = 64
+BATCH_SIZE = 32
 GAMMA = 0.9
-TARGET_UPDATE = 5
-SAVE_UPDATE = 20
-N_EPISODES = 500
+TARGET_UPDATE = 200
+SAVE_UPDATE = 200
+N_EPISODES = 1000
 
 EPS_START = 0.9
 EPS_END = 0.05
@@ -131,8 +131,9 @@ for episode in range(N_EPISODES):
 
         s = timeit.default_timer()
         next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
-        e = timeit.default_timer()
-        print ("step time: " + str(e-s))
+        if score ==None:
+            score = prev_score
+        
         reward = score - prev_score
         episode_return+=reward
         prev_score = score
@@ -144,7 +145,8 @@ for episode in range(N_EPISODES):
 
 
         update_model()
-
+        e = timeit.default_timer()
+        print ("step time: " + str(e-s))
         timestep +=1
         if  restart:
             episode +=1
@@ -153,9 +155,9 @@ for episode in range(N_EPISODES):
                 episode_timestamps.append(timestep)
                 # episode_loss.append(loss)
             break
-    if episode % TARGET_UPDATE == 0:
+    if steps_done % TARGET_UPDATE == 0:
         target_DQN.load_state_dict(policy_DQN.state_dict())
-    if episode % SAVE_UPDATE == 0:
+    if steps_done % SAVE_UPDATE == 0:
         torch.save(target_DQN.state_dict(), "/home/alexzuzow/Desktop/saved_models/target_DQN.pt")
         torch.save(policy_DQN.state_dict(), "/home/alexzuzow/Desktop/saved_models/policy_DQN.pt")
         np.save("episode_rewards.npy",episode_rewards)
