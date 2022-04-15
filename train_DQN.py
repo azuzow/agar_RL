@@ -38,9 +38,12 @@ memory = ReplayMemory(100000)
 target_DQN = Net(n_actions = len(agar1.action_space)).to(device)
 policy_DQN = Net(n_actions = len(agar1.action_space)).to(device)
 target_DQN.load_state_dict(policy_DQN.state_dict())
+try:
+    policy_DQN.load_state_dict(torch.load('/models/policy_DQN.pt'))
+    target_DQN.load_state_dict(torch.load('/models/target_DQN.pt'))
+except Exception as e:
+    pass
 
-policy_DQN.load_state_dict(torch.load('/home/alexzuzow/Desktop/saved_models/policy_DQN.pt'))
-target_DQN.load_state_dict(torch.load('/home/alexzuzow/Desktop/saved_models/target_DQN.pt'))
 target_DQN.eval()
 optimizer = optim.RMSprop(policy_DQN.parameters())
 
@@ -109,7 +112,7 @@ def update_model():
 
 episode = 0
 episode_rewards = []
-episode_rewards=np.load("episode_rewards.npy")
+episode_rewards=np.load("episode_rewards.npy").tolist()
 episode_timestamps=[]
 episode_loss=[]
 steps_done = 0

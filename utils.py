@@ -76,7 +76,7 @@ def format_term_img(img):
     return img
 
 
-def format_frame (img, username,prev_fail,get_score=False):
+def format_frame (img, username,prev_fail,classifier,get_score=False):
     h,w,c = img.shape
 
     if username == "steph":
@@ -102,7 +102,7 @@ def format_frame (img, username,prev_fail,get_score=False):
         lb_y1 = 4
         lb_y2 = 257
 
-        score_x1 = 45
+        score_x1 = 46
         score_x2 = 70
         score_y1 = 604
         score_y2 = 612
@@ -117,6 +117,7 @@ def format_frame (img, username,prev_fail,get_score=False):
     cv2.rectangle(img,(lb_x1,lb_y1),(lb_x2,lb_y2),(255,255,255),-1)
    
     if get_score:
+
         score = img[score_y1:score_y2, score_x1:score_x2]
  
         
@@ -124,37 +125,43 @@ def format_frame (img, username,prev_fail,get_score=False):
 
         score_ = cv2.resize(score_,(100,40),interpolation=cv2.INTER_CUBIC)
         
-        score_ = np.where(score_>=235,255,0).astype(np.uint8)
-        cv2.imwrite('3.png',score_)
-        contours, hier = cv2.findContours(score_,cv2.RETR_LIST,cv2.CHAIN_APPROX_SIMPLE)
-        for cnt in contours:
-            if 300<cv2.contourArea(cnt):
-                cv2.drawContours(score_,[cnt],0,0,-1)
-                
-       
-        # print('=====================')
-        # print(score_.shape)
-        # print('=====================')
-
+        score_ = np.where(score_>=210,255,0).astype(np.uint8)
         score =  cv2.bitwise_not(score_)
-        cv2.imwrite('0.png',score)
-        cv2.imwrite('1.png',score_)
-        score_ = cv2.resize(score_,(100,40),interpolation=cv2.INTER_CUBIC)
+        cv2.imwrite('1.png',score)
+        cv2.imwrite('2.png',score)
+        cv2.imwrite('3.png',score)
+        cv2.imwrite('4.png',score)
+        cv2.imwrite('5.png',score)
+        cv2.imwrite('6.png',score)
+        score = score.astype(np.float32)
+
+        digit_0 = torch.tensor(score[:, 0:22]/255.0).unsqueeze(0).unsqueeze(0)
+        digit_1 = torch.tensor(score[:, 22:44]/255.0).unsqueeze(0).unsqueeze(0)
+        digit_2 = torch.tensor(score[:, 44:66]/255.0).unsqueeze(0).unsqueeze(0)
+        digit_3 = torch.tensor(score[:, 66:88]/255.0).unsqueeze(0).unsqueeze(0)
         
-        score_str = pytesseract.image_to_string(score)
-        print('===========')
-        print(score_str)
-        print('===========')
-        if  score_str!= None:
-            try:
-                score = int(re.findall(r'\d+',score_str)[0])
-            except IndexError:
-                return None, None, True
-            failed = False
+        output_0 =torch.nn.functional.softmax(classifier(digit_0).squeeze(0))
+        output_1 =torch.nn.functional.softmax(classifier(digit_1).squeeze(0))
+        output_2 = torch.nn.functional.softmax(classifier(digit_2).squeeze(0))
+        output_3 = torch.nn.functional.softmax(classifier(digit_3).squeeze(0))
+      
+        outputs=[output_0,output_1,output_2,output_3]
+        for i in range(len(outputs)):
+
+            if outputs[i].max()<=.999 or outputs[i].argmax().item()==10:
+                outputs[i]=''
+            else:
+ 
+                outputs[i]=str(outputs[i].argmax().item())
+
+        outputs = "".join(outputs)
+        score = int(outputs)
+
+        if  outputs!= 0:
+            failed=False
         else:
             #TODO: could trigger early if blob is in score label region
-            
-            failed = True
+            return None, None, True
     #mask out score
     cv2.rectangle(img,(score_x1,score_y1),(score_x2,score_y2),(255,255,255),-1)
 
@@ -165,9 +172,9 @@ def format_frame (img, username,prev_fail,get_score=False):
     else:
         return img
 
-def img2score(img, username,timestep,prev_fail):
+def img2score(img, username,timestep,prev_fail,classifier):
 
-    return format_frame (img, username,prev_fail,get_score=True)
+    return format_frame (img, username,prev_fail,classifier,get_score=True)
 
 # img = cv2.imread("agent_observations/4.png")
 

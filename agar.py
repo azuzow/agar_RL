@@ -16,6 +16,7 @@ import torch
 import torchvision
 
 from utils import img2score,format_frame,format_term_img
+from digit_classifier_dataloader import CNN
 
 class env:
     def __init__(self,chrome_options,name):
@@ -28,7 +29,9 @@ class env:
         actions = np.radians(actions)
         x_actions= 200*np.cos(actions)
         y_actions= 200*np.sin(actions)
-
+        self.classifier = CNN()
+        self.classifier.load_state_dict(torch.load('models/classifier.pt'))
+        self.classifier.eval()
         self.actions_taken=[]
         self.name=name
         self.action_space = dict()
@@ -69,15 +72,15 @@ class env:
 
 
             obs= self.get_screenshot("f1.png")
-            masked_img_1 = format_frame (obs, "alex",self.n_fails)
+            masked_img_1 = format_frame (obs, "alex",self.n_fails,self.classifier)
             masked_img_1 = torchvision.transforms.functional.to_tensor(masked_img_1)
 
             obs= self.get_screenshot("f2.png")
-            masked_img_2 = format_frame (obs, "alex",self.n_fails)
+            masked_img_2 = format_frame (obs, "alex",self.n_fails,self.classifier)
             masked_img_2 = torchvision.transforms.functional.to_tensor(masked_img_2)
 
             obs= self.get_screenshot("f3.png")
-            masked_img_3 = format_frame (obs, "alex",self.n_fails)
+            masked_img_3 = format_frame (obs, "alex",self.n_fails,self.classifier)
             masked_img_3 = torchvision.transforms.functional.to_tensor(masked_img_3)
 
             frames = torch.cat((masked_img_1, masked_img_2, masked_img_3))
@@ -133,7 +136,7 @@ class env:
         # self.driver.save_screenshot('f3.png')
         # self.driver.save_screenshot('f4.png')
         obs = self.get_screenshot(obs_path)
-        masked_img,score,failed = img2score(obs,"alex",timestep,self.n_fails)
+        masked_img,score,failed = img2score(obs,"alex",timestep,self.n_fails,self.classifier)
         if not failed:
             masked_img = torchvision.transforms.functional.to_tensor(masked_img)
         else:
@@ -141,12 +144,12 @@ class env:
 
 
         obs_1 = self.get_screenshot("f1.png")
-        masked_img_1 = format_frame (obs_1, "alex",self.n_fails)
+        masked_img_1 = format_frame (obs_1, "alex",self.n_fails,self.classifier)
         masked_img_1 = torchvision.transforms.functional.to_tensor(masked_img_1)
 
 
         obs_2 = self.get_screenshot("f2.png")
-        masked_img_2 = format_frame (obs_2, "alex",self.n_fails)
+        masked_img_2 = format_frame (obs_2, "alex",self.n_fails,self.classifier)
         masked_img_2 = torchvision.transforms.functional.to_tensor(masked_img_2)
         frames = torch.cat((masked_img,masked_img_1,masked_img_2))
 
