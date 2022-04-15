@@ -66,6 +66,12 @@ class ReplayMemory(object):
         return len(self.memory)
 
 
+def is_noise(img):
+    contours, hierarchy = cv2.findContours(imgray, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+    if len(contours) == 1 and cv2.contourArea(contours[0]) > 100 and cv2.arcLength(contours[0],True) < 200:
+        return True
+    return False
+
 def format_term_img(img):
     #mask out bottom bar
     cv2.rectangle(img,(0,1128),(1221,1154),(255,255,255),-1)
@@ -115,18 +121,19 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
 
     #mask out leader boards
     cv2.rectangle(img,(lb_x1,lb_y1),(lb_x2,lb_y2),(255,255,255),-1)
-   
+
     if get_score:
 
         score = img[score_y1:score_y2, score_x1:score_x2]
- 
-        
+
+
         score_=cv2.cvtColor(score, cv2.COLOR_BGR2GRAY)
 
         score_ = cv2.resize(score_,(100,40),interpolation=cv2.INTER_CUBIC)
-        
+
         score_ = np.where(score_>=210,255,0).astype(np.uint8)
         score =  cv2.bitwise_not(score_)
+
         cv2.imwrite('1.png',score)
         cv2.imwrite('2.png',score)
         cv2.imwrite('3.png',score)
@@ -139,19 +146,19 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
         digit_1 = torch.tensor(score[:, 22:44]/255.0).unsqueeze(0).unsqueeze(0)
         digit_2 = torch.tensor(score[:, 44:66]/255.0).unsqueeze(0).unsqueeze(0)
         digit_3 = torch.tensor(score[:, 66:88]/255.0).unsqueeze(0).unsqueeze(0)
-        
+
         output_0 =torch.nn.functional.softmax(classifier(digit_0).squeeze(0))
         output_1 =torch.nn.functional.softmax(classifier(digit_1).squeeze(0))
         output_2 = torch.nn.functional.softmax(classifier(digit_2).squeeze(0))
         output_3 = torch.nn.functional.softmax(classifier(digit_3).squeeze(0))
-      
+
         outputs=[output_0,output_1,output_2,output_3]
         for i in range(len(outputs)):
 
             if outputs[i].max()<=.999 or outputs[i].argmax().item()==10:
                 outputs[i]=''
             else:
- 
+
                 outputs[i]=str(outputs[i].argmax().item())
 
         outputs = "".join(outputs)
