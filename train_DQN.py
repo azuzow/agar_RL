@@ -17,7 +17,7 @@ import numpy as np
 import time
 import timeit
 import math
-
+import wandb
 from agar import env
 import utils
 from utils import ReplayMemory, Net
@@ -38,11 +38,9 @@ memory = ReplayMemory(100000)
 target_DQN = Net(n_actions = len(agar1.action_space)).to(device)
 policy_DQN = Net(n_actions = len(agar1.action_space)).to(device)
 target_DQN.load_state_dict(policy_DQN.state_dict())
-try:
-    policy_DQN.load_state_dict(torch.load('/models/policy_DQN.pt'))
-    target_DQN.load_state_dict(torch.load('/models/target_DQN.pt'))
-except Exception as e:
-    pass
+
+# policy_DQN.load_state_dict(torch.load('models/policy_DQN.pt'),strict=False)
+# target_DQN.load_state_dict(torch.load('models/target_DQN.pt'),strict=False)
 
 target_DQN.eval()
 optimizer = optim.RMSprop(policy_DQN.parameters())
@@ -70,7 +68,9 @@ def select_action(state,steps_done):
             # t.max(1) will return largest column value of each row.
             # second column on max result is index of where max element was
             # found, so we pick action with the larger expected re
+            policy_DQN.eval()
             action =  torch.squeeze(policy_DQN(state.unsqueeze(0)).max(1)[1].view(1, 1))
+            policy_DQN.train()
             return action.item(),steps_done
 
 def update_model():
@@ -85,7 +85,8 @@ def update_model():
     state_batch = torch.cat(batch.state)
     action_batch = torch.cat(batch.action)
     reward_batch = torch.cat(batch.reward)
-
+    reward_batch.to(device)
+    action_batch.to(device)
 
     state_action_values = policy_DQN(state_batch).gather(1, action_batch.unsqueeze(0))
 
@@ -116,14 +117,14 @@ episode_rewards=np.load("episode_rewards.npy").tolist()
 episode_timestamps=[]
 episode_loss=[]
 steps_done = 0
-
+wandb.init(project="my-test-project", entity="cs394ragario")
 for episode in range(N_EPISODES):
     episode_return = 0
     prev_score = 10
     timestep = 0
-
+  
     state = agar1.reset()
-    time.sleep(.5)
+    # time.sleep(.5)
     while True:
         if state is not None:
             action,steps_done = select_action(state,steps_done)
@@ -145,11 +146,16 @@ for episode in range(N_EPISODES):
         prev_score = score
 
         episode_rewards.append(episode_return)
+        wandb.log({"episode": episode_return})
         
+        action = torch.tensor([action]).to(device)
+        reward = torch.tensor([reward]).to(device)
         if not done and state is not None:
-            memory.push(state.unsqueeze(0), torch.tensor([action]), next_state.unsqueeze(0), torch.tensor([reward]))
+            state.to(device)
+            # next_state.to(device)
+            memory.push(state.unsqueeze(0), action, next_state.unsqueeze(0), reward)
         elif state is not None:
-            memory.push(state.unsqueeze(0), torch.tensor([action]), None, torch.tensor([reward]))
+            memory.push(state.unsqueeze(0), action, None, reward)
 
 
         update_model()
@@ -164,8 +170,8 @@ for episode in range(N_EPISODES):
     if episode % TARGET_UPDATE == 0:
         target_DQN.load_state_dict(policy_DQN.state_dict())
     if episode % SAVE_UPDATE == 0:
-        torch.save(target_DQN.state_dict(), "/home/alexzuzow/Desktop/saved_models/target_DQN.pt")
-        torch.save(policy_DQN.state_dict(), "/home/alexzuzow/Desktop/saved_models/policy_DQN.pt")
+        torch.save(target_DQN.state_dict(), "models/target_DQN.pt")
+        torch.save(policy_DQN.state_dict(), "models/policy_DQN.pt")
         np.save("episode_rewards.npy",episode_rewards)
         # np.save("episode_losses.npy",episode_loss)
         np.save("episode_timestamps.npy",episode_timestamps)

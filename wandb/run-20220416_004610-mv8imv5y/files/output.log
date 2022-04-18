@@ -1,0 +1,91 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=99.0.4844.74)
+Stacktrace:
+#0 0x558772fca7d3 <unknown>
+#1 0x558772d2651f <unknown>
+#2 0x558772d1126d <unknown>
+#3 0x558772d10190 <unknown>
+#4 0x558772d1070c <unknown>
+#5 0x558772d1ecdf <unknown>
+#6 0x558772d1f862 <unknown>
+#7 0x558772d2da56 <unknown>
+#8 0x558772d8dcbf <unknown>
+#9 0x558772d7a5a3 <unknown>
+#10 0x558772d4fddc <unknown>
+#11 0x558772d50de5 <unknown>
+#12 0x558772ffb49d <unknown>
+#13 0x55877301460c <unknown>
+#14 0x558772ffd205 <unknown>
+#15 0x558773014ee5 <unknown>
+#16 0x558772ff1070 <unknown>
+#17 0x558773030488 <unknown>
+#18 0x55877303060c <unknown>
+#19 0x558773049c6d <unknown>
+#20 0x7ffb3dbd5609 <unknown>
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-153.66582434662556 128.01099338678696
+===================
+===================
+Score:  10
+step time: 0.7961154619697481
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:174: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+===================
+===================
+Score:  10
+step time: 0.5305345630040392
+===================
+===================
+Score:  101
+step time: 0.6960875780205242
+===================
+===================
+Score:  10
+step time: 0.6438701350125484
+===================
+===================
+Score:  10
+step time: 0.6325020659714937
+===================
+===================
+Score:  10
+step time: 0.6441187259624712
+===================
+===================
+Score:  10
+step time: 0.48474320996319875
+===================
+===================
+Score:  10
+step time: 0.6734171260031871
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 134, in <module>
+    next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 127, in step
+    self.action_selector.move_by_offset(x_offset,y_offset).perform()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/common/action_chains.py", line 75, in perform
+    self.w3c_actions.perform()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/common/actions/action_builder.py", line 77, in perform
+    self.driver.execute(Command.W3C_ACTIONS, enc)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/remote_connection.py", line 419, in execute
+    data = utils.dump_json(params)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/utils.py", line 23, in dump_json
+    return json.dumps(json_struct)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+KeyboardInterrupt

@@ -1,0 +1,17 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 154, in <module>
+    memory.push(state.unsqueeze(0), action, next_state.unsqueeze(0), reward)
+AttributeError: 'list' object has no attribute 'unsqueeze'
+104.16544087427665 -170.732424944612
+===================
+===================
+Score:  0
+step time: 0.6211292240186594
+===================
+===================
+Score:  0
+step time: 0.3377181150135584

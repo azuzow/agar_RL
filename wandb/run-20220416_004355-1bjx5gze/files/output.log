@@ -1,0 +1,128 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=99.0.4844.74)
+Stacktrace:
+#0 0x562713d407d3 <unknown>
+#1 0x562713a9c51f <unknown>
+#2 0x562713a8726d <unknown>
+#3 0x562713a86190 <unknown>
+#4 0x562713a8670c <unknown>
+#5 0x562713a94cdf <unknown>
+#6 0x562713a95862 <unknown>
+#7 0x562713aa3a56 <unknown>
+#8 0x562713b03cbf <unknown>
+#9 0x562713af05a3 <unknown>
+#10 0x562713ac5ddc <unknown>
+#11 0x562713ac6de5 <unknown>
+#12 0x562713d7149d <unknown>
+#13 0x562713d8a60c <unknown>
+#14 0x562713d73205 <unknown>
+#15 0x562713d8aee5 <unknown>
+#16 0x562713d67070 <unknown>
+#17 0x562713da6488 <unknown>
+#18 0x562713da660c <unknown>
+#19 0x562713dbfc6d <unknown>
+#20 0x7f6bea10b609 <unknown>
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:175: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+-94.58548301721011 176.2202780681073
+===================
+===================
+Score:  1
+step time: 0.6165633109631017
+===================
+===================
+Score:  10
+step time: 0.4755132070276886
+===================
+===================
+Score:  1
+step time: 0.4249336189823225
+===================
+===================
+Score:  1
+step time: 0.4091763279866427
+===================
+===================
+Score:  1
+step time: 0.38063282100483775
+===================
+===================
+Score:  11
+step time: 0.4089828580035828
+===================
+===================
+Score:  11
+step time: 0.3957727089873515
+===================
+===================
+Score:  11
+step time: 0.3897189910057932
+===================
+===================
+Score:  11
+step time: 0.43650474201422185
+===================
+===================
+Score:  11
+step time: 0.49528579600155354
+===================
+===================
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Score:  12
+step time: 0.5676867699949071
+===================
+===================
+Score:  0
+step time: 0.3741733210044913
+===================
+===================
+Score:  0
+step time: 0.3364854119718075
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 124, in <module>
+    state = agar1.reset()
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 61, in reset
+    self.driver.get("https://agar.io/#ffa")
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 436, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/remote_connection.py", line 421, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/remote_connection.py", line 443, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/http/client.py", line 1371, in getresponse
+    response.begin()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/http/client.py", line 319, in begin
+    version, status, reason = self._read_status()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/http/client.py", line 280, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt

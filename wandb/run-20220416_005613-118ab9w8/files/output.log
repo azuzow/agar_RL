@@ -1,0 +1,22 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 128, in <module>
+    action,steps_done = select_action(state,steps_done)
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 71, in select_action
+    action =  torch.squeeze(policy_DQN(state.unsqueeze(0)).max(1)[1].view(1, 1))
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/alexzuzow/Desktop/agar_multiagent/utils.py", line 51, in forward
+    x = F.relu(self.bn5(self.conv5(x)))
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/batchnorm.py", line 168, in forward
+    return F.batch_norm(
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/functional.py", line 2419, in batch_norm
+    _verify_batch_size(input.size())
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/functional.py", line 2387, in _verify_batch_size
+    raise ValueError("Expected more than 1 value per channel when training, got input size {}".format(size))
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 128, 1, 1])

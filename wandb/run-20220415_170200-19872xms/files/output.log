@@ -1,0 +1,1523 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Message: unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x562f5ba637d3 <unknown>
+#1 0x562f5b7bf688 <unknown>
+#2 0x562f5b7e2b27 <unknown>
+#3 0x562f5b7de68f <unknown>
+#4 0x562f5b819355 <unknown>
+#5 0x562f5b8135a3 <unknown>
+#6 0x562f5b7e8ddc <unknown>
+#7 0x562f5b7e9de5 <unknown>
+#8 0x562f5ba9449d <unknown>
+#9 0x562f5baad60c <unknown>
+#10 0x562f5ba96205 <unknown>
+#11 0x562f5baadee5 <unknown>
+#12 0x562f5ba8a070 <unknown>
+#13 0x562f5bac9488 <unknown>
+#14 0x562f5bac960c <unknown>
+#15 0x562f5bae2c6d <unknown>
+#16 0x7f730c41d609 <unknown>
+Message: unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x562524e977d3 <unknown>
+#1 0x562524bf3688 <unknown>
+#2 0x562524c16b27 <unknown>
+#3 0x562524c1268f <unknown>
+#4 0x562524c4d355 <unknown>
+#5 0x562524c475a3 <unknown>
+#6 0x562524c1cddc <unknown>
+#7 0x562524c1dde5 <unknown>
+#8 0x562524ec849d <unknown>
+#9 0x562524ee160c <unknown>
+#10 0x562524eca205 <unknown>
+#11 0x562524ee1ee5 <unknown>
+#12 0x562524ebe070 <unknown>
+#13 0x562524efd488 <unknown>
+#14 0x562524efd60c <unknown>
+#15 0x562524f16c6d <unknown>
+#16 0x7f5ba3b6b609 <unknown>
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Message: unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x55fefeb937d3 <unknown>
+#1 0x55fefe8ef688 <unknown>
+#2 0x55fefe912b27 <unknown>
+#3 0x55fefe90e68f <unknown>
+#4 0x55fefe949355 <unknown>
+#5 0x55fefe9435a3 <unknown>
+#6 0x55fefe918ddc <unknown>
+#7 0x55fefe919de5 <unknown>
+#8 0x55fefebc449d <unknown>
+#9 0x55fefebdd60c <unknown>
+#10 0x55fefebc6205 <unknown>
+#11 0x55fefebddee5 <unknown>
+#12 0x55fefebba070 <unknown>
+#13 0x55fefebf9488 <unknown>
+#14 0x55fefebf960c <unknown>
+#15 0x55fefec12c6d <unknown>
+#16 0x7f5424232609 <unknown>
+Message: unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x5596856c47d3 <unknown>
+#1 0x559685420688 <unknown>
+#2 0x559685443b27 <unknown>
+#3 0x55968543f68f <unknown>
+#4 0x55968547a355 <unknown>
+#5 0x5596854745a3 <unknown>
+#6 0x559685449ddc <unknown>
+#7 0x55968544ade5 <unknown>
+#8 0x5596856f549d <unknown>
+#9 0x55968570e60c <unknown>
+#10 0x5596856f7205 <unknown>
+#11 0x55968570eee5 <unknown>
+#12 0x5596856eb070 <unknown>
+#13 0x55968572a488 <unknown>
+#14 0x55968572a60c <unknown>
+#15 0x559685743c6d <unknown>
+#16 0x7f7fe5f5b609 <unknown>
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Message: unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x561825beb7d3 <unknown>
+#1 0x561825947688 <unknown>
+#2 0x56182596ab27 <unknown>
+#3 0x56182596668f <unknown>
+#4 0x5618259a1355 <unknown>
+#5 0x56182599b5a3 <unknown>
+#6 0x561825970ddc <unknown>
+#7 0x561825971de5 <unknown>
+#8 0x561825c1c49d <unknown>
+#9 0x561825c3560c <unknown>
+#10 0x561825c1e205 <unknown>
+#11 0x561825c35ee5 <unknown>
+#12 0x561825c12070 <unknown>
+#13 0x561825c51488 <unknown>
+#14 0x561825c5160c <unknown>
+#15 0x561825c6ac6d <unknown>
+#16 0x7f1a7e66d609 <unknown>
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:156: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+81.54251939360852 -182.6220620049587
+Score:  10
+step time: 0.5260145419742912
+Score:  10
+step time: 0.35379777394700795
+Score:  10
+step time: 0.3746800849912688
+Score:  10
+step time: 0.3553697689785622
+Score:  10
+step time: 0.3645697449683212
+Score:  10
+step time: 0.3589466330013238
+Score:  10
+step time: 0.3598137370427139
+Score:  10
+step time: 0.3443355559720658
+Score:  10
+step time: 0.3733282600296661
+Score:  10
+step time: 0.37384587002452463
+Score:  10
+step time: 0.3764663520269096
+Score:  10
+step time: 0.4157894939999096
+Score:  10
+step time: 0.4082084749825299
+Score:  10
+step time: 0.4266586549929343
+Score:  10
+step time: 0.5460464190109633
+Score:  0
+step time: 0.3551299779792316
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Score:  0
+step time: 0.3421526869642548
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Message:
+Stacktrace:
+#0 0x558e2d5b37d3 <unknown>
+#1 0x558e2d30f688 <unknown>
+#2 0x558e2d345c21 <unknown>
+#3 0x558e2d345de1 <unknown>
+#4 0x558e2d378d74 <unknown>
+#5 0x558e2d3636dd <unknown>
+#6 0x558e2d376a0c <unknown>
+#7 0x558e2d3635a3 <unknown>
+#8 0x558e2d338ddc <unknown>
+#9 0x558e2d339de5 <unknown>
+#10 0x558e2d5e449d <unknown>
+#11 0x558e2d5fd60c <unknown>
+#12 0x558e2d5e6205 <unknown>
+#13 0x558e2d5fdee5 <unknown>
+#14 0x558e2d5da070 <unknown>
+#15 0x558e2d619488 <unknown>
+#16 0x558e2d61960c <unknown>
+#17 0x558e2d632c6d <unknown>
+#18 0x7f2e8e3d0609 <unknown>
+-21.75567125546615 198.81320571889606
+Score:  11
+step time: 0.3374401059700176
+Score:  11
+step time: 0.3183441419969313
+Score:  11
+step time: 0.35842273599701
+Score:  11
+step time: 0.3349954960285686
+Score:  11
+step time: 0.3405462069786154
+Score:  12
+step time: 0.3405929579748772
+Score:  12
+step time: 0.3221545969718136
+Score:  12
+step time: 0.3449691740097478
+Score:  12
+step time: 0.3491902510286309
+Score:  12
+step time: 0.3309929489623755
+Score:  12
+step time: 0.3334857600275427
+Score:  12
+step time: 0.3402636770042591
+Score:  12
+step time: 0.33883730095112696
+Score:  12
+step time: 0.3333893690141849
+Score:  13
+step time: 0.32863665104378015
+Score:  13
+step time: 0.3233720199787058
+Score:  13
+step time: 0.33042606798699126
+Score:  13
+step time: 0.3273383859777823
+Score:  13
+step time: 0.31129489303566515
+Score:  13
+step time: 0.35022763401502743
+Score:  16
+step time: 0.3371012640418485
+Score:  16
+step time: 0.3165695039788261
+Score:  16
+step time: 0.3448074930347502
+Score:  16
+step time: 0.3324867659830488
+Score:  16
+step time: 0.3458229670068249
+Score:  16
+step time: 0.3550233429996297
+Score:  16
+step time: 0.32179514301242307
+Score:  16
+step time: 0.3434051069780253
+Score:  16
+step time: 0.3224883769871667
+Score:  16
+step time: 0.3236256699892692
+Score:  16
+step time: 0.32127864100039005
+Score:  16
+step time: 0.3286858510109596
+Score:  16
+step time: 0.3318494919803925
+Score:  16
+step time: 0.3212129410239868
+Score:  16
+step time: 0.35323382494971156
+Score:  16
+step time: 0.3573723000008613
+Score:  16
+step time: 0.3366785009857267
+Score:  17
+step time: 0.3431244259700179
+Score:  18
+step time: 0.34542203502496704
+Score:  21
+step time: 0.33188749197870493
+Score:  21
+step time: 0.3182186789927073
+Score:  21
+step time: 0.33087234798585996
+Score:  21
+step time: 0.33366122900042683
+Score:  21
+step time: 0.330591227975674
+Score:  21
+step time: 0.3470124310115352
+Score:  21
+step time: 0.3348477340186946
+Score:  21
+step time: 0.3495358590153046
+Score:  21
+step time: 0.33065531798638403
+Score:  22
+step time: 0.3493334589875303
+Score:  22
+step time: 0.32847730797948316
+Score:  22
+step time: 0.34280587401008233
+Score:  22
+step time: 0.3099537270027213
+Score:  24
+step time: 0.3508700240054168
+Score:  25
+step time: 0.3286618890124373
+Score:  25
+step time: 0.35000841203145683
+Score:  25
+step time: 0.348808285954874
+Score:  26
+step time: 0.3179484480060637
+Score:  26
+step time: 0.32539725600508973
+Score:  26
+step time: 0.37496261700289324
+Score:  26
+step time: 0.3387266880017705
+Score:  26
+step time: 0.3321847330080345
+Score:  26
+step time: 0.348221545049455
+Score:  26
+step time: 0.33972739102318883
+Score:  26
+step time: 0.3459558159811422
+Score:  27
+step time: 0.34702078899135813
+Score:  27
+step time: 0.3703436999931
+Score:  27
+step time: 0.3614490559557453
+Score:  27
+step time: 0.3344562909915112
+Score:  27
+step time: 0.3342795100179501
+Score:  27
+step time: 0.3344742609770037
+Score:  27
+step time: 0.3449226419907063
+Score:  28
+step time: 0.3084169999929145
+Score:  28
+step time: 0.3205497770104557
+Score:  29
+step time: 0.3457417649915442
+Score:  30
+step time: 0.3406421539839357
+Score:  30
+step time: 0.33855362597387284
+Score:  30
+step time: 0.36114103300496936
+Score:  30
+step time: 0.3371348700020462
+Score:  30
+step time: 0.3411147060105577
+Score:  30
+step time: 0.34902930597309023
+Score:  30
+step time: 0.357150387018919
+Score:  31
+step time: 0.34315371402772143
+Score:  31
+step time: 0.32403283996973187
+Score:  31
+step time: 0.3300757930264808
+Score:  31
+step time: 0.3499846900231205
+Score:  32
+step time: 0.3262069079792127
+Score:  32
+step time: 0.32973718200810254
+Score:  32
+step time: 0.33971363003365695
+Score:  32
+step time: 0.3410053859697655
+Score:  32
+step time: 0.337889002985321
+Score:  32
+step time: 0.35711389704374596
+Score:  32
+step time: 0.3209280169685371
+Score:  32
+step time: 0.3664050630177371
+Score:  32
+step time: 0.33814154396532103
+Score:  32
+step time: 0.3128306559519842
+Score:  33
+step time: 0.33612042502500117
+Score:  33
+step time: 0.31945291202282533
+Score:  33
+step time: 0.3390763269853778
+Score:  33
+step time: 0.3476248100050725
+Score:  34
+step time: 0.3324200210045092
+Score:  36
+step time: 0.3462524239439517
+
+Score:  37
+step time: 0.3750465959892608
+Score:  37
+step time: 0.34512690000701696
+Score:  37
+step time: 0.36189157504122704
+Score:  37
+step time: 0.3408097240026109
+Score:  37
+step time: 0.33774342300603166
+Score:  38
+step time: 0.35359317203983665
+Score:  41
+step time: 0.34678804699797183
+Score:  46
+step time: 0.3336655159946531
+Score:  47
+step time: 0.3584194019786082
+Score:  47
+step time: 0.33928873704280704
+Score:  47
+step time: 0.34497984900372103
+Score:  47
+step time: 0.3478957610204816
+Score:  49
+step time: 0.3419782280107029
+Score:  49
+step time: 0.3370956389699131
+Score:  50
+step time: 0.3402423509978689
+Score:  50
+step time: 0.3710588190006092
+Score:  51
+step time: 0.33820796298095956
+Score:  53
+step time: 0.3609037100104615
+Score:  53
+step time: 0.3609724499983713
+Score:  53
+step time: 0.3378935509826988
+Score:  53
+step time: 0.34330805198987946
+
+Score:  53
+step time: 0.36508097604382783
+Score:  53
+step time: 0.36346155998762697
+Score:  53
+step time: 0.3986469059600495
+Score:  53
+step time: 0.3390082360128872
+Score:  56
+step time: 0.3707710280432366
+Score:  59
+step time: 0.370938487991225
+Score:  60
+step time: 0.3887201269972138
+Score:  60
+step time: 0.3316187270102091
+Score:  61
+step time: 0.34696490498026833
+Score:  63
+step time: 0.3508138610050082
+Score:  64
+step time: 0.37762938399100676
+Score:  64
+step time: 0.3636141500319354
+Score:  64
+step time: 0.3436055229976773
+Score:  64
+step time: 0.3625141460215673
+Score:  64
+step time: 0.3429196599754505
+Score:  64
+step time: 0.3662324689794332
+Score:  66
+step time: 0.33963747799862176
+
+Score:  66
+step time: 0.338780173973646
+Score:  67
+step time: 0.3834012150182389
+Score:  67
+step time: 0.3481488499674015
+Score:  69
+step time: 0.3403867509914562
+Score:  69
+step time: 0.3599556449917145
+Score:  69
+step time: 0.3628036769805476
+Score:  69
+step time: 0.36713086295640096
+Score:  69
+step time: 0.34788869897602126
+Score:  69
+step time: 0.34134020301280543
+Score:  69
+step time: 0.3550723359803669
+Score:  69
+step time: 0.3442560250405222
+Score:  69
+step time: 0.3636804400011897
+Score:  69
+step time: 0.3569655829924159
+Score:  69
+step time: 0.36141772102564573
+Score:  69
+step time: 0.4061933130142279
+Score:  72
+step time: 0.33212314802221954
+Score:  72
+step time: 0.3390762339695357
+Score:  72
+step time: 0.35562207899056375
+Score:  72
+step time: 0.37525680399267003
+Score:  72
+step time: 0.3806706739705987
+Score:  72
+step time: 0.3403057989780791
+Score:  72
+step time: 0.35539527697255835
+Score:  72
+step time: 0.3518691239878535
+Score:  72
+step time: 0.3605160270235501
+Score:  72
+step time: 0.349146593012847
+Score:  72
+step time: 0.3672623920137994
+Score:  73
+step time: 0.36661605001427233
+Score:  73
+step time: 0.3543026930419728
+Score:  73
+step time: 0.35857156896963716
+Score:  73
+step time: 0.32370513398200274
+Score:  73
+step time: 0.34277465799823403
+Score:  74
+step time: 0.358915250049904
+Score:  74
+step time: 0.3419706849963404
+Score:  74
+step time: 0.34593591996235773
+Score:  74
+step time: 0.3414689840283245
+Score:  74
+step time: 0.33700218598823994
+Score:  75
+step time: 0.33871343202190474
+Score:  75
+step time: 0.35976024297997355
+Score:  78
+step time: 0.3347393670119345
+Score:  79
+step time: 0.36571561597520486
+Score:  81
+step time: 0.3483896690304391
+Score:  82
+step time: 0.35731169302016497
+Score:  83
+step time: 0.3608090369962156
+Score:  83
+step time: 0.37627618602709845
+Score:  83
+step time: 0.44552936201216653
+Score:  83
+step time: 0.4638600229518488
+Score:  84
+step time: 0.4318903090315871
+Score:  90
+step time: 0.5705459429882467
+Score:  92
+step time: 0.5081169820041396
+Score:  92
+step time: 0.4611204020329751
+Score:  92
+step time: 0.4350277920020744
+Score:  92
+step time: 0.44347837299574167
+Score:  93
+step time: 0.4110754390130751
+Score:  93
+step time: 0.4421019189758226
+Score:  93
+step time: 0.4213098780019209
+Score:  93
+step time: 0.426133316999767
+Score:  93
+step time: 0.4742822710541077
+Score:  94
+step time: 0.4381685230182484
+Score:  95
+step time: 0.47444566199555993
+Score:  95
+step time: 0.43578817299567163
+Score:  98
+step time: 0.41323525697225705
+Score:  100
+step time: 0.42880209698341787
+Score:  102
+step time: 0.43474918900756165
+Score:  102
+step time: 0.4514285329496488
+Score:  102
+step time: 0.4600482559762895
+Score:  102
+step time: 0.41955325100570917
+Score:  102
+step time: 0.42017274303361773
+Score:  102
+step time: 0.42788940301397815
+Score:  102
+step time: 0.4390580260078423
+Score:  102
+step time: 0.4044815030065365
+Score:  102
+step time: 0.399669194011949
+Score:  104
+step time: 0.3996845239889808
+Score:  104
+step time: 0.3978337270091288
+Score:  104
+step time: 0.394478683010675
+Score:  104
+step time: 0.3830996110336855
+Score:  106
+step time: 0.3816736239823513
+Score:  106
+step time: 0.40254328498849645
+Score:  106
+step time: 0.37112513498868793
+Score:  106
+step time: 0.3475088239647448
+Score:  106
+step time: 0.34749084402574226
+Score:  106
+step time: 0.4126946429605596
+Score:  106
+step time: 0.3444863620097749
+Score:  106
+step time: 0.35431909904582426
+Score:  106
+step time: 0.3823206769884564
+Score:  106
+step time: 0.4164419180015102
+Score:  108
+step time: 0.40444462100276724
+Score:  108
+step time: 0.4283032229868695
+Score:  108
+step time: 0.3631929230177775
+Score:  110
+step time: 0.36959952797042206
+Score:  112
+step time: 0.3807836910127662
+Score:  114
+step time: 0.3585438660229556
+Score:  116
+step time: 0.3314344210084528
+Score:  116
+step time: 0.3562320860219188
+Score:  116
+step time: 0.3700550990179181
+Score:  116
+step time: 0.3709297630121
+Score:  116
+step time: 0.3661119149765
+Score:  118
+step time: 0.3594729180331342
+Score:  118
+step time: 0.34743935300502926
+Score:  118
+step time: 0.3614764759549871
+Score:  118
+step time: 0.36792395100928843
+Score:  118
+step time: 0.3753830089699477
+Score:  118
+step time: 0.3615934669505805
+Score:  118
+step time: 0.36017478100256994
+Score:  118
+step time: 0.34166580997407436
+Score:  121
+step time: 0.33541944599710405
+Score:  123
+step time: 0.35371661599492654
+Score:  123
+step time: 0.3538175970315933
+Score:  123
+step time: 0.37592392100486904
+Score:  123
+step time: 0.3547087699989788
+Score:  123
+step time: 0.3600707589648664
+Score:  123
+step time: 0.34143702895380557
+Score:  123
+step time: 0.3767482340335846
+Score:  123
+step time: 0.36381523398449644
+Score:  123
+step time: 0.36677358602173626
+Score:  123
+step time: 0.35461889900034294
+Score:  125
+step time: 0.36332463298458606
+Score:  127
+step time: 0.3704981300397776
+Score:  127
+step time: 0.36328658199636266
+Score:  129
+step time: 0.3591874669655226
+Score:  129
+step time: 0.3607311919913627
+Score:  129
+step time: 0.3926184150041081
+Score:  129
+step time: 0.3438857370056212
+Score:  129
+step time: 0.3606035810080357
+Score:  132
+step time: 0.35834638302912936
+Score:  134
+step time: 0.37578504998236895
+Score:  134
+step time: 0.38017573597608134
+Score:  134
+step time: 0.3833000879967585
+Score:  134
+step time: 0.46077265503117815
+Score:  139
+step time: 0.46307598298881203
+Score:  139
+step time: 0.4187265340005979
+Score:  139
+step time: 0.4018244100152515
+Score:  141
+step time: 0.3408083250396885
+Score:  141
+step time: 0.38405583100393414
+Score:  141
+step time: 0.36940979497740045
+Score:  141
+step time: 0.35688021598616615
+Score:  141
+step time: 0.40708746801828966
+Score:  141
+step time: 0.42740052699809894
+Score:  141
+step time: 0.4164568550186232
+Score:  141
+step time: 0.4073355799773708
+Score:  141
+step time: 0.4205787100363523
+Score:  233
+step time: 0.5000815640087239
+Score:  242
+step time: 0.5233435240224935
+Score:  244
+step time: 0.5269386469735764
+Score:  246
+step time: 0.48434229503618553
+Score:  250
+step time: 0.4833174209925346
+Score:  250
+step time: 0.4525501729804091
+Score:  253
+step time: 0.45656197698554024
+Score:  255
+step time: 0.47518288798164576
+Score:  256
+step time: 0.4425207340391353
+Score:  256
+step time: 0.4540303779649548
+Score:  259
+step time: 0.45298802299657837
+Score:  264
+step time: 0.4516943800263107
+Score:  264
+step time: 0.4440662090200931
+Score:  265
+step time: 0.4522866610204801
+Score:  265
+step time: 0.4678224599920213
+Score:  265
+step time: 0.4429276849841699
+Score:  265
+step time: 0.4865168620017357
+Score:  265
+step time: 0.4466558780404739
+Score:  265
+step time: 0.4577895919792354
+Score:  265
+step time: 0.46117549401242286
+Score:  265
+step time: 0.4714102229918353
+Score:  265
+step time: 0.48328867001691833
+Score:  265
+step time: 0.44968904298730195
+Score:  265
+step time: 0.4609828029642813
+Score:  265
+step time: 0.4370350419776514
+Score:  265
+step time: 0.44925960898399353
+Score:  265
+step time: 0.4913977689575404
+Score:  265
+step time: 0.4871186030213721
+Score:  265
+step time: 0.5072979510296136
+Score:  265
+step time: 0.4688814129913226
+Score:  266
+step time: 0.4737547419499606
+Score:  266
+step time: 0.4833281969767995
+Score:  267
+step time: 0.522346607001964
+Score:  267
+step time: 0.4815455809584819
+Score:  268
+step time: 0.4677789880079217
+Score:  268
+step time: 0.4944999910076149
+Score:  268
+step time: 0.45814250101102516
+Score:  268
+step time: 0.4796588540193625
+Score:  268
+step time: 0.5232315010507591
+Score:  268
+step time: 0.49663834797684103
+Score:  268
+step time: 0.5203079489874654
+Score:  268
+step time: 0.5091229460085742
+Score:  268
+step time: 0.4424172910512425
+Score:  268
+step time: 0.4571266860002652
+Score:  268
+step time: 0.4862939689774066
+Score:  268
+step time: 0.4828723450191319
+Score:  268
+step time: 0.4896191110019572
+Score:  268
+step time: 0.46859841200057417
+Score:  268
+step time: 0.4611620619543828
+Score:  268
+step time: 0.47922193101840094
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Score:  0
+step time: 0.6353886270080693
+Score:  0
+step time: 0.3602024859865196
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Message:
+Stacktrace:
+#0 0x55c21d6ec7d3 <unknown>
+#1 0x55c21d448688 <unknown>
+#2 0x55c21d47ec21 <unknown>
+#3 0x55c21d47ede1 <unknown>
+#4 0x55c21d4b1d74 <unknown>
+#5 0x55c21d49c6dd <unknown>
+#6 0x55c21d4afa0c <unknown>
+#7 0x55c21d49c5a3 <unknown>
+#8 0x55c21d471ddc <unknown>
+#9 0x55c21d472de5 <unknown>
+#10 0x55c21d71d49d <unknown>
+#11 0x55c21d73660c <unknown>
+#12 0x55c21d71f205 <unknown>
+#13 0x55c21d736ee5 <unknown>
+#14 0x55c21d713070 <unknown>
+#15 0x55c21d752488 <unknown>
+#16 0x55c21d75260c <unknown>
+#17 0x55c21d76bc6d <unknown>
+#18 0x7fafa2eaf609 <unknown>
+-43.531311654712454 -195.2050842207249
+Score:  10
+step time: 0.5050902059883811
+Score:  10
+step time: 0.38508826796896756
+Score:  10
+step time: 0.3807958110119216
+Score:  10
+step time: 0.3918838039971888
+Score:  10
+step time: 0.36994707997655496
+Score:  10
+step time: 0.3597618220373988
+Score:  10
+step time: 0.3818187839933671
+Score:  10
+step time: 0.36995320999994874
+Score:  10
+step time: 0.38821637904038653
+Score:  10
+step time: 0.3786714840098284
+Score:  10
+step time: 0.36608141497708857
+Score:  10
+step time: 0.350040624034591
+Score:  10
+step time: 0.38667569297831506
+Score:  10
+step time: 0.5110601380001754
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Score:  0
+step time: 0.34544578596251085
+Score:  0
+step time: 0.31535019201692194
+====== WebDriver manager ======
+-199.69526968887942 11.036270379331585
+Score:  0
+step time: 0.41532891197130084
+Score:  0
+step time: 0.2789207309833728
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+172.66832668465503 100.92397614006912
+Score:  10
+step time: 0.37523621699074283
+Score:  10
+step time: 0.3327299850061536
+Score:  10
+step time: 0.3346633029868826
+Score:  10
+step time: 0.3582720329868607
+Score:  10
+step time: 0.3254093989962712
+Score:  10
+step time: 0.3154839689959772
+Score:  12
+step time: 0.33730870397994295
+Score:  12
+step time: 0.3341110000037588
+Score:  12
+step time: 0.3532291029696353
+Score:  12
+step time: 0.3276222959975712
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Score:  12
+step time: 0.44592764700064436
+Score:  0
+step time: 0.3233508190023713
+Score:  0
+step time: 0.28690218197880313
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Message:
+Stacktrace:
+#0 0x560aeec587d3 <unknown>
+#1 0x560aee9b4688 <unknown>
+#2 0x560aee9eac21 <unknown>
+#3 0x560aee9eade1 <unknown>
+#4 0x560aeea1dd74 <unknown>
+#5 0x560aeea086dd <unknown>
+#6 0x560aeea1ba0c <unknown>
+#7 0x560aeea085a3 <unknown>
+#8 0x560aee9ddddc <unknown>
+#9 0x560aee9dede5 <unknown>
+#10 0x560aeec8949d <unknown>
+#11 0x560aeeca260c <unknown>
+#12 0x560aeec8b205 <unknown>
+#13 0x560aeeca2ee5 <unknown>
+#14 0x560aeec7f070 <unknown>
+#15 0x560aeecbe488 <unknown>
+#16 0x560aeecbe60c <unknown>
+#17 0x560aeecd7c6d <unknown>
+#18 0x7f84ea166609 <unknown>
+200.0 -4.898587196589413e-14
+Score:  0
+step time: 0.6850120219751261
+Score:  0
+step time: 0.40130617696559057
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-189.31147830435117 -64.50708629461707
+Score:  10
+step time: 0.40085921197896823
+Score:  10
+step time: 0.3604685179889202
+Score:  10
+step time: 0.3426589269656688
+Score:  10
+step time: 0.336857569986023
+Score:  10
+step time: 0.36045664601260796
+Score:  10
+step time: 0.4375423290184699
+Score:  10
+step time: 0.4214356879820116
+Score:  10
+step time: 0.3565038020024076
+Score:  12
+step time: 0.35026003199163824
+Score:  12
+step time: 0.35146486904704943
+Score:  12
+step time: 0.3471258250065148
+Score:  12
+step time: 0.35704167204676196
+Score:  14
+step time: 0.34099469298962504
+Score:  15
+step time: 0.34977373300353065
+Score:  15
+step time: 0.3528209659853019
+Score:  16
+step time: 0.41565175203140825
+Score:  16
+step time: 0.35910119401523843
+Score:  16
+step time: 0.35317168495384976
+Score:  16
+step time: 0.3359855589806102
+Score:  16
+step time: 0.3544159849989228
+Score:  16
+step time: 0.33965113502927125
+Score:  16
+step time: 0.38700667896773666
+Score:  16
+step time: 0.35010275698732585
+Score:  16
+step time: 0.38493514101719484
+Score:  16
+step time: 0.5026000399957411
+Score:  0
+step time: 0.3431083169998601
+Score:  0
+step time: 0.2920095940353349
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+101.16988430093849 172.52435918018858
+Score:  10
+step time: 0.4768740179715678
+Score:  10
+step time: 0.41002664499683306
+Score:  10
+step time: 0.4026857150020078
+Score:  10
+step time: 0.38602347497362643
+Score:  11
+step time: 0.4030498359934427
+Score:  11
+step time: 0.3429557870258577
+Score:  11
+step time: 0.3264369880198501
+Score:  11
+step time: 0.33315273799235
+Score:  11
+step time: 0.34329397697001696
+Score:  11
+step time: 0.3330539470189251
+Score:  13
+step time: 0.37255050195381045
+Score:  13
+step time: 0.380048560036812
+Score:  15
+step time: 0.3516666080104187
+Score:  15
+step time: 0.3478862579795532
+Score:  16
+step time: 0.3606286869617179
+Score:  16
+step time: 0.3439988460158929
+Score:  16
+step time: 0.34918723499868065
+Score:  16
+step time: 0.3332801020005718
+Score:  18
+step time: 0.3302531159715727
+Score:  18
+step time: 0.3705548280267976
+Score:  18
+step time: 0.35575329401763156
+Score:  18
+step time: 0.3417382130282931
+loss: 3.8942983150482178
+Score:  19
+step time: 0.3701715919887647
+loss: 18.247047424316406
+Score:  19
+step time: 0.32188852602848783
+loss: 18.252544403076172
+Score:  19
+step time: 0.3662405599607155
+loss: 6.901388168334961
+Score:  19
+step time: 0.40701200597686693
+loss: 74.15496826171875
+Score:  19
+step time: 0.39406185294501483
+loss: 11.444090843200684
+====== WebDriver manager ======
+Score:  19
+step time: 0.37495086394483224
+loss: 4.803738594055176
+Score:  19
+step time: 0.5107633440056816
+loss: 7.75978946685791
+Score:  0
+step time: 0.29667643597349524
+loss: 6.071221828460693
+Score:  0
+step time: 0.2915628160117194
+loss: 26.973403930664062
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+101.16988430093849 172.52435918018858
+Score:  10
+step time: 0.3700064279837534
+loss: 8.322662353515625
+Score:  10
+step time: 0.3532544760382734
+loss: 4.007637977600098
+Score:  10
+step time: 0.37445888901129365
+loss: 4.08512544631958
+Score:  10
+step time: 0.38245038996683434
+loss: 4.119424819946289
+Score:  10
+step time: 0.38130708900280297
+loss: 5.403801918029785
+Score:  10
+step time: 0.4290059549966827
+loss: 5.647822380065918
+Score:  0
+step time: 0.3057942389859818
+loss: 12.628044128417969
+Score:  0
+step time: 0.30277691601077095
+loss: 5.844987392425537
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-189.31147830435117 -64.50708629461707
+Score:  11
+step time: 0.3681491719908081
+loss: 7.316006183624268
+Score:  11
+step time: 0.3846701559959911
+loss: 9.39886474609375
+Score:  12
+step time: 0.364031889999751
+loss: 6.974276542663574
+Score:  12
+step time: 0.3826772089814767
+loss: 5.358119964599609
+Score:  12
+step time: 0.3540452220477164
+loss: 10.74753475189209
+Score:  12
+step time: 0.3827211369643919
+loss: 4.086945533752441
+Score:  13
+step time: 0.3629335159785114
+loss: 4.0437092781066895
+Score:  13
+step time: 0.36476655094884336
+loss: 5.316857814788818
+Score:  13
+step time: 0.34951094299321994
+loss: 4.27567195892334
+Score:  14
+step time: 0.3889535720227286
+loss: 2.463219165802002
+Score:  14
+step time: 0.38751916895853356
+loss: 7.432445049285889
+Score:  14
+step time: 0.35819347604410723
+loss: 15.000699996948242
+Score:  14
+step time: 0.34815052000340074
+loss: 2.3241403102874756
+Score:  14
+step time: 0.34817179798847064
+loss: 8.86629867553711
+Score:  14
+step time: 0.38678138999966905
+loss: 7.555283546447754
+Score:  14
+step time: 0.3819410220021382
+loss: 6.716320037841797
+Score:  14
+step time: 0.40008429798763245
+loss: 3.707508087158203
+Score:  14
+step time: 0.41561212396482006
+loss: 5.199146747589111
+Score:  14
+step time: 0.4582118630059995
+loss: 6.504866600036621
+Score:  14
+step time: 0.41414940101094544
+loss: 5.06685733795166
+Score:  14
+step time: 0.4187434129999019
+loss: 6.785333633422852
+Score:  14
+step time: 0.3985131499939598
+loss: 3.1046457290649414
+Score:  14
+step time: 0.3410606569959782
+loss: 5.664525985717773
+Score:  14
+step time: 0.35081728897057474
+loss: 3.9007673263549805
+Score:  14
+step time: 0.35712649597553536
+loss: 5.149806499481201
+Score:  16
+step time: 0.32930612500058487
+loss: 5.036559581756592
+Score:  16
+step time: 0.3425210540299304
+loss: 3.9348459243774414
+Score:  16
+step time: 0.3405434989836067
+loss: 5.5404486656188965
+Score:  18
+step time: 0.35444674198515713
+loss: 5.247584342956543
+Score:  20
+step time: 0.3416834860108793
+loss: 3.948277711868286
+Score:  20
+step time: 0.34327229601331055
+loss: 4.889727592468262
+Score:  20
+step time: 0.3322098419885151
+loss: 1.8756778240203857
+Score:  20
+step time: 0.3353563559940085
+loss: 1.0071661472320557
+Score:  20
+step time: 0.33612721000099555
+loss: 4.711055278778076
+Score:  20
+step time: 0.3317920760018751
+loss: 5.192361831665039
+Score:  20
+step time: 0.30229625600622967
+loss: 4.561435699462891
+Score:  20
+step time: 0.3489061229629442
+loss: 6.242496490478516
+Score:  20
+step time: 0.3294447470107116
+loss: 5.374487400054932
+Score:  20
+step time: 0.35070671600988135
+loss: 1.8836071491241455
+Score:  20
+step time: 0.3482551759807393
+loss: 4.581606388092041
+Score:  20
+step time: 0.345083162013907
+loss: 3.3043127059936523
+Score:  20
+step time: 0.3325652569765225
+loss: 4.644769191741943
+Score:  20
+step time: 0.36426867300178856
+loss: 2.8926968574523926
+Score:  20
+step time: 0.3359917619964108
+loss: 5.70717716217041
+Score:  20
+step time: 0.34883251501014456
+loss: 3.8648128509521484
+Score:  20
+step time: 0.34972570196259767
+loss: 3.5219662189483643
+Score:  20
+step time: 0.37125232198741287
+loss: 3.4943017959594727
+Score:  20
+step time: 0.3605237799929455
+loss: 4.289654731750488
+Score:  20
+step time: 0.35441009496571496
+loss: 6.014078617095947
+Score:  20
+step time: 0.3633661699714139
+loss: 1.7119874954223633
+Score:  20
+step time: 0.3555026510148309
+loss: 1.3723738193511963
+Score:  20
+step time: 0.3580352700082585
+loss: 4.216744422912598
+Score:  20
+step time: 0.3684649749775417
+loss: 4.148688316345215
+Score:  20
+step time: 0.3889073469908908
+loss: 4.324549198150635
+Score:  20
+step time: 0.37370864301919937
+loss: 1.0533974170684814
+Score:  20
+step time: 0.3559967500041239
+loss: 2.8462934494018555
+Score:  20
+step time: 0.3449311570147984
+loss: 6.329207420349121
+Score:  20
+step time: 0.3451295359991491
+loss: 1.378944754600525
+Score:  20
+step time: 0.35571963497204706
+loss: 1.0320649147033691
+Score:  20
+step time: 0.34660847700433806
+loss: 8.228586196899414
+Score:  21
+step time: 0.3559505639714189
+loss: 1.217057228088379
+Score:  21
+step time: 0.3839308129972778
+loss: 6.778707504272461
+Score:  21
+step time: 0.35143818001961336
+loss: 6.388405799865723
+Score:  23
+step time: 0.3482941349502653
+loss: 3.9840874671936035
+Score:  25
+step time: 0.3728349579614587
+loss: 5.529964447021484
+Score:  25
+step time: 0.3536382330348715
+loss: 3.1934304237365723
+Score:  26
+step time: 0.3514765269937925
+loss: 2.913641929626465
+Score:  0
+step time: 0.4678901089937426
+loss: 17.24692153930664
+Score:  0
+step time: 0.2739419899880886
+loss: 7.811036109924316
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-199.69526968887942 11.036270379331585
+Score:  10
+step time: 0.38081784796668217
+loss: 5.63224458694458
+Score:  10
+step time: 0.3698611480067484
+loss: 10.004196166992188
+Score:  11
+step time: 0.38988084299489856
+loss: 7.45639181137085
+Score:  11
+step time: 0.3745296000270173
+loss: 11.477496147155762
+Score:  11
+step time: 0.37303488701581955
+loss: 5.531843185424805
+Score:  11
+step time: 0.3727082640398294
+loss: 5.901060104370117
+Score:  11
+step time: 0.37716580694541335
+loss: 11.463367462158203
+Score:  11
+step time: 0.3355001190211624
+loss: 4.810908317565918
+Score:  11
+step time: 0.35085207101656124
+loss: 6.8554487228393555
+Score:  11
+step time: 0.3452278790064156
+loss: 9.179217338562012
+Score:  11
+step time: 0.33847966900793836
+loss: 6.544704437255859
+Score:  11
+step time: 0.34359318600036204
+loss: 6.5506110191345215
+Score:  11
+step time: 0.3337118429481052
+loss: 4.844540596008301
+Score:  11
+step time: 0.34189600101672113
+loss: 9.062615394592285
+Score:  11
+step time: 0.3562800170038827
+loss: 7.263652801513672
+Score:  11
+step time: 0.35903921496355906
+loss: 4.772637367248535
+Score:  12
+step time: 0.39724095398560166
+loss: 5.634337425231934
+====== WebDriver manager ======
+Score:  14
+step time: 0.41960505599854514
+loss: 6.4457502365112305
+Score:  14
+step time: 0.39530536701204255
+loss: 5.476114273071289
+Score:  0
+step time: 0.47065422701416537
+loss: 8.05390739440918
+Score:  0
+step time: 0.28066014900105074
+loss: 11.196579933166504
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 62, in reset
+    menu = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="nick"]')))
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/support/wait.py", line 78, in until
+    value = method(self._driver)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py", line 326, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 1244, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Stacktrace:
+#0 0x564ed0fa77d3 <unknown>
+#1 0x564ed0d0351f <unknown>
+#2 0x564ed0cf1954 <unknown>
+#3 0x564ed0cf2369 <unknown>
+#4 0x564ed0cf4132 <unknown>
+#5 0x564ed0cec486 <unknown>
+#6 0x564ed0d04a82 <unknown>
+#7 0x564ed0d6a118 <unknown>
+#8 0x564ed0d575a3 <unknown>
+#9 0x564ed0d2cddc <unknown>
+#10 0x564ed0d2dde5 <unknown>
+#11 0x564ed0fd849d <unknown>
+#12 0x564ed0ff160c <unknown>
+#13 0x564ed0fda205 <unknown>
+#14 0x564ed0ff1ee5 <unknown>
+#15 0x564ed0fce070 <unknown>
+#16 0x564ed100d488 <unknown>
+#17 0x564ed100d60c <unknown>
+#18 0x564ed1026c6d <unknown>
+#19 0x7f351278e609 <unknown>
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 124, in <module>
+    state = agar1.reset()
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 90, in reset
+    self.reset()
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 54, in reset
+    self.driver = webdriver.Chrome(ChromeDriverManager().install(),options=self.chrome_options)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/chrome/webdriver.py", line 70, in __init__
+    super(WebDriver, self).__init__(DesiredCapabilities.CHROME['browserName'], "goog",
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/chromium/webdriver.py", line 90, in __init__
+    self.service.start()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/common/service.py", line 103, in start
+    sleep(0.5)
+KeyboardInterrupt
+Message: chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Stacktrace:
+#0 0x564ed0fa77d3 <unknown>
+#1 0x564ed0d0351f <unknown>
+#2 0x564ed0cf1954 <unknown>
+#3 0x564ed0cf2369 <unknown>
+#4 0x564ed0cf4132 <unknown>
+#5 0x564ed0cec486 <unknown>
+#6 0x564ed0d04a82 <unknown>
+#7 0x564ed0d6a118 <unknown>
+#8 0x564ed0d575a3 <unknown>
+#9 0x564ed0d2cddc <unknown>
+#10 0x564ed0d2dde5 <unknown>
+#11 0x564ed0fd849d <unknown>
+#12 0x564ed0ff160c <unknown>
+#13 0x564ed0fda205 <unknown>
+#14 0x564ed0ff1ee5 <unknown>
+#15 0x564ed0fce070 <unknown>
+#16 0x564ed100d488 <unknown>
+#17 0x564ed100d60c <unknown>
+#18 0x564ed1026c6d <unknown>

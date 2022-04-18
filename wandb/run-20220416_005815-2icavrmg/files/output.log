@@ -1,0 +1,59 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-179.53965016758866 -88.12215395517677
+Score:  10
+step time: 0.4285374589962885
+Score:  10
+step time: 0.42396854900289327
+Score:  111
+step time: 0.3901672540232539
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:176: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+Score:  11
+step time: 0.3689736929954961
+Score:  11
+step time: 0.3903901450103149
+Score:  11
+step time: 0.4048705470049754
+Score:  11
+step time: 0.413615434023086
+Score:  11
+step time: 0.38166149699827656
+Score:  11
+step time: 0.35185267898486927
+Score:  11
+step time: 0.4341086919885129
+Score:  12
+step time: 0.4111385029973462
+Score:  12
+step time: 0.4068642550264485
+Score:  12
+step time: 0.4098494579666294
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 128, in <module>
+    action,steps_done = select_action(state,steps_done)
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 71, in select_action
+    action =  torch.squeeze(policy_DQN(state.unsqueeze(0)).max(1)[1].view(1, 1))
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/alexzuzow/Desktop/agar_multiagent/utils.py", line 51, in forward
+    x = F.relu(self.bn5(self.conv5(x)))
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/batchnorm.py", line 168, in forward
+    return F.batch_norm(
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/functional.py", line 2419, in batch_norm
+    _verify_batch_size(input.size())
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/functional.py", line 2387, in _verify_batch_size
+    raise ValueError("Expected more than 1 value per channel when training, got input size {}".format(size))
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 128, 1, 1])
+Score:  12
+step time: 0.3868081289692782
+Score:  12
+step time: 0.3913197790388949
+Score:  12
+step time: 0.36483893397962674
+Score:  12
+step time: 0.39763260597828776

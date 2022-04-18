@@ -90,7 +90,7 @@ class CNN(nn.Module):
         self.dropout2 = nn.Dropout(0.5)
         self.conv3 = nn.Conv2d(in_channels=64,out_channels= 128, kernel_size=3)
         self.fc1 = nn.Linear(14336, 128)
-        self.fc2 = nn.Linear(128, 10)
+        self.fc2 = nn.Linear(128, 11)
     def forward(self, x):
         x = self.conv1(x)
         x = F.relu(x)
@@ -113,7 +113,7 @@ def train(model, device, train_loader, optimizer, epoch,loss):
     for batch_idx, (data, target) in enumerate(train_loader):
         if data.shape[0] < 128:
             continue
-        target_ = np.zeros((128,10))
+        target_ = np.zeros((128,11))
 
         for batch_num, num in enumerate(target):
             num=int(num)
@@ -143,7 +143,7 @@ def test(model, device, test_loader,loss):
 
             if data.shape[0] < 128:
                 continue
-            target_ = np.zeros((128,10))
+            target_ = np.zeros((128,11))
             for batch_num, num in enumerate(target):
                 num=int(num)
                 target_[batch_num,num]=1
@@ -200,7 +200,7 @@ test_loader = DataLoader(
 # optimizer = optim.Adam(model.parameters(), lr = 0.01)   
 # loss = nn.CrossEntropyLoss()
 
-# for epoch in range(1, 51):
+# for epoch in range(1, 101):
 #     train(model, device, train_loader, optimizer, epoch,loss)
 #     # test(model, device, test_loader,loss)
 

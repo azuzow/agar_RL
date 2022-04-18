@@ -1,0 +1,440 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Message:
+Stacktrace:
+#0 0x555bb068f7d3 <unknown>
+#1 0x555bb03eb688 <unknown>
+#2 0x555bb0421c21 <unknown>
+#3 0x555bb0421de1 <unknown>
+#4 0x555bb0454d74 <unknown>
+#5 0x555bb043f6dd <unknown>
+#6 0x555bb0452a0c <unknown>
+#7 0x555bb043f5a3 <unknown>
+#8 0x555bb0414ddc <unknown>
+#9 0x555bb0415de5 <unknown>
+#10 0x555bb06c049d <unknown>
+#11 0x555bb06d960c <unknown>
+#12 0x555bb06c2205 <unknown>
+#13 0x555bb06d9ee5 <unknown>
+#14 0x555bb06b6070 <unknown>
+#15 0x555bb06f5488 <unknown>
+#16 0x555bb06f560c <unknown>
+#17 0x555bb070ec6d <unknown>
+#18 0x7f2f94986609 <unknown>
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=99.0.4844.74)
+Stacktrace:
+#0 0x5573f7e697d3 <unknown>
+#1 0x5573f7bc551f <unknown>
+#2 0x5573f7bb026d <unknown>
+#3 0x5573f7baf190 <unknown>
+#4 0x5573f7baf70c <unknown>
+#5 0x5573f7bbdcdf <unknown>
+#6 0x5573f7bbe862 <unknown>
+#7 0x5573f7bcca56 <unknown>
+#8 0x5573f7c2ccbf <unknown>
+#9 0x5573f7c195a3 <unknown>
+#10 0x5573f7beeddc <unknown>
+#11 0x5573f7befde5 <unknown>
+#12 0x5573f7e9a49d <unknown>
+#13 0x5573f7eb360c <unknown>
+#14 0x5573f7e9c205 <unknown>
+#15 0x5573f7eb3ee5 <unknown>
+#16 0x5573f7e90070 <unknown>
+#17 0x5573f7ecf488 <unknown>
+#18 0x5573f7ecf60c <unknown>
+#19 0x5573f7ee8c6d <unknown>
+#20 0x7fcf9cac9609 <unknown>
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-71.34094473949784 186.84343607329617
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.35817694902652875
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.33643280499381945
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:176: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.336456076009199
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.37021463201381266
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.3385445339954458
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.3666186250047758
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.37228399998275563
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.35155200003646314
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.3274475469952449
+===================
+FALSE
+FALSE
+===================
+Score:  10
+step time: 0.338428393995855
+===================
+FALSE
+FALSE
+===================
+Score:  10
+step time: 0.3511885090265423
+===================
+FALSE
+FALSE
+===================
+Score:  10
+step time: 0.3261220509884879
+===================
+FALSE
+FALSE
+===================
+Score:  10
+step time: 0.34210134902969
+===================
+FALSE
+FALSE
+TRUE
+TRUE
+===================
+Score:  10
+step time: 0.34944921103306115
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.33448267698986456
+===================
+FALSE
+FALSE
+===================
+Score:  10
+step time: 0.36298929003532976
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.33871630497742444
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.33327560097677633
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.33941739797592163
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.35779230698244646
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.34987680200720206
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.3163204080192372
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.36788985098246485
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.311619856976904
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.3504903659923002
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.3892496330081485
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.3471010309876874
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.3362980549572967
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.36339479096932337
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.3361123339855112
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.3461203870247118
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.3664304850390181
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.3519452909822576
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.35574029805138707
+
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.3655407509650104
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.3584202200290747
+===================
+FALSE
+FALSE
+TRUE
+===================
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Score:  11
+step time: 0.3788090980378911
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  11
+step time: 0.38765785604482517
+===================
+===================
+Score:  0
+step time: 0.43392735603265464
+===================
+===================
+Score:  0
+step time: 0.28500701201846823
+198.36709988563192 -25.50477764976075
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.3555145559948869
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.33441815502010286
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.35411377099808306
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.34010024002054706
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  10
+step time: 0.3340541640063748
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  11
+step time: 0.3728947709896602
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  11
+step time: 0.3618955729762092
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  11
+step time: 0.37649878702359274
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  12
+step time: 0.40285932103870437
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  12
+step time: 0.3913817110005766
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  12
+step time: 0.37098927301121876
+===================
+FALSE
+FALSE
+TRUE
+===================
+Score:  12
+step time: 0.38565861695678905
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 128, in <module>
+    action,steps_done = select_action(state,steps_done)
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 71, in select_action
+    action =  torch.squeeze(policy_DQN(state.unsqueeze(0)).max(1)[1].view(1, 1))
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/alexzuzow/Desktop/agar_multiagent/utils.py", line 51, in forward
+    x = F.relu(self.bn5(self.conv5(x)))
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/batchnorm.py", line 168, in forward
+    return F.batch_norm(
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/functional.py", line 2419, in batch_norm
+    _verify_batch_size(input.size())
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/functional.py", line 2387, in _verify_batch_size
+    raise ValueError("Expected more than 1 value per channel when training, got input size {}".format(size))
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 128, 1, 1])

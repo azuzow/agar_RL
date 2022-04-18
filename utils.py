@@ -9,6 +9,7 @@ import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
 import torchvision.transforms as T
+import time
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -24,14 +25,16 @@ class Net(nn.Module):
         self.bn3 = nn.BatchNorm2d(64)
         self.conv4 = nn.Conv2d(64, 64, kernel_size=5, stride=2)
         self.bn4 = nn.BatchNorm2d(64)
+        self.conv5 = nn.Conv2d(64, 128, kernel_size=5, stride=2)
+        self.bn5 = nn.BatchNorm2d(128)
 
         # Number of Linear input connections depends on output of conv2d layers
         # and therefore the input image size, so compute it.
         def conv2d_size_out(size, kernel_size = 5, stride = 2):
             return (size - (kernel_size - 1) - 1) // stride  + 1
-        convw = conv2d_size_out(conv2d_size_out(conv2d_size_out(conv2d_size_out(w))))
-        convh = conv2d_size_out(conv2d_size_out(conv2d_size_out(conv2d_size_out(h))))
-        linear_input_size = convw * convh * 64
+        convw = conv2d_size_out(conv2d_size_out(conv2d_size_out(conv2d_size_out(conv2d_size_out(w)))))
+        convh = conv2d_size_out(conv2d_size_out(conv2d_size_out(conv2d_size_out(conv2d_size_out(h)))))
+        linear_input_size = convw * convh * 128
         self.head = nn.Linear(linear_input_size, n_actions)
 
 
@@ -45,6 +48,7 @@ class Net(nn.Module):
         x = F.relu(self.bn2(self.conv2(x)))
         x = F.relu(self.bn3(self.conv3(x)))
         x = F.relu(self.bn4(self.conv4(x)))
+        x = F.relu(self.bn5(self.conv5(x)))
         return self.head(x.view(x.size(0), -1))
 
 Transition = namedtuple('Transition',
@@ -67,9 +71,18 @@ class ReplayMemory(object):
 
 
 def is_noise(img):
-    contours, hierarchy = cv2.findContours(imgray, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-    if len(contours) == 1 and cv2.contourArea(contours[0]) > 100 and cv2.arcLength(contours[0],True) < 200:
+    # img=cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+   
+    counts = (cv2.countNonZero(img))
+    if counts <=100 or counts >=800:
         return True
+        
+    contours, hierarchy = cv2.findContours(img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+    print(len(contours))
+    # if len(contours) == 1 and cv2.contourArea(contours[0]) > 30 and cv2.arcLength(contours[0],True) < 200:
+    if len(contours) == 1:
+        return True
+    
     return False
 
 def format_term_img(img):
@@ -133,42 +146,57 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
 
         score_ = np.where(score_>=210,255,0).astype(np.uint8)
         score =  cv2.bitwise_not(score_)
+        
+        digit_0_ = score[:, 0:22]
+        digit_1_ = score[:, 22:44]
+        digit_2_ = score[:, 44:66]
+        digit_3_ = score[:, 66:88]
+        img_0 = "digit_0_{}.png".format(time.time())
+        img_1 = "digit_1_{}.png".format(time.time())
+        img_2 = "digit_2_{}.png".format(time.time())
+        img_3 = "digit_3_{}.png".format(time.time())
+        cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/0/'+img_0,digit_0_)
+        cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/1/'+img_1,digit_1_)
 
-        cv2.imwrite('1.png',score)
-        cv2.imwrite('2.png',score)
-        cv2.imwrite('3.png',score)
-        cv2.imwrite('4.png',score)
-        cv2.imwrite('5.png',score)
-        cv2.imwrite('6.png',score)
-        score = score.astype(np.float32)
 
-        digit_0 = torch.tensor(score[:, 0:22]/255.0).unsqueeze(0).unsqueeze(0)
-        digit_1 = torch.tensor(score[:, 22:44]/255.0).unsqueeze(0).unsqueeze(0)
-        digit_2 = torch.tensor(score[:, 44:66]/255.0).unsqueeze(0).unsqueeze(0)
-        digit_3 = torch.tensor(score[:, 66:88]/255.0).unsqueeze(0).unsqueeze(0)
+        digit_0 = torch.tensor(digit_0_.astype(np.float32)/255.0).unsqueeze(0).unsqueeze(0)
+        digit_1 = torch.tensor(digit_1_.astype(np.float32)/255.0).unsqueeze(0).unsqueeze(0)
+        digit_2 = torch.tensor(digit_2_.astype(np.float32)/255.0).unsqueeze(0).unsqueeze(0)
+        digit_3 = torch.tensor(digit_3_.astype(np.float32)/255.0).unsqueeze(0).unsqueeze(0)
 
-        output_0 =torch.nn.functional.softmax(classifier(digit_0).squeeze(0))
-        output_1 =torch.nn.functional.softmax(classifier(digit_1).squeeze(0))
-        output_2 = torch.nn.functional.softmax(classifier(digit_2).squeeze(0))
-        output_3 = torch.nn.functional.softmax(classifier(digit_3).squeeze(0))
-
-        outputs=[output_0,output_1,output_2,output_3]
+        digits_=[digit_0_,digit_1_,digit_2_,digit_3_]
+        digits=[digit_0,digit_1,digit_2,digit_3]
+        outputs=[]
+        
+        for i in range(len(digits)):
+   
+            if is_noise(digits_[i]):
+                outputs.append(None)
+            else:
+                outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+        
         for i in range(len(outputs)):
 
-            if outputs[i].max()<=.999 or outputs[i].argmax().item()==10:
+            if outputs[i]==None or outputs[i].max()<.99 or outputs[i].argmax().item()==10  :
                 outputs[i]=''
             else:
-
+                if i >1:
+                    cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/2/'+img_2,digit_2_)
+                    cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/3/'+img_3,digit_3_)
                 outputs[i]=str(outputs[i].argmax().item())
 
-        outputs = "".join(outputs)
-        score = int(outputs)
+        score = "".join(outputs)
+        if len(score)>0:
 
-        if  outputs!= 0:
+            score = int(score)
+        else:
+            score=0
+
+        if  score!= 0:
             failed=False
         else:
             #TODO: could trigger early if blob is in score label region
-            return None, None, True
+            failed=True
     #mask out score
     cv2.rectangle(img,(score_x1,score_y1),(score_x2,score_y2),(255,255,255),-1)
 

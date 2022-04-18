@@ -1,0 +1,1645 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Message:
+Stacktrace:
+#0 0x5584fe1e07d3 <unknown>
+#1 0x5584fdf3c688 <unknown>
+#2 0x5584fdf72c21 <unknown>
+#3 0x5584fdf72de1 <unknown>
+#4 0x5584fdfa5d74 <unknown>
+#5 0x5584fdf906dd <unknown>
+#6 0x5584fdfa3a0c <unknown>
+#7 0x5584fdf905a3 <unknown>
+#8 0x5584fdf65ddc <unknown>
+#9 0x5584fdf66de5 <unknown>
+#10 0x5584fe21149d <unknown>
+#11 0x5584fe22a60c <unknown>
+#12 0x5584fe213205 <unknown>
+#13 0x5584fe22aee5 <unknown>
+#14 0x5584fe207070 <unknown>
+#15 0x5584fe246488 <unknown>
+#16 0x5584fe24660c <unknown>
+#17 0x5584fe25fc6d <unknown>
+#18 0x7fb66f842609 <unknown>
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Message:
+Stacktrace:
+#0 0x55586ddf17d3 <unknown>
+#1 0x55586db4d688 <unknown>
+#2 0x55586db83c21 <unknown>
+#3 0x55586db83de1 <unknown>
+#4 0x55586dbb6d74 <unknown>
+#5 0x55586dba16dd <unknown>
+#6 0x55586dbb4a0c <unknown>
+#7 0x55586dba15a3 <unknown>
+#8 0x55586db76ddc <unknown>
+#9 0x55586db77de5 <unknown>
+#10 0x55586de2249d <unknown>
+#11 0x55586de3b60c <unknown>
+#12 0x55586de24205 <unknown>
+#13 0x55586de3bee5 <unknown>
+#14 0x55586de18070 <unknown>
+#15 0x55586de57488 <unknown>
+#16 0x55586de5760c <unknown>
+#17 0x55586de70c6d <unknown>
+#18 0x7f95d69e4609 <unknown>
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Message:
+Stacktrace:
+#0 0x560e0795a7d3 <unknown>
+#1 0x560e076b6688 <unknown>
+#2 0x560e076ecc21 <unknown>
+#3 0x560e076ecde1 <unknown>
+#4 0x560e0771fd74 <unknown>
+#5 0x560e0770a6dd <unknown>
+#6 0x560e0771da0c <unknown>
+#7 0x560e0770a5a3 <unknown>
+#8 0x560e076dfddc <unknown>
+#9 0x560e076e0de5 <unknown>
+#10 0x560e0798b49d <unknown>
+#11 0x560e079a460c <unknown>
+#12 0x560e0798d205 <unknown>
+#13 0x560e079a4ee5 <unknown>
+#14 0x560e07981070 <unknown>
+#15 0x560e079c0488 <unknown>
+#16 0x560e079c060c <unknown>
+#17 0x560e079d9c6d <unknown>
+#18 0x7fc9d92ff609 <unknown>
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-189.31147830435117 -64.50708629461707
+2
+3
+1
+Score:  10
+step time: 0.35802148695802316
+2
+3
+1
+Score:  10
+step time: 0.33271640399470925
+2
+3
+1
+1
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:177: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+Score:  10
+step time: 0.36787113500759006
+2
+3
+1
+Score:  10
+step time: 0.3577148169861175
+2
+3
+1
+Score:  10
+step time: 0.3505505560315214
+
+2
+3
+Score:  10
+step time: 0.3926441569929011
+2
+3
+Score:  10
+step time: 0.3985701240017079
+2
+2
+1
+Score:  12
+step time: 0.3700048919999972
+2
+2
+1
+Score:  12
+step time: 0.47925999702420086
+Score:  0
+step time: 0.3318857730482705
+Score:  0
+step time: 0.2664186750189401
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Message:
+Stacktrace:
+#0 0x55ac4fea67d3 <unknown>
+#1 0x55ac4fc02688 <unknown>
+#2 0x55ac4fc38c21 <unknown>
+#3 0x55ac4fc38de1 <unknown>
+#4 0x55ac4fc6bd74 <unknown>
+#5 0x55ac4fc566dd <unknown>
+#6 0x55ac4fc69a0c <unknown>
+#7 0x55ac4fc565a3 <unknown>
+#8 0x55ac4fc2bddc <unknown>
+#9 0x55ac4fc2cde5 <unknown>
+#10 0x55ac4fed749d <unknown>
+#11 0x55ac4fef060c <unknown>
+#12 0x55ac4fed9205 <unknown>
+#13 0x55ac4fef0ee5 <unknown>
+#14 0x55ac4fecd070 <unknown>
+#15 0x55ac4ff0c488 <unknown>
+#16 0x55ac4ff0c60c <unknown>
+#17 0x55ac4ff25c6d <unknown>
+#18 0x7f176da73609 <unknown>
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Message:
+Stacktrace:
+#0 0x5654b828a7d3 <unknown>
+#1 0x5654b7fe6688 <unknown>
+#2 0x5654b801cc21 <unknown>
+#3 0x5654b801cde1 <unknown>
+#4 0x5654b804fd74 <unknown>
+#5 0x5654b803a6dd <unknown>
+#6 0x5654b804da0c <unknown>
+#7 0x5654b803a5a3 <unknown>
+#8 0x5654b800fddc <unknown>
+#9 0x5654b8010de5 <unknown>
+#10 0x5654b82bb49d <unknown>
+#11 0x5654b82d460c <unknown>
+#12 0x5654b82bd205 <unknown>
+#13 0x5654b82d4ee5 <unknown>
+#14 0x5654b82b1070 <unknown>
+#15 0x5654b82f0488 <unknown>
+#16 0x5654b82f060c <unknown>
+#17 0x5654b8309c6d <unknown>
+#18 0x7f918b303609 <unknown>
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-190.40844913735327 61.19332069031671
+2
+3
+1
+1
+Score:  10
+step time: 0.37552050699014217
+2
+3
+1
+Score:  10
+step time: 0.356529793003574
+2
+3
+1
+Score:  10
+step time: 0.36478787602391094
+2
+3
+1
+Score:  10
+step time: 0.36019795201718807
+2
+3
+1
+Score:  10
+step time: 0.34685564396204427
+2
+3
+1
+Score:  10
+step time: 0.3579266269807704
+2
+3
+1
+Score:  10
+step time: 0.3490935310255736
+2
+3
+1
+Score:  10
+step time: 0.3533317029941827
+2
+3
+1
+Score:  10
+step time: 0.3648259780020453
+2
+3
+1
+Score:  10
+step time: 0.3457522520329803
+2
+3
+1
+Score:  10
+step time: 0.34502502001123503
+2
+3
+1
+Score:  10
+step time: 0.369000839011278
+2
+3
+1
+Score:  10
+step time: 0.3553332799929194
+2
+3
+1
+Score:  10
+step time: 0.3456031719688326
+2
+2
+1
+Score:  12
+step time: 0.35156651900615543
+2
+2
+1
+Score:  12
+step time: 0.36138493701582775
+2
+2
+1
+Score:  12
+step time: 0.37307358300313354
+2
+2
+1
+Score:  12
+step time: 0.35213702102191746
+2
+2
+1
+Score:  12
+step time: 0.3381687100045383
+2
+2
+1
+Score:  12
+step time: 0.3536725459853187
+2
+2
+1
+Score:  15
+step time: 0.3691214120481163
+2
+3
+1
+Score:  16
+step time: 0.3446503810118884
+2
+2
+1
+Score:  17
+step time: 0.39318517298670486
+
+2
+2
+1
+Score:  17
+step time: 0.3501312670414336
+2
+2
+1
+Score:  17
+step time: 0.36510702001396567
+2
+2
+1
+Score:  17
+step time: 0.3521010630065575
+2
+2
+1
+Score:  17
+step time: 0.36049492697929963
+
+2
+2
+1
+Score:  17
+step time: 0.3576833789702505
+2
+2
+1
+Score:  17
+step time: 0.358437200949993
+2
+2
+1
+Score:  17
+step time: 0.3450431320234202
+2
+4
+1
+Score:  18
+step time: 0.35767076996853575
+2
+4
+1
+1
+Score:  18
+step time: 0.3703949469490908
+2
+3
+Score:  20
+step time: 0.3635486379498616
+2
+3
+Score:  20
+step time: 0.3653986430144869
+2
+3
+1
+Score:  20
+step time: 0.378551101021003
+2
+3
+1
+Score:  20
+step time: 0.37545397301437333
+2
+2
+1
+Score:  21
+step time: 0.34272466599941254
+2
+2
+1
+Score:  21
+step time: 0.31298700999468565
+2
+2
+1
+Score:  21
+step time: 0.3443586120265536
+2
+2
+1
+Score:  23
+step time: 0.35745057003805414
+2
+3
+1
+Score:  24
+step time: 0.324637393001467
+2
+2
+1
+Score:  25
+step time: 0.3533935390296392
+2
+2
+1
+Score:  25
+step time: 0.3511563920183107
+2
+2
+1
+Score:  25
+step time: 0.3710730510065332
+2
+2
+1
+Score:  25
+step time: 0.3363305500242859
+2
+4
+1
+Score:  28
+step time: 0.33780386397847906
+2
+4
+1
+Score:  28
+step time: 0.3569930899539031
+2
+4
+1
+Score:  28
+step time: 0.3583800040069036
+2
+4
+1
+Score:  28
+step time: 0.3352968280087225
+2
+4
+1
+Score:  28
+step time: 0.31921830895589665
+2
+3
+1
+Score:  29
+step time: 0.3574289220268838
+2
+3
+1
+Score:  29
+step time: 0.36919653695076704
+2
+2
+1
+Score:  31
+step time: 0.32602095999754965
+2
+2
+1
+Score:  31
+step time: 0.36328320001484826
+2
+2
+1
+Score:  32
+step time: 0.3772755909594707
+2
+2
+1
+Score:  32
+step time: 0.3993583559640683
+2
+2
+1
+Score:  32
+step time: 0.39279216702561826
+2
+2
+1
+Score:  32
+step time: 0.3727181180147454
+2
+2
+1
+Score:  32
+step time: 0.36850832600612193
+2
+2
+1
+Score:  32
+step time: 0.4176106110098772
+2
+2
+1
+Score:  33
+step time: 0.3745403739740141
+2
+3
+1
+Score:  36
+step time: 0.40561474597780034
+2
+3
+1
+Score:  36
+step time: 0.3851670150179416
+2
+4
+1
+Score:  38
+step time: 0.36474781698780134
+2
+4
+1
+Score:  38
+step time: 0.387075760983862
+2
+4
+1
+Score:  38
+step time: 0.38423705397872254
+2
+3
+1
+1
+Score:  39
+step time: 0.4212368529988453
+2
+3
+1
+Score:  39
+step time: 0.38611509901238605
+2
+3
+1
+Score:  39
+step time: 0.3942477540113032
+2
+3
+1
+Score:  40
+step time: 0.4066021509934217
+2
+3
+1
+Score:  40
+step time: 0.3800416130106896
+2
+3
+1
+Score:  40
+step time: 0.38646052102558315
+2
+3
+1
+Score:  40
+step time: 0.3688809100422077
+2
+3
+1
+Score:  40
+step time: 0.37346816301578656
+2
+3
+1
+Score:  40
+step time: 0.3757762800087221
+2
+3
+1
+Score:  40
+step time: 0.36528243898646906
+2
+2
+1
+Score:  42
+step time: 0.3583095890353434
+2
+2
+1
+Score:  42
+step time: 0.34534964099293575
+2
+2
+1
+Score:  42
+step time: 0.3294455229770392
+2
+2
+1
+Score:  42
+step time: 0.32888989202911034
+2
+2
+1
+Score:  42
+step time: 0.3557093220297247
+2
+2
+1
+Score:  43
+step time: 0.34186284098541364
+2
+2
+1
+Score:  43
+step time: 0.3376923690084368
+3
+3
+1
+Score:  44
+step time: 0.35981214500498027
+2
+3
+1
+Score:  46
+step time: 0.33009119698544964
+2
+3
+1
+Score:  46
+step time: 0.3210950010106899
+2
+3
+1
+Score:  46
+step time: 0.31873058300698176
+2
+3
+1
+1
+Score:  46
+step time: 0.3502238570363261
+3
+3
+1
+Score:  46
+step time: 0.3364149460103363
+2
+3
+1
+Score:  49
+step time: 0.33831516100326553
+2
+3
+1
+Score:  49
+step time: 0.3429842459736392
+2
+2
+1
+Score:  49
+step time: 0.32861327403225005
+2
+3
+1
+Score:  49
+step time: 0.33265661500627175
+2
+3
+1
+Score:  49
+step time: 0.3634681270341389
+2
+3
+1
+Score:  49
+step time: 0.3585843429900706
+2
+3
+1
+Score:  49
+step time: 0.35031800699653104
+2
+3
+Score:  49
+step time: 0.3809966199914925
+2
+2
+Score:  51
+step time: 0.40046350698685274
+2
+2
+Score:  51
+step time: 0.37209528300445527
+2
+2
+1
+Score:  51
+step time: 0.4077627789811231
+2
+2
+Score:  51
+step time: 0.3835236769518815
+2
+2
+Score:  51
+step time: 0.37076978001277894
+2
+2
+Score:  51
+step time: 0.3707473290269263
+2
+2
+1
+Score:  51
+step time: 0.3553655439754948
+2
+2
+1
+1
+Score:  53
+step time: 0.38008818798698485
+2
+2
+Score:  53
+step time: 0.36850872298236936
+2
+2
+Score:  53
+step time: 0.3788662439910695
+2
+2
+Score:  53
+step time: 0.3687238449929282
+2
+2
+Score:  53
+step time: 0.3436723400373012
+2
+2
+Score:  53
+step time: 0.36510572396218777
+2
+2
+1
+1
+Score:  53
+step time: 0.3540472419699654
+2
+2
+Score:  53
+step time: 0.3864650769974105
+2
+2
+Score:  53
+step time: 0.3638090110034682
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Score:  0
+step time: 0.48792066099122167
+Score:  0
+step time: 0.26926521002314985
+81.54251939360852 -182.6220620049587
+2
+2
+1
+Score:  11
+step time: 0.3799149029655382
+2
+2
+1
+Score:  11
+step time: 0.4065927829942666
+2
+2
+1
+Score:  11
+step time: 0.4051058790064417
+2
+2
+1
+Score:  12
+step time: 0.38594818103592843
+2
+2
+1
+Score:  12
+step time: 0.3718400590005331
+2
+2
+1
+Score:  12
+step time: 0.3616787689970806
+2
+2
+1
+Score:  12
+step time: 0.3621003309963271
+2
+2
+1
+Score:  12
+step time: 0.327637508045882
+2
+2
+1
+Score:  12
+step time: 0.3303927759989165
+2
+2
+1
+Score:  12
+step time: 0.36003713501850143
+2
+2
+Score:  12
+step time: 0.3728149540256709
+2
+2
+1
+Score:  12
+step time: 0.3541525970213115
+2
+2
+1
+Score:  12
+step time: 0.3840085470001213
+2
+3
+1
+Score:  16
+step time: 0.3810479289968498
+2
+3
+1
+Score:  16
+step time: 0.3543698390130885
+2
+2
+1
+Score:  17
+step time: 0.36759422899922356
+2
+2
+1
+Score:  17
+step time: 0.3594091540435329
+2
+4
+1
+Score:  18
+step time: 0.33079712896142155
+2
+3
+1
+Score:  19
+step time: 0.3352894620038569
+2
+3
+1
+Score:  19
+step time: 0.369296174030751
+2
+3
+1
+Score:  19
+step time: 0.33666794700548053
+2
+3
+1
+Score:  19
+step time: 0.3461866460274905
+2
+3
+1
+Score:  20
+step time: 0.34750617801910266
+2
+3
+1
+Score:  20
+step time: 0.32463209197157994
+2
+3
+1
+Score:  20
+step time: 0.3578951309900731
+2
+3
+1
+Score:  20
+step time: 0.3697997269919142
+2
+3
+1
+Score:  20
+step time: 0.35833919199649245
+2
+3
+1
+Score:  20
+step time: 0.33794175199000165
+2
+2
+1
+Score:  22
+step time: 0.356338016979862
+2
+2
+1
+Score:  22
+step time: 0.4056053140084259
+2
+3
+1
+Score:  24
+step time: 0.3726052749552764
+2
+3
+1
+Score:  24
+step time: 0.36510645400267094
+2
+2
+1
+Score:  25
+step time: 0.34992362797493115
+2
+3
+1
+Score:  26
+step time: 0.3370361099950969
+2
+3
+1
+Score:  26
+step time: 0.3425656559993513
+2
+3
+1
+Score:  26
+step time: 0.3339057010016404
+2
+2
+1
+Score:  27
+step time: 0.3476617420092225
+2
+4
+1
+Score:  28
+step time: 0.3349818739807233
+2
+3
+1
+Score:  29
+step time: 0.4228501080069691
+2
+3
+1
+Score:  29
+step time: 0.3875142329488881
+2
+3
+1
+Score:  30
+step time: 0.40894169599050656
+2
+2
+1
+Score:  31
+step time: 0.40711073199054226
+2
+2
+1
+Score:  31
+step time: 0.3990652770153247
+2
+3
+1
+Score:  34
+step time: 0.41553505696356297
+2
+3
+1
+Score:  36
+step time: 0.4026413369574584
+2
+3
+1
+Score:  36
+step time: 0.3710852439980954
+2
+3
+1
+Score:  36
+step time: 0.3926637779804878
+2
+2
+1
+Score:  37
+step time: 0.3741662930115126
+2
+2
+1
+Score:  37
+step time: 0.34421012399252504
+2
+4
+1
+Score:  38
+step time: 0.35248389799380675
+2
+4
+1
+Score:  38
+step time: 0.3568978820112534
+2
+3
+1
+Score:  40
+step time: 0.4006049130111933
+2
+3
+1
+Score:  40
+step time: 0.36266977997729555
+2
+3
+1
+Score:  40
+step time: 0.3493013490224257
+2
+3
+1
+Score:  40
+step time: 0.3635170530178584
+2
+3
+1
+Score:  40
+step time: 0.3493531200219877
+2
+3
+1
+Score:  40
+step time: 0.3572813640348613
+2
+3
+1
+Score:  40
+step time: 0.36085880402242765
+2
+3
+1
+Score:  40
+step time: 0.43468740704702213
+2
+3
+1
+Score:  40
+step time: 0.4267904030275531
+2
+3
+1
+Score:  40
+step time: 0.4356510600191541
+2
+3
+1
+Score:  42
+step time: 0.4176642359816469
+2
+2
+1
+Score:  42
+step time: 0.41135826701065525
+2
+4
+Score:  42
+step time: 0.42960344295715913
+loss: 0.3344862759113312
+2
+2
+Score:  42
+step time: 0.41263050195993856
+loss: 0.2608478367328644
+2
+2
+1
+Score:  43
+step time: 0.4148715090123005
+loss: 0.28779786825180054
+2
+2
+1
+Score:  43
+step time: 0.4298710739822127
+loss: 0.25478821992874146
+2
+2
+Score:  43
+step time: 0.4753480110084638
+loss: 0.2566404342651367
+2
+3
+1
+Score:  46
+step time: 0.46963086404139176
+loss: 0.2105903923511505
+2
+3
+1
+Score:  46
+step time: 0.4424262829707004
+loss: 0.2469763159751892
+2
+3
+Score:  46
+step time: 0.4162554939975962
+loss: 0.2113361954689026
+2
+3
+Score:  46
+step time: 0.4762221240089275
+loss: 0.2521172761917114
+2
+3
+1
+Score:  46
+step time: 0.3846856590243988
+loss: 0.24044741690158844
+2
+3
+1
+Score:  46
+step time: 0.37281436298508197
+loss: 0.17548757791519165
+2
+2
+1
+Score:  47
+step time: 0.38326979597331956
+loss: 0.25442734360694885
+2
+2
+1
+Score:  47
+step time: 0.4075056990259327
+loss: 0.24308907985687256
+2
+3
+1
+Score:  49
+step time: 0.44679872697452083
+loss: 0.2629036009311676
+2
+3
+1
+Score:  50
+step time: 0.40851211198605597
+loss: 0.2785559296607971
+2
+2
+1
+Score:  53
+step time: 0.39930535497842357
+loss: 0.23072800040245056
+2
+3
+1
+Score:  54
+step time: 0.39647105598123744
+loss: 0.29025667905807495
+2
+3
+1
+Score:  54
+step time: 0.3938661490101367
+loss: 0.25321856141090393
+2
+3
+1
+Score:  54
+step time: 0.38470811099978164
+loss: 0.3076223134994507
+2
+3
+1
+Score:  56
+step time: 0.3650398210156709
+loss: 0.30109113454818726
+2
+2
+1
+Score:  57
+step time: 0.3614274400169961
+loss: 0.30790001153945923
+2
+2
+1
+Score:  57
+step time: 0.34953094396041706
+loss: 0.305017352104187
+2
+2
+1
+Score:  57
+step time: 0.38828776200534776
+loss: 0.250631719827652
+2
+2
+1
+Score:  57
+step time: 0.35467199195409194
+loss: 0.20850858092308044
+2
+2
+1
+Score:  57
+step time: 0.3510469499742612
+loss: 0.18827489018440247
+2
+2
+1
+Score:  57
+step time: 0.34449130098801106
+loss: 0.2818828225135803
+2
+2
+1
+Score:  57
+step time: 0.33969166595488787
+loss: 0.3045138120651245
+2
+2
+1
+Score:  57
+step time: 0.3732259569806047
+loss: 0.30422699451446533
+2
+2
+1
+Score:  57
+step time: 0.3617599940043874
+loss: 0.29175257682800293
+2
+2
+1
+Score:  57
+step time: 0.3749880340183154
+loss: 0.3046453893184662
+2
+2
+1
+Score:  57
+step time: 0.3588946550153196
+loss: 0.2630355954170227
+2
+3
+1
+Score:  59
+step time: 0.35595067602116615
+loss: 0.2631691098213196
+2
+3
+1
+Score:  59
+step time: 0.37029130902374163
+loss: 0.2836569547653198
+2
+3
+1
+Score:  59
+step time: 0.4036965899867937
+loss: 0.26711323857307434
+2
+3
+1
+Score:  59
+step time: 0.38590286701219156
+loss: 0.26447901129722595
+2
+3
+1
+Score:  59
+step time: 0.3621218649786897
+loss: 0.2607191801071167
+2
+3
+1
+Score:  59
+step time: 0.3758887170115486
+loss: 0.253817081451416
+2
+3
+1
+Score:  59
+step time: 0.3785975360078737
+loss: 0.2628211975097656
+2
+3
+1
+Score:  59
+step time: 0.38358046096982434
+loss: 0.23783893883228302
+2
+3
+1
+Score:  59
+step time: 0.38483532500686124
+loss: 0.23349325358867645
+2
+3
+1
+Score:  59
+step time: 0.38257232803152874
+loss: 0.2721749544143677
+2
+3
+1
+Score:  59
+step time: 0.39121164398966357
+loss: 0.28074368834495544
+2
+3
+1
+Score:  59
+step time: 0.391598135989625
+loss: 0.23148679733276367
+3
+3
+1
+Score:  60
+step time: 0.4039051129948348
+loss: 0.2525966763496399
+3
+3
+1
+Score:  60
+step time: 0.4378335750079714
+loss: 0.2262117564678192
+3
+3
+1
+Score:  60
+step time: 0.42530233797151595
+loss: 0.19993379712104797
+3
+2
+1
+Score:  62
+step time: 0.40641098201740533
+loss: 0.3071739375591278
+3
+2
+1
+Score:  62
+step time: 0.37992069200845435
+loss: 0.2222689688205719
+3
+2
+1
+Score:  62
+step time: 0.3830968409893103
+loss: 0.3253161311149597
+2
+3
+1
+Score:  64
+step time: 0.35861252702306956
+loss: 0.22369077801704407
+3
+3
+1
+Score:  64
+step time: 0.34322391101159155
+loss: 0.2263476550579071
+2
+3
+1
+Score:  64
+step time: 0.364365404995624
+loss: 0.2791571021080017
+3
+3
+1
+Score:  64
+step time: 0.39409169397549704
+loss: 0.23922446370124817
+2
+3
+1
+Score:  64
+step time: 0.35230056900763884
+loss: 0.2622988820075989
+3
+2
+1
+Score:  65
+step time: 0.39118642604444176
+loss: 0.30250757932662964
+3
+2
+1
+Score:  67
+step time: 0.3482624760363251
+loss: 0.28337836265563965
+3
+4
+1
+Score:  68
+step time: 0.37223587901098654
+loss: 0.29675978422164917
+3
+4
+1
+Score:  68
+step time: 0.38783340697409585
+loss: 0.23856602609157562
+3
+4
+1
+Score:  68
+step time: 0.4017417390132323
+loss: 0.29636886715888977
+3
+4
+1
+Score:  68
+step time: 0.37786357704317197
+loss: 0.26586663722991943
+3
+4
+1
+Score:  68
+step time: 0.3721262500039302
+loss: 0.18707075715065002
+3
+4
+1
+Score:  68
+step time: 0.40617817296879366
+loss: 0.3219955563545227
+2
+2
+2
+1
+Score:  104
+step time: 0.3673173349816352
+loss: 0.17692144215106964
+2
+2
+2
+1
+Score:  104
+step time: 0.3775887369993143
+loss: 0.2608238458633423
+2
+2
+2
+1
+Score:  104
+step time: 0.3508278949884698
+loss: 0.8041903972625732
+2
+2
+2
+1
+Score:  104
+step time: 0.34748092596419156
+loss: 0.7743932008743286
+2
+2
+2
+1
+Score:  104
+step time: 0.3405650049680844
+loss: 0.23802202939987183
+2
+2
+2
+1
+Score:  104
+step time: 0.356925874017179
+loss: 0.8639159202575684
+2
+2
+2
+1
+Score:  104
+step time: 0.3469253840157762
+loss: 0.26599448919296265
+2
+2
+2
+1
+Score:  104
+step time: 0.34999575302936137
+loss: 0.15339556336402893
+2
+2
+2
+1
+Score:  104
+step time: 0.3232140929903835
+loss: 0.21507780253887177
+
+2
+2
+2
+1
+Score:  104
+step time: 0.3570328049827367
+loss: 0.22308288514614105
+2
+2
+2
+1
+Score:  104
+step time: 0.38712155702523887
+loss: 0.20648819208145142
+2
+2
+2
+1
+Score:  104
+step time: 0.36012552597094327
+loss: 0.22716471552848816
+2
+2
+2
+1
+Score:  104
+step time: 0.3859109740005806
+loss: 0.13310810923576355
+2
+3
+2
+1
+Score:  106
+step time: 0.34422327601350844
+loss: 0.2259068638086319
+2
+3
+2
+1
+Score:  107
+step time: 0.3578884089947678
+loss: 0.22446265816688538
+2
+3
+3
+1
+Score:  109
+step time: 0.40567544399527833
+loss: 0.794032096862793
+2
+2
+3
+1
+Score:  110
+step time: 0.41069446998881176
+loss: 0.2096499800682068
+2
+2
+2
+1
+Score:  111
+step time: 0.38027935702120885
+loss: 0.24773171544075012
+2
+2
+2
+1
+Score:  111
+step time: 0.4167319380212575
+loss: 0.7309513688087463
+2
+2
+2
+1
+Score:  111
+step time: 0.3935690579819493
+loss: 0.7932969927787781
+2
+2
+2
+1
+Score:  111
+step time: 0.42799916298827156
+loss: 0.7742184996604919
+2
+2
+2
+1
+Score:  111
+step time: 0.4369223499670625
+loss: 0.2679867148399353
+2
+2
+2
+1
+Score:  111
+step time: 0.41862614400452003
+loss: 0.2047034502029419
+2
+2
+2
+1
+Score:  111
+step time: 0.3839896999998018
+loss: 0.2724185287952423
+2
+2
+2
+1
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 136, in <module>
+    next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 151, in step
+    obs_2 = self.get_screenshot("f2.png")
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 105, in get_screenshot
+    img = self.driver.get_screenshot_as_png()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 1353, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 1365, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Stacktrace:
+#0 0x562e3a56e7d3 <unknown>
+#1 0x562e3a2ca51f <unknown>
+#2 0x562e3a2b8954 <unknown>
+#3 0x562e3a2b9a71 <unknown>
+#4 0x562e3a2bb132 <unknown>
+#5 0x562e3a2b3486 <unknown>
+#6 0x562e3a2cba82 <unknown>
+#7 0x562e3a331118 <unknown>
+#8 0x562e3a31e5a3 <unknown>
+#9 0x562e3a2f3ddc <unknown>
+#10 0x562e3a2f4de5 <unknown>
+#11 0x562e3a59f49d <unknown>
+#12 0x562e3a5b860c <unknown>
+#13 0x562e3a5a1205 <unknown>
+#14 0x562e3a5b8ee5 <unknown>
+#15 0x562e3a595070 <unknown>
+#16 0x562e3a5d4488 <unknown>
+#17 0x562e3a5d460c <unknown>
+#18 0x562e3a5edc6d <unknown>
+#19 0x7f0fb44cf609 <unknown>
