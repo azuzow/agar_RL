@@ -46,7 +46,7 @@ target_DQN.eval()
 optimizer = optim.RMSprop(policy_DQN.parameters())
 
 BATCH_SIZE = 64
-GAMMA = 0.9
+GAMMA = 0.999
 TARGET_UPDATE = 5
 SAVE_UPDATE = 20
 N_EPISODES = 500
@@ -122,7 +122,7 @@ for episode in range(N_EPISODES):
     episode_return = 0
     prev_score = 10
     timestep = 0
-  
+
     state = agar1.reset()
     # time.sleep(.5)
     while True:
@@ -136,18 +136,22 @@ for episode in range(N_EPISODES):
         next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
         e = timeit.default_timer()
         print ("step time: " + str(e-s))
+        # if not done:
+        #     reward = score - prev_score
+        # else:
+        #     reward = score
         if not done:
-            reward = score - prev_score
+            reward = 0
         else:
-            reward = score
+            reward = -1
 
         episode_return+=reward
-        
+
         prev_score = score
 
         episode_rewards.append(episode_return)
-        wandb.log({"episode": episode_return})
-        
+        # wandb.log({"episode": episode_return})
+
         action = torch.tensor([action]).to(device)
         reward = torch.tensor([reward]).to(device)
         if not done and state is not None:
@@ -163,6 +167,7 @@ for episode in range(N_EPISODES):
         timestep +=1
         if  restart:
             episode +=1
+            wandb.log({"timestep": timestep})
 
             episode_timestamps.append(timestep)
                 # episode_loss.append(loss)
