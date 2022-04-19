@@ -1,0 +1,141 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+54.23666554839297 192.5055430635486
+(25, 36)
+TEST1
+TEST2
+1
+0
+1
+1
+Score:  1011
+step time: 0.5824171770000248
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:183: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+(25, 36)
+TEST1
+TEST2
+1
+0
+1
+1
+Score:  1011
+step time: 0.6189390089966764
+(25, 36)
+TEST1
+TEST2
+1
+0
+1
+1
+Score:  1011
+step time: 0.781397394999658
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.6005983570030367
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.5986129619996063
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.7719141679990571
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.6382041819997539
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.5775731129979249
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.5375789100035036
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.4993589330006216
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.47567754600095213
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.4659478490029869
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.43681237599957967
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.45693939400007366
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111

@@ -1,0 +1,172 @@
+2022-04-18 23:35:29,216 INFO    MainThread:305786 [internal.py:wandb_internal():92] W&B internal server running at pid: 305786, started at: 2022-04-18 23:35:29.216464
+2022-04-18 23:35:29,219 INFO    WriterThread:305786 [datastore.py:open_for_write():77] open: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/run-27gybf1b.wandb
+2022-04-18 23:35:29,221 DEBUG   SenderThread:305786 [sender.py:send():235] send: header
+2022-04-18 23:35:29,222 DEBUG   SenderThread:305786 [sender.py:send():235] send: run
+2022-04-18 23:35:29,365 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: check_version
+2022-04-18 23:35:29,366 INFO    SenderThread:305786 [dir_watcher.py:__init__():169] watching files in: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files
+2022-04-18 23:35:29,366 INFO    SenderThread:305786 [sender.py:_start_run_threads():812] run started: 27gybf1b with start time 1650342928
+2022-04-18 23:35:29,366 DEBUG   SenderThread:305786 [sender.py:send():235] send: summary
+2022-04-18 23:35:29,366 INFO    SenderThread:305786 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 23:35:29,366 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: check_version
+2022-04-18 23:35:29,436 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: run_start
+2022-04-18 23:35:29,440 DEBUG   HandlerThread:305786 [meta.py:__init__():37] meta init
+2022-04-18 23:35:29,440 DEBUG   HandlerThread:305786 [meta.py:__init__():51] meta init done
+2022-04-18 23:35:29,440 DEBUG   HandlerThread:305786 [meta.py:probe():211] probe
+2022-04-18 23:35:29,447 DEBUG   HandlerThread:305786 [meta.py:_setup_git():201] setup git
+2022-04-18 23:35:29,459 DEBUG   HandlerThread:305786 [meta.py:_setup_git():208] setup git done
+2022-04-18 23:35:29,459 DEBUG   HandlerThread:305786 [meta.py:_save_pip():55] save pip
+2022-04-18 23:35:29,460 DEBUG   HandlerThread:305786 [meta.py:_save_pip():69] save pip done
+2022-04-18 23:35:29,460 DEBUG   HandlerThread:305786 [meta.py:_save_conda():76] save conda
+2022-04-18 23:35:30,370 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_created():217] file/dir created: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/conda-environment.yaml
+2022-04-18 23:35:30,371 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_created():217] file/dir created: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/requirements.txt
+2022-04-18 23:35:30,371 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_created():217] file/dir created: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/wandb-summary.json
+2022-04-18 23:35:32,001 DEBUG   HandlerThread:305786 [meta.py:_save_conda():86] save conda done
+2022-04-18 23:35:32,001 DEBUG   HandlerThread:305786 [meta.py:probe():249] probe done
+2022-04-18 23:35:32,006 DEBUG   SenderThread:305786 [sender.py:send():235] send: files
+2022-04-18 23:35:32,006 INFO    SenderThread:305786 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-18 23:35:32,013 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-18 23:35:32,013 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: stop_status
+2022-04-18 23:35:32,087 DEBUG   SenderThread:305786 [sender.py:send():235] send: telemetry
+2022-04-18 23:35:32,361 INFO    Thread-11 :305786 [upload_job.py:push():137] Uploaded file /tmp/tmp6zktnegbwandb/2p7ilv72-wandb-metadata.json
+2022-04-18 23:35:32,370 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/conda-environment.yaml
+2022-04-18 23:35:32,371 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_created():217] file/dir created: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:35:32,371 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_created():217] file/dir created: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/wandb-metadata.json
+2022-04-18 23:35:34,371 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:35:42,374 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:35:44,375 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:35:46,376 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:35:47,089 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-18 23:35:47,089 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: stop_status
+2022-04-18 23:35:48,376 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:35:50,377 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:35:52,378 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:35:54,379 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:35:56,379 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:35:57,819 DEBUG   SenderThread:305786 [sender.py:send():235] send: stats
+2022-04-18 23:35:58,381 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:36:00,381 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:36:00,382 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/config.yaml
+2022-04-18 23:36:02,190 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-18 23:36:02,190 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: stop_status
+2022-04-18 23:36:02,382 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:36:04,383 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:36:06,383 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:36:08,384 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:36:10,345 DEBUG   SenderThread:305786 [sender.py:send():235] send: telemetry
+2022-04-18 23:36:10,385 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:36:12,386 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:36:13,075 DEBUG   SenderThread:305786 [sender.py:send():235] send: exit
+2022-04-18 23:36:13,076 INFO    SenderThread:305786 [sender.py:send_exit():371] handling exit code: 1
+2022-04-18 23:36:13,076 INFO    SenderThread:305786 [sender.py:send_exit():373] handling runtime: 43
+2022-04-18 23:36:13,079 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 23:36:13,080 INFO    SenderThread:305786 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 23:36:13,081 INFO    SenderThread:305786 [sender.py:send_exit():379] send defer
+2022-04-18 23:36:13,081 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 23:36:13,082 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 23:36:13,083 INFO    HandlerThread:305786 [handler.py:handle_request_defer():164] handle defer: 0
+2022-04-18 23:36:13,083 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: defer
+2022-04-18 23:36:13,083 INFO    SenderThread:305786 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-04-18 23:36:13,083 INFO    SenderThread:305786 [sender.py:transition_state():392] send defer: 1
+2022-04-18 23:36:13,084 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 23:36:13,084 INFO    HandlerThread:305786 [handler.py:handle_request_defer():164] handle defer: 1
+2022-04-18 23:36:13,111 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: defer
+2022-04-18 23:36:13,111 INFO    SenderThread:305786 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-04-18 23:36:13,111 INFO    SenderThread:305786 [sender.py:transition_state():392] send defer: 2
+2022-04-18 23:36:13,111 DEBUG   SenderThread:305786 [sender.py:send():235] send: stats
+2022-04-18 23:36:13,112 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 23:36:13,112 INFO    HandlerThread:305786 [handler.py:handle_request_defer():164] handle defer: 2
+2022-04-18 23:36:13,112 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: defer
+2022-04-18 23:36:13,112 INFO    SenderThread:305786 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-04-18 23:36:13,112 INFO    SenderThread:305786 [sender.py:transition_state():392] send defer: 3
+2022-04-18 23:36:13,113 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 23:36:13,113 INFO    HandlerThread:305786 [handler.py:handle_request_defer():164] handle defer: 3
+2022-04-18 23:36:13,113 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: defer
+2022-04-18 23:36:13,113 INFO    SenderThread:305786 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-04-18 23:36:13,113 INFO    SenderThread:305786 [sender.py:transition_state():392] send defer: 4
+2022-04-18 23:36:13,113 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 23:36:13,114 INFO    HandlerThread:305786 [handler.py:handle_request_defer():164] handle defer: 4
+2022-04-18 23:36:13,114 DEBUG   SenderThread:305786 [sender.py:send():235] send: summary
+2022-04-18 23:36:13,114 INFO    SenderThread:305786 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-18 23:36:13,114 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: defer
+2022-04-18 23:36:13,114 INFO    SenderThread:305786 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-04-18 23:36:13,114 INFO    SenderThread:305786 [sender.py:transition_state():392] send defer: 5
+2022-04-18 23:36:13,115 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 23:36:13,115 INFO    HandlerThread:305786 [handler.py:handle_request_defer():164] handle defer: 5
+2022-04-18 23:36:13,115 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: defer
+2022-04-18 23:36:13,115 INFO    SenderThread:305786 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-04-18 23:36:13,183 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 23:36:13,220 INFO    SenderThread:305786 [sender.py:transition_state():392] send defer: 6
+2022-04-18 23:36:13,221 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 23:36:13,221 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 23:36:13,221 INFO    HandlerThread:305786 [handler.py:handle_request_defer():164] handle defer: 6
+2022-04-18 23:36:13,222 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: defer
+2022-04-18 23:36:13,222 INFO    SenderThread:305786 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-04-18 23:36:13,222 INFO    SenderThread:305786 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-18 23:36:13,322 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 23:36:13,386 INFO    Thread-7  :305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:36:13,387 INFO    SenderThread:305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/config.yaml
+2022-04-18 23:36:13,387 INFO    SenderThread:305786 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/wandb-summary.json
+2022-04-18 23:36:13,388 INFO    SenderThread:305786 [dir_watcher.py:finish():313] scan: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files
+2022-04-18 23:36:13,388 INFO    SenderThread:305786 [dir_watcher.py:finish():327] scan save: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/wandb-metadata.json wandb-metadata.json
+2022-04-18 23:36:13,388 INFO    SenderThread:305786 [dir_watcher.py:finish():327] scan save: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/requirements.txt requirements.txt
+2022-04-18 23:36:13,388 INFO    SenderThread:305786 [dir_watcher.py:finish():327] scan save: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/conda-environment.yaml conda-environment.yaml
+2022-04-18 23:36:13,389 INFO    SenderThread:305786 [dir_watcher.py:finish():327] scan save: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/config.yaml config.yaml
+2022-04-18 23:36:13,394 INFO    SenderThread:305786 [dir_watcher.py:finish():327] scan save: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/wandb-summary.json wandb-summary.json
+2022-04-18 23:36:13,394 INFO    SenderThread:305786 [dir_watcher.py:finish():327] scan save: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log output.log
+2022-04-18 23:36:13,413 INFO    SenderThread:305786 [sender.py:transition_state():392] send defer: 7
+2022-04-18 23:36:13,413 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 23:36:13,414 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 23:36:13,414 INFO    HandlerThread:305786 [handler.py:handle_request_defer():164] handle defer: 7
+2022-04-18 23:36:13,420 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: defer
+2022-04-18 23:36:13,421 INFO    SenderThread:305786 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-04-18 23:36:13,421 INFO    SenderThread:305786 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-18 23:36:13,516 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 23:36:13,516 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 23:36:13,618 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 23:36:13,618 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 23:36:13,721 INFO    Thread-14 :305786 [upload_job.py:push():137] Uploaded file /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/config.yaml
+2022-04-18 23:36:13,722 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 23:36:13,722 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 23:36:13,729 INFO    Thread-12 :305786 [upload_job.py:push():137] Uploaded file /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/requirements.txt
+2022-04-18 23:36:13,731 INFO    Thread-16 :305786 [upload_job.py:push():137] Uploaded file /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/output.log
+2022-04-18 23:36:13,824 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 23:36:13,824 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 23:36:13,892 INFO    Thread-15 :305786 [upload_job.py:push():137] Uploaded file /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/wandb-summary.json
+2022-04-18 23:36:13,926 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 23:36:13,926 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 23:36:13,992 INFO    Thread-13 :305786 [upload_job.py:push():137] Uploaded file /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/files/conda-environment.yaml
+2022-04-18 23:36:14,027 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 23:36:14,028 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 23:36:14,130 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 23:36:14,130 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 23:36:14,193 INFO    Thread-6  :305786 [sender.py:transition_state():392] send defer: 8
+2022-04-18 23:36:14,194 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 23:36:14,194 INFO    HandlerThread:305786 [handler.py:handle_request_defer():164] handle defer: 8
+2022-04-18 23:36:14,194 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: defer
+2022-04-18 23:36:14,194 INFO    SenderThread:305786 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-04-18 23:36:14,232 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 23:36:14,370 INFO    SenderThread:305786 [sender.py:transition_state():392] send defer: 9
+2022-04-18 23:36:14,371 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 23:36:14,372 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 23:36:14,372 INFO    HandlerThread:305786 [handler.py:handle_request_defer():164] handle defer: 9
+2022-04-18 23:36:14,372 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: defer
+2022-04-18 23:36:14,372 INFO    SenderThread:305786 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-04-18 23:36:14,372 INFO    SenderThread:305786 [sender.py:transition_state():392] send defer: 10
+2022-04-18 23:36:14,373 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: defer
+2022-04-18 23:36:14,373 DEBUG   SenderThread:305786 [sender.py:send():235] send: final
+2022-04-18 23:36:14,374 INFO    HandlerThread:305786 [handler.py:handle_request_defer():164] handle defer: 10
+2022-04-18 23:36:14,374 DEBUG   SenderThread:305786 [sender.py:send():235] send: footer
+2022-04-18 23:36:14,374 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: defer
+2022-04-18 23:36:14,374 INFO    SenderThread:305786 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-04-18 23:36:14,473 DEBUG   HandlerThread:305786 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-18 23:36:14,473 DEBUG   SenderThread:305786 [sender.py:send_request():249] send_request: poll_exit
+2022-04-18 23:36:14,474 INFO    SenderThread:305786 [file_pusher.py:join():150] waiting for file pusher
+2022-04-18 23:36:14,722 WARNING MainThread:305786 [internal.py:wandb_internal():155] Internal process interrupt: 1
+2022-04-18 23:36:18,725 WARNING MainThread:305786 [internal.py:is_dead():387] Internal process exiting, parent pid 305764 disappeared
+2022-04-18 23:36:18,726 ERROR   MainThread:305786 [internal.py:wandb_internal():151] Internal process shutdown.
+2022-04-18 23:36:19,375 INFO    WriterThread:305786 [datastore.py:close():281] close: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_233528-27gybf1b/run-27gybf1b.wandb
+2022-04-18 23:36:19,479 INFO    HandlerThread:305786 [handler.py:finish():790] shutting down handler
+2022-04-18 23:36:19,713 INFO    SenderThread:305786 [sender.py:finish():1107] shutting down sender
+2022-04-18 23:36:19,714 INFO    SenderThread:305786 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-18 23:36:19,714 INFO    SenderThread:305786 [file_pusher.py:join():150] waiting for file pusher
+2022-04-18 23:36:19,716 INFO    MainThread:305786 [internal.py:handle_exit():82] Internal process exited

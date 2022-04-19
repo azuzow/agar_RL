@@ -1,0 +1,903 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+81.54251939360852 -182.6220620049587
+2
+3
+1
+Score:  1011
+step time: 0.320558149000135
+2
+3
+1
+Score:  1011
+step time: 0.3057707530006155
+2
+2
+1
+Score:  1011
+step time: 0.3029842900004951
+2
+2
+1
+Score:  1011
+step time: 0.28932324499965034
+2
+2
+1
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:188: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+Score:  1011
+step time: 0.29604897599983815
+2
+3
+1
+Score:  1011
+step time: 0.2910409960004472
+2
+1
+1
+Score:  1111
+step time: 0.3136001809998561
+2
+2
+1
+Score:  1211
+step time: 0.3120154980006191
+2
+1
+1
+Score:  1111
+step time: 0.2984982919997492
+2
+2
+1
+Score:  1611
+step time: 0.30491354199966736
+2
+2
+1
+Score:  1611
+step time: 0.3098089880004409
+2
+2
+1
+Score:  1611
+step time: 0.31071974399947067
+2
+2
+1
+Score:  1111
+step time: 0.3296423499996308
+2
+2
+1
+Score:  1111
+step time: 0.364865283000654
+2
+1
+1
+Score:  1111
+step time: 0.325849959000152
+1
+2
+1
+Score:  1011
+step time: 0.3237528130002829
+1
+1
+1
+Score:  1111
+step time: 0.3226700949999213
+1
+1
+1
+Score:  1111
+step time: 0.3300855200004662
+1
+1
+1
+Score:  1111
+step time: 0.3518807680002283
+1
+1
+1
+Score:  1111
+step time: 0.3374867769998673
+3
+1
+1
+Score:  7111
+step time: 0.33154591800030175
+1
+1
+1
+Score:  1111
+step time: 0.3255745830001615
+1
+1
+1
+Score:  1111
+step time: 0.3105444869997882
+1
+1
+1
+Score:  1111
+step time: 0.3302112660003331
+1
+1
+1
+Score:  1111
+step time: 0.32439935200000036
+1
+1
+1
+Score:  1111
+step time: 0.31716233499992086
+1
+1
+1
+Score:  1111
+step time: 0.29801423700064333
+1
+1
+1
+Score:  1111
+step time: 0.3013897709997764
+1
+1
+1
+1
+Score:  1111
+step time: 0.3068773640006839
+1
+2
+1
+Score:  1611
+step time: 0.2986365090000618
+1
+1
+1
+Score:  1111
+step time: 0.2941996740000832
+2
+Score:  1711
+step time: 0.3164926959998411
+2
+Score:  1711
+step time: 0.3142327790001218
+3
+Score:  1111
+step time: 0.29218556599971635
+3
+Score:  1111
+step time: 0.3000984680002148
+1
+2
+1
+Score:  1111
+step time: 0.3008765949998633
+1
+2
+1
+Score:  1011
+step time: 0.3114858830003868
+1
+2
+1
+Score:  1011
+step time: 0.3136659010006042
+1
+1
+1
+Score:  1111
+step time: 0.29630207599984715
+1
+2
+1
+Score:  1611
+step time: 0.2904978509995999
+1
+2
+1
+Score:  1611
+step time: 0.28793783099990833
+1
+2
+1
+Score:  1611
+step time: 0.2881866620000437
+1
+1
+1
+Score:  1111
+step time: 0.29767421599990485
+1
+1
+1
+Score:  1111
+step time: 0.29330792899963853
+1
+1
+1
+Score:  1111
+step time: 0.27479352800037304
+1
+1
+1
+Score:  1111
+step time: 0.2817516719997002
+1
+1
+1
+Score:  1111
+step time: 0.28270476699981373
+1
+1
+1
+Score:  1111
+step time: 0.31681733799996437
+1
+2
+1
+Score:  1111
+step time: 0.2922871889995804
+1
+2
+1
+Score:  1111
+step time: 0.29713960600020073
+1
+2
+1
+Score:  1111
+step time: 0.3125807240003269
+1
+2
+1
+Score:  1111
+step time: 0.31306196700006694
+1
+2
+1
+Score:  1111
+step time: 0.3259884859999147
+1
+2
+1
+Score:  1111
+step time: 0.3191969429999517
+1
+2
+1
+Score:  1111
+step time: 0.3107178959999146
+1
+2
+1
+Score:  1111
+step time: 0.3021428019992527
+1
+2
+1
+Score:  1111
+step time: 0.31352916700052447
+1
+1
+1
+Score:  1111
+step time: 0.31256701900019834
+1
+2
+1
+Score:  1011
+step time: 0.32414713700018183
+1
+2
+1
+Score:  1011
+step time: 0.32724728799985314
+2
+2
+1
+Score:  4011
+step time: 0.34690760000012233
+1
+2
+1
+Score:  1011
+step time: 0.3182442199995421
+1
+2
+1
+Score:  1011
+step time: 0.33947210000042105
+1
+2
+1
+Score:  1011
+step time: 0.316772208000657
+loss: 0.5634396076202393
+1
+2
+1
+Score:  1011
+step time: 0.34212601099989115
+loss: 0.24000582098960876
+1
+2
+1
+Score:  1011
+step time: 0.31703900800039264
+loss: 0.07725906372070312
+1
+2
+1
+Score:  1011
+step time: 0.33410721800009924
+loss: 0.13962265849113464
+1
+2
+1
+Score:  1011
+step time: 0.34222738799962826
+loss: 0.015632349997758865
+3
+3
+Score:  1011
+step time: 0.3270723320001707
+loss: 0.013481779024004936
+3
+3
+Score:  1011
+step time: 0.32017763899966667
+loss: 0.004170846194028854
+1
+2
+1
+Score:  1011
+step time: 0.3207629029993768
+loss: 0.00269883731380105
+2
+3
+1
+Score:  4011
+step time: 0.30664243300088856
+loss: 0.0008109785849228501
+1
+2
+1
+Score:  1011
+step time: 0.3065078129993708
+loss: 0.0004392939154058695
+2
+2
+1
+Score:  4011
+step time: 0.3280487770007312
+loss: 0.00020139770640525967
+1
+2
+1
+Score:  1011
+step time: 0.3226238329998523
+loss: 0.00017402427329216152
+2
+2
+1
+Score:  4011
+step time: 0.30994498700056283
+loss: 0.00011961131531279534
+1
+2
+1
+Score:  1011
+step time: 0.29238767300012114
+loss: 3.239680518163368e-05
+1
+1
+1
+Score:  1111
+step time: 0.30196243400041567
+loss: 1.058428460964933e-05
+2
+2
+1
+Score:  4711
+step time: 0.29563095699995756
+loss: 0.010267060250043869
+1
+1
+1
+Score:  1111
+step time: 0.31366171299941925
+loss: 0.0024297242052853107
+1
+1
+2
+1
+Score:  1111
+step time: 0.32158573100059584
+loss: 0.0005121959839016199
+3
+3
+Score:  1211
+step time: 0.32327031400018313
+loss: 0.0001037589754560031
+3
+3
+Score:  1111
+step time: 0.3237066470001082
+loss: 2.6885409170063213e-05
+1
+1
+1
+Score:  1111
+step time: 0.323843406999913
+loss: 0.01743244379758835
+1
+1
+1
+Score:  1111
+step time: 0.3269527200000084
+loss: 0.004460385534912348
+1
+1
+1
+Score:  1111
+step time: 0.3166369609998583
+loss: 0.0003730279568117112
+1
+1
+1
+Score:  1111
+step time: 0.32080005100033304
+loss: 9.155580482911319e-05
+1
+1
+1
+Score:  1111
+step time: 0.2976152960000036
+loss: 0.00013672446948476136
+1
+1
+1
+Score:  1111
+step time: 0.30982898700040096
+loss: 0.0002454548957757652
+1
+1
+1
+Score:  1111
+step time: 0.3282584159996986
+loss: 0.00037333753425627947
+1
+1
+1
+Score:  1111
+step time: 0.3179146780003066
+loss: 0.00022183495457284153
+1
+1
+1
+Score:  1111
+step time: 0.3265898310000921
+loss: 0.011303368955850601
+1
+1
+1
+Score:  1111
+step time: 0.33071041099992726
+loss: 0.011508673429489136
+1
+1
+1
+Score:  1111
+step time: 0.31014100599986705
+loss: 0.001612961059436202
+1
+1
+1
+Score:  1111
+step time: 0.3054631800005154
+loss: 0.0010593760525807738
+2
+1
+1
+Score:  4111
+step time: 0.3178016920001028
+loss: 0.0006538997986353934
+2
+2
+1
+Score:  4711
+step time: 0.2953321920003873
+loss: 0.000518684450071305
+1
+1
+1
+Score:  1111
+step time: 0.30789935600023455
+loss: 0.008372721262276173
+1
+2
+1
+Score:  1711
+step time: 0.31460659699951066
+loss: 0.0013851767871528864
+1
+1
+1
+Score:  1111
+step time: 0.30822430799980793
+loss: 0.0007189953466877341
+1
+1
+1
+Score:  1111
+step time: 0.28454148699984216
+loss: 0.0005524171283468604
+1
+1
+1
+Score:  1111
+step time: 0.29525290799938375
+loss: 0.0003135940642096102
+1
+1
+1
+Score:  1111
+step time: 0.30367150100028084
+loss: 0.0003903191245626658
+2
+1
+1
+Score:  4111
+step time: 0.29200894300083746
+loss: 0.01003075297921896
+3
+1
+1
+Score:  1111
+step time: 0.2809637880000082
+loss: 0.0029849400743842125
+3
+2
+1
+Score:  1011
+step time: 0.30011151199960295
+loss: 0.0029777309391647577
+1
+1
+1
+Score:  1111
+step time: 0.32219015800001216
+loss: 0.0033884213771671057
+1
+1
+1
+Score:  1111
+step time: 0.32578723400001763
+loss: 0.010771829634904861
+1
+1
+1
+Score:  1111
+step time: 0.3437330289998499
+loss: 0.0028346586041152477
+1
+1
+1
+Score:  1111
+step time: 0.3550864039998487
+loss: 0.0011064022546634078
+1
+1
+1
+Score:  1111
+step time: 0.34092689600038284
+loss: 0.0005816775374114513
+1
+1
+1
+Score:  1111
+step time: 0.3175213699996675
+loss: 0.000643772364128381
+1
+1
+1
+Score:  1111
+step time: 0.30963239900029293
+loss: 0.0008419268997386098
+1
+1
+1
+Score:  1111
+step time: 0.31940224199934164
+loss: 0.0007295529940165579
+1
+1
+1
+Score:  1111
+step time: 0.32213452300038625
+loss: 0.000784149335231632
+1
+1
+1
+Score:  1111
+step time: 0.3228185560001293
+loss: 0.010371142998337746
+1
+2
+1
+Score:  1611
+step time: 0.31580686300003435
+loss: 0.003043624572455883
+2
+1
+1
+Score:  1111
+step time: 0.3316867120001916
+loss: 0.0021098703145980835
+1
+1
+1
+Score:  1111
+step time: 0.3211662410003555
+loss: 0.002508212346583605
+1
+1
+1
+Score:  1111
+step time: 0.3154099679995852
+loss: 0.0009705010452307761
+1
+1
+1
+Score:  1111
+step time: 0.32445459500013385
+loss: 0.0011275580618530512
+3
+2
+1
+Score:  6011
+step time: 0.32931948999976157
+loss: 0.001710407668724656
+3
+2
+1
+Score:  6011
+step time: 0.33891939299974183
+loss: 0.0022313364315778017
+3
+2
+1
+Score:  6011
+step time: 0.3405126229999951
+loss: 0.0013866106746718287
+3
+1
+1
+Score:  6111
+step time: 0.3038268270001936
+loss: 0.0013574196491390467
+3
+1
+1
+Score:  6111
+step time: 0.30138756899941654
+loss: 0.0010418940801173449
+3
+1
+1
+Score:  6111
+step time: 0.3105757570001515
+loss: 0.001170801930129528
+3
+2
+1
+Score:  6711
+step time: 0.32707823000055214
+loss: 0.0009729070588946342
+3
+1
+1
+Score:  6111
+step time: 0.3093696969999655
+loss: 0.0008314840961247683
+3
+1
+1
+Score:  6111
+step time: 0.3209897130000172
+loss: 0.0004120227531529963
+3
+1
+1
+Score:  6111
+step time: 0.303303679000237
+loss: 0.0003265244886279106
+3
+2
+1
+Score:  6711
+step time: 0.2910428379991572
+loss: 0.0003232042654417455
+3
+2
+1
+Score:  6111
+step time: 0.2964360770001804
+loss: 0.00020044873235747218
+3
+2
+1
+Score:  6111
+step time: 0.3068266640002548
+loss: 0.00010707787441788241
+3
+2
+1
+Score:  6111
+step time: 0.2949858949996269
+loss: 2.631695315358229e-05
+3
+2
+1
+Score:  6111
+step time: 0.3159249810005349
+loss: 2.1308607756509446e-05
+3
+2
+1
+Score:  6111
+step time: 0.29995969099945796
+loss: 2.845221752068028e-05
+3
+2
+1
+Score:  6111
+step time: 0.29183795000062673
+loss: 4.4305412302492186e-05
+1
+1
+1
+Score:  1111
+step time: 0.2978220250006416
+loss: 4.0157825424103066e-05
+1
+1
+1
+Score:  1111
+step time: 0.2972038990001238
+loss: 0.008498369716107845
+1
+1
+1
+Score:  1111
+step time: 0.30908089700005803
+loss: 0.0013545729452744126
+1
+1
+1
+Score:  1111
+step time: 0.3317643759992279
+loss: 0.00023645201872568578
+2
+1
+1
+Score:  7111
+step time: 0.32021623800028465
+loss: 0.00037539529148489237
+2
+3
+Score:  7211
+step time: 0.3152050810003857
+loss: 0.009771173819899559
+2
+2
+Score:  7111
+step time: 0.3330731530004414
+loss: 0.001882121548987925
+1
+1
+1
+Score:  1111
+step time: 0.31471364600020024
+loss: 0.00012198598415125161
+1
+1
+1
+Score:  1111
+step time: 0.31633527700068953
+loss: 0.0004009469994343817
+1
+1
+1
+Score:  1111
+step time: 0.3250834810005472
+loss: 0.00014388948329724371
+1
+1
+1
+1
+Score:  1111
+step time: 0.31591911199939204
+loss: 0.00891687162220478
+1
+1
+1
+Score:  1111
+step time: 0.344430273999933
+loss: 0.0005853980546817183
+1
+1
+1
+Score:  1111
+step time: 0.42588061900005414
+loss: 0.0027131838724017143
+Score:  1111
+step time: 0.2048352440006056
+loss: 0.01337413303554058
+Score:  1111
+step time: 0.2171671050000441
+loss: 0.01484010647982359
+Score:  1111
+step time: 0.2095837990000291
+loss: 0.006618734449148178
+Score:  1111
+step time: 0.21722008399956394
+loss: 0.007014884147793055
+Score:  1111
+step time: 0.21757255700049427
+loss: 0.00616990402340889
+Score:  1111
+step time: 0.23842600199986919
+loss: 0.0052459812723100185
+Score:  1111
+step time: 0.4812541949995648
+loss: 0.005391732789576054
+Score:  1111
+step time: 0.25117255599980126
+loss: 0.003375392407178879
+Score:  1111
+step time: 0.30626154499987024
+loss: 0.002559943590313196
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 136, in <module>
+    next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 146, in step
+    obs_1 = self.get_screenshot("f1.png")
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 105, in get_screenshot
+    img = self.driver.get_screenshot_as_png()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 1353, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 1365, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=99.0.4844.74)
+Stacktrace:
+#0 0x55926a5637d3 <unknown>
+#1 0x55926a2bf688 <unknown>
+#2 0x55926a2aecee <unknown>
+#3 0x55926a2b0132 <unknown>
+#4 0x55926a2a8486 <unknown>
+#5 0x55926a2c0a82 <unknown>
+#6 0x55926a326118 <unknown>
+#7 0x55926a3135a3 <unknown>
+#8 0x55926a2e8ddc <unknown>
+#9 0x55926a2e9de5 <unknown>
+#10 0x55926a59449d <unknown>
+#11 0x55926a5ad60c <unknown>
+#12 0x55926a596205 <unknown>
+#13 0x55926a5adee5 <unknown>
+#14 0x55926a58a070 <unknown>
+#15 0x55926a5c9488 <unknown>
+#16 0x55926a5c960c <unknown>
+#17 0x55926a5e2c6d <unknown>
+#18 0x7f0af420c609 <unknown>

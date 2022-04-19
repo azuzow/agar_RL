@@ -1,0 +1,511 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+29.244794900597103 197.85030192350482
+(25, 36)
+TEST1
+TEST2
+1
+0
+1
+1
+Score:  1011
+step time: 0.47766792999755125
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:183: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+(25, 36)
+TEST1
+TEST2
+1
+0
+1
+1
+Score:  1011
+step time: 0.4937445600007777
+(25, 36)
+TEST1
+TEST2
+1
+0
+1
+1
+Score:  1011
+step time: 0.48883033099991735
+(25, 36)
+TEST1
+TEST2
+1
+2
+1
+1
+Score:  1211
+step time: 0.531046680000145
+
+(25, 36)
+TEST1
+TEST2
+1
+2
+1
+1
+Score:  1211
+step time: 0.586759350997454
+(25, 36)
+TEST1
+TEST2
+1
+4
+1
+1
+Score:  1411
+step time: 0.6464720559997659
+(25, 36)
+TEST1
+TEST2
+1
+4
+1
+1
+Score:  1411
+step time: 0.6035465530003421
+(25, 36)
+TEST1
+TEST2
+1
+7
+1
+1
+Score:  1711
+step time: 0.586658627998986
+(25, 36)
+TEST1
+TEST2
+1
+7
+1
+1
+Score:  1711
+step time: 0.6714468179998221
+(25, 36)
+TEST1
+TEST2
+1
+8
+1
+1
+Score:  1811
+step time: 0.6177676549996249
+(25, 36)
+TEST1
+TEST2
+2
+1
+1
+1
+Score:  2111
+step time: 0.6335714329979965
+(25, 36)
+TEST1
+TEST2
+2
+2
+1
+1
+Score:  2211
+step time: 0.6354420589996153
+(25, 36)
+TEST1
+TEST2
+2
+4
+1
+1
+Score:  2411
+step time: 0.6506032859979314
+(25, 36)
+TEST1
+TEST2
+2
+4
+1
+1
+Score:  2411
+step time: 0.6579619430012826
+(25, 36)
+TEST1
+TEST2
+2
+5
+1
+1
+Score:  2511
+step time: 0.6528067810031644
+(25, 36)
+TEST1
+TEST2
+2
+6
+1
+1
+Score:  2611
+step time: 0.5815102229971671
+(25, 36)
+TEST1
+TEST2
+2
+6
+1
+1
+Score:  2611
+step time: 0.5245922670001164
+(25, 36)
+TEST1
+TEST2
+2
+9
+1
+1
+Score:  2911
+step time: 0.5193063660008193
+(25, 36)
+TEST1
+TEST2
+3
+0
+1
+1
+Score:  3011
+step time: 0.543875809002202
+(25, 36)
+TEST1
+TEST2
+3
+0
+1
+1
+Score:  3011
+step time: 0.5181213719988591
+(25, 36)
+TEST1
+TEST2
+3
+0
+1
+1
+Score:  3011
+step time: 0.5859005749989592
+(25, 36)
+TEST1
+TEST2
+3
+1
+1
+1
+Score:  3111
+step time: 0.5651262969986419
+(25, 36)
+TEST1
+TEST2
+3
+2
+1
+1
+Score:  3211
+step time: 0.5972298769993358
+(25, 36)
+TEST1
+TEST2
+3
+2
+1
+1
+Score:  3211
+step time: 0.6480736169978627
+(25, 36)
+TEST1
+TEST2
+3
+3
+1
+1
+Score:  3311
+step time: 0.6218492190018878
+(25, 36)
+TEST1
+TEST2
+3
+3
+1
+1
+Score:  3311
+step time: 0.6075940539994917
+(25, 36)
+TEST1
+TEST2
+3
+4
+1
+1
+Score:  3411
+step time: 0.5275302619993454
+(25, 36)
+TEST1
+TEST2
+3
+4
+1
+1
+Score:  3411
+step time: 0.5326410720008425
+(25, 36)
+TEST1
+TEST2
+3
+7
+1
+1
+Score:  3711
+step time: 0.5438838519985438
+(25, 36)
+TEST1
+TEST2
+3
+7
+1
+1
+Score:  3711
+step time: 0.5845117639983073
+(25, 36)
+TEST1
+TEST2
+3
+7
+1
+1
+Score:  3711
+step time: 0.5609783560030337
+(25, 36)
+TEST1
+TEST2
+3
+7
+1
+1
+Score:  3711
+step time: 0.5598507909999171
+(25, 36)
+TEST1
+TEST2
+3
+8
+1
+1
+Score:  3811
+step time: 0.5655821420004941
+(25, 36)
+TEST1
+TEST2
+3
+8
+1
+1
+Score:  3811
+step time: 0.5725387970014708
+(25, 36)
+TEST1
+TEST2
+3
+8
+1
+1
+Score:  3811
+step time: 0.6145798540019314
+(25, 36)
+TEST1
+TEST2
+3
+8
+1
+1
+Score:  3811
+step time: 0.5838816270006646
+(25, 36)
+TEST1
+TEST2
+3
+9
+1
+1
+Score:  3911
+step time: 0.5852729830003227
+(25, 36)
+TEST1
+TEST2
+3
+9
+1
+1
+Score:  3911
+step time: 0.5755307950021233
+(25, 36)
+TEST1
+TEST2
+4
+0
+1
+1
+Score:  4011
+step time: 0.5376772630006599
+(25, 36)
+TEST1
+TEST2
+4
+0
+1
+1
+Score:  4011
+step time: 0.5977392370004964
+(25, 36)
+TEST1
+TEST2
+4
+0
+1
+1
+Score:  4011
+step time: 0.5253333360014949
+(25, 36)
+TEST1
+TEST2
+4
+2
+1
+1
+Score:  4211
+step time: 0.51996377499745
+(25, 36)
+TEST1
+TEST2
+4
+2
+1
+1
+Score:  4211
+step time: 0.5644255200022599
+(25, 36)
+TEST1
+TEST2
+4
+2
+1
+1
+Score:  4211
+step time: 0.6222308359974704
+(25, 36)
+TEST1
+TEST2
+4
+2
+1
+1
+Score:  4211
+step time: 0.5527785750018666
+(25, 36)
+TEST1
+TEST2
+4
+2
+1
+1
+Score:  4211
+step time: 0.5758452110021608
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.5288705550010491
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.4296312240003317
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.448148671999661
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.6199004429981869
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 136, in <module>
+    next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 146, in step
+    obs_1 = self.get_screenshot("f1.png")
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 105, in get_screenshot
+    img = self.driver.get_screenshot_as_png()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 1353, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+AttributeError: 'NoneType' object has no attribute 'encode'
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.45188742500249646
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.4899639079994813
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.4263142199997674
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.4058603929988749
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1

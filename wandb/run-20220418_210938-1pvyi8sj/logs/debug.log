@@ -1,0 +1,26 @@
+2022-04-18 21:09:38,134 INFO    MainThread:265983 [wandb_setup.py:_flush():75] Loading settings from /home/alexzuzow/.config/wandb/settings
+2022-04-18 21:09:38,134 INFO    MainThread:265983 [wandb_setup.py:_flush():75] Loading settings from /home/alexzuzow/Desktop/agar_multiagent/wandb/settings
+2022-04-18 21:09:38,134 INFO    MainThread:265983 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-04-18 21:09:38,134 INFO    MainThread:265983 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'train_DQN.py', 'program': '/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py'}
+2022-04-18 21:09:38,135 INFO    MainThread:265983 [wandb_init.py:_log_setup():438] Logging user logs to /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_210938-1pvyi8sj/logs/debug.log
+2022-04-18 21:09:38,135 INFO    MainThread:265983 [wandb_init.py:_log_setup():439] Logging internal logs to /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220418_210938-1pvyi8sj/logs/debug-internal.log
+2022-04-18 21:09:38,135 INFO    MainThread:265983 [wandb_init.py:init():472] calling init triggers
+2022-04-18 21:09:38,135 INFO    MainThread:265983 [wandb_init.py:init():475] wandb.init called with sweep_config: {}
+config: {}
+2022-04-18 21:09:38,136 INFO    MainThread:265983 [wandb_init.py:init():525] starting backend
+2022-04-18 21:09:38,136 INFO    MainThread:265983 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-04-18 21:09:38,162 INFO    MainThread:265983 [backend.py:ensure_launched():219] starting backend process...
+2022-04-18 21:09:38,183 INFO    MainThread:265983 [backend.py:ensure_launched():224] started backend process with pid: 265997
+2022-04-18 21:09:38,184 INFO    MainThread:265983 [wandb_init.py:init():534] backend started and connected
+2022-04-18 21:09:38,190 INFO    MainThread:265983 [wandb_init.py:init():598] updated telemetry
+2022-04-18 21:09:38,236 INFO    MainThread:265983 [wandb_init.py:init():629] communicating run to backend with 30 second timeout
+2022-04-18 21:09:38,802 INFO    MainThread:265983 [wandb_run.py:_on_init():1922] communicating current version
+2022-04-18 21:09:38,895 INFO    MainThread:265983 [wandb_run.py:_on_init():1926] got version response 
+2022-04-18 21:09:38,895 INFO    MainThread:265983 [wandb_init.py:init():660] starting run threads in backend
+2022-04-18 21:09:41,491 INFO    MainThread:265983 [wandb_run.py:_console_start():1896] atexit reg
+2022-04-18 21:09:41,492 INFO    MainThread:265983 [wandb_run.py:_redirect():1769] redirect: SettingsConsole.REDIRECT
+2022-04-18 21:09:41,492 INFO    MainThread:265983 [wandb_run.py:_redirect():1774] Redirecting console.
+2022-04-18 21:09:41,495 INFO    MainThread:265983 [wandb_run.py:_redirect():1830] Redirects installed.
+2022-04-18 21:09:41,495 INFO    MainThread:265983 [wandb_init.py:init():685] run started, returning control to user process
+2022-04-18 21:10:08,328 INFO    MainThread:265983 [wandb_run.py:_atexit_cleanup():1865] got exitcode: 1
+2022-04-18 21:10:08,329 INFO    MainThread:265983 [wandb_run.py:_restore():1837] restore

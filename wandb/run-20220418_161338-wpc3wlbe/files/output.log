@@ -1,0 +1,75 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_linux64.zip
+Driver has been saved in cache [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51]
+-94.58548301721011 176.2202780681073
+2
+2
+1
+Score:  10
+step time: 0.3657962709999083
+2
+3
+1
+Score:  10
+step time: 0.30590533999998115
+2
+3
+1
+Score:  10
+step time: 0.3052737299999535
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:176: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 126, in <module>
+    state = agar1.reset()
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 54, in reset
+    self.driver = webdriver.Chrome(ChromeDriverManager().install(),options=self.chrome_options)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/webdriver_manager/chrome.py", line 32, in install
+    driver_path = self._get_driver_path(self.driver)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/webdriver_manager/manager.py", line 19, in _get_driver_path
+    binary_path = self.driver_cache.find_driver(driver)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/webdriver_manager/driver_cache.py", line 74, in find_driver
+    driver_version = driver.get_version()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/webdriver_manager/driver.py", line 39, in get_version
+    self.get_latest_release_version()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/webdriver_manager/driver.py", line 72, in get_latest_release_version
+    resp = requests.get(
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+KeyboardInterrupt
+2
+2
+1
+Score:  10
+step time: 0.31506216800016773
+3
+Score:  0
+step time: 0.29056847800006835
+3
+Score:  0
+step time: 0.29667796300009286

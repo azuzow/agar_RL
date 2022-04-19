@@ -1,0 +1,126 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-181.05024905620294 84.97533357796772
+Score:  0
+step time: 0.3499093669997819
+2
+3
+1
+Score:  19
+step time: 0.33391188899986446
+2
+3
+1
+Score:  19
+step time: 0.41181660199981707
+2
+3
+1
+Score:  19
+step time: 0.41642921899983776
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:175: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+Score:  0
+step time: 0.5004781089992321
+Score:  0
+step time: 0.569723298000099
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+172.66832668465503 100.92397614006912
+3
+Score:  0
+step time: 0.28511557199999515
+3
+Score:  0
+step time: 0.2948497220004356
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-196.65746943477328 36.41208199912797
+2
+3
+1
+Score:  10
+step time: 0.30178242399961164
+2
+3
+1
+Score:  10
+step time: 0.28703970500009746
+2
+3
+1
+Score:  10
+step time: 0.2855319860000236
+2
+3
+1
+Score:  10
+step time: 0.2981140809997669
+2
+3
+1
+Score:  10
+step time: 0.30051728499984165
+2
+3
+1
+Score:  10
+step time: 0.28018683300069824
+2
+3
+1
+Score:  10
+step time: 0.32861012299963477
+2
+3
+1
+Score:  10
+step time: 0.3406898250004815
+2
+3
+1
+Score:  10
+step time: 0.3116181499999584
+2
+3
+1
+Score:  10
+step time: 0.31293468800049595
+2
+3
+1
+Score:  10
+step time: 0.34012959000028786
+2
+3
+1
+Score:  10
+step time: 0.3274039440002525
+2
+3
+1
+Score:  10
+step time: 0.3536535709999953
+2
+3
+1
+Score:  10
+step time: 0.40065533199958736
+2
+3
+1
+Score:  10
+step time: 0.45507354799974564
+Score:  0
+step time: 0.37629121500049223
+Score:  0
+step time: 0.34627511600047
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome

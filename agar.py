@@ -54,7 +54,7 @@ class env:
             self.driver = webdriver.Chrome(ChromeDriverManager().install(),options=self.chrome_options)
             self.action_selector = ActionChains(self.driver,duration=0)
             # self.action_selector = ActionChains(self.driver)
-            self.driver.set_window_size(800, 800)
+            self.driver.set_window_size(1200, 1200)
             # self.action_selector.duration = 0
 
 

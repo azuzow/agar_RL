@@ -1,0 +1,21 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+192.58262180459064 53.96233666984783
+(25, 36)
+TEST1
+TEST2
+Score:  0
+step time: 0.7569478439982049
+(25, 36)
+TEST1
+TEST2
+Score:  0
+step time: 0.4438862950009934
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:183: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 160, in <module>
+    memory.push(state.unsqueeze(0), action, next_state.unsqueeze(0), reward)
+AttributeError: 'list' object has no attribute 'unsqueeze'

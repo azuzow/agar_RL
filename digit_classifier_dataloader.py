@@ -73,7 +73,7 @@ class DigitDataset(Dataset):
         image_filepath = self.image_paths[idx]
         image = cv2.imread(image_filepath)
         image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-        image= (image/255.0).astype(np.float32)
+        image= (image).astype(np.float32)
 
         label = image_filepath.split('/')[7]
         label= label[0]
@@ -89,9 +89,10 @@ class CNN(nn.Module):
         self.conv2 = nn.Conv2d(in_channels=32,out_channels= 64, kernel_size=3)
         self.dropout2 = nn.Dropout(0.5)
         self.conv3 = nn.Conv2d(in_channels=64,out_channels= 128, kernel_size=3)
-        self.fc1 = nn.Linear(14336, 128)
-        self.fc2 = nn.Linear(128, 11)
+        self.fc1 = nn.Linear(88064, 256)
+        self.fc2 = nn.Linear(256, 11)
     def forward(self, x):
+        x = x/255.0
         x = self.conv1(x)
         x = F.relu(x)
         x = self.conv2(x)
@@ -111,9 +112,9 @@ class CNN(nn.Module):
 def train(model, device, train_loader, optimizer, epoch,loss):
     model.train()
     for batch_idx, (data, target) in enumerate(train_loader):
-        if data.shape[0] < 128:
+        if data.shape[0] < 256:
             continue
-        target_ = np.zeros((128,11))
+        target_ = np.zeros((256,11))
 
         for batch_num, num in enumerate(target):
             num=int(num)
@@ -141,9 +142,9 @@ def test(model, device, test_loader,loss):
     with torch.no_grad():
         for data, target in test_loader:
 
-            if data.shape[0] < 128:
+            if data.shape[0] < 256:
                 continue
-            target_ = np.zeros((128,11))
+            target_ = np.zeros((256,11))
             for batch_num, num in enumerate(target):
                 num=int(num)
                 target_[batch_num,num]=1
@@ -186,12 +187,12 @@ test_dataset = DigitDataset(test_image_paths)
 
 
 train_loader = DataLoader(
-    train_dataset, batch_size=128, shuffle=True
+    train_dataset, batch_size=256, shuffle=True
 
 )
 
 test_loader = DataLoader(
-    test_dataset, batch_size=128, shuffle=False
+    test_dataset, batch_size=256, shuffle=False
 )
 
 
@@ -200,7 +201,7 @@ test_loader = DataLoader(
 # optimizer = optim.Adam(model.parameters(), lr = 0.01)   
 # loss = nn.CrossEntropyLoss()
 
-# for epoch in range(1, 101):
+# for epoch in range(1, 50):
 #     train(model, device, train_loader, optimizer, epoch,loss)
 #     # test(model, device, test_loader,loss)
 

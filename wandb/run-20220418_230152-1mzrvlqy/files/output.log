@@ -1,0 +1,392 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+104.16544087427665 -170.732424944612
+(25, 36)
+TEST1
+TEST2
+1
+0
+1
+1
+Score:  1011
+step time: 0.5237727769999765
+(25, 36)
+TEST1
+TEST2
+1
+0
+1
+1
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:183: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+Score:  1011
+step time: 0.5098537769990799
+(25, 36)
+TEST1
+TEST2
+1
+0
+1
+1
+Score:  1011
+step time: 0.508505943002092
+(25, 36)
+TEST1
+TEST2
+1
+2
+1
+1
+Score:  1211
+step time: 0.5058361669980513
+(25, 36)
+TEST1
+TEST2
+1
+2
+1
+1
+Score:  1211
+step time: 0.49494494299869984
+(25, 36)
+TEST1
+TEST2
+1
+2
+1
+1
+Score:  1211
+step time: 0.5301982519995363
+(25, 36)
+TEST1
+TEST2
+1
+3
+1
+1
+Score:  1311
+step time: 0.5224893750018964
+(25, 36)
+TEST1
+TEST2
+1
+3
+1
+1
+Score:  1311
+step time: 0.49064651299704565
+(25, 36)
+TEST1
+TEST2
+1
+3
+1
+1
+Score:  1311
+step time: 0.5281524569982139
+(25, 36)
+TEST1
+TEST2
+1
+3
+1
+1
+Score:  1311
+step time: 0.5219469330004358
+(25, 36)
+TEST1
+TEST2
+1
+3
+1
+1
+Score:  1311
+step time: 0.5057295370024804
+(25, 36)
+TEST1
+TEST2
+1
+5
+1
+1
+Score:  1511
+step time: 0.513961606000521
+(25, 36)
+TEST1
+TEST2
+1
+5
+1
+1
+Score:  1511
+step time: 0.5304057219982496
+(25, 36)
+TEST1
+TEST2
+1
+8
+1
+1
+Score:  1811
+step time: 0.500292194999929
+(25, 36)
+TEST1
+TEST2
+1
+8
+1
+1
+Score:  1811
+step time: 0.5152898890009965
+(25, 36)
+TEST1
+TEST2
+1
+8
+1
+1
+Score:  1811
+step time: 0.48094084200056386
+(25, 36)
+TEST1
+TEST2
+1
+8
+1
+1
+Score:  1811
+step time: 0.42151864799961913
+(25, 36)
+TEST1
+TEST2
+1
+9
+1
+1
+Score:  1911
+step time: 0.47155189999830327
+(25, 36)
+TEST1
+TEST2
+1
+9
+1
+1
+Score:  1911
+step time: 0.5056414270002278
+(25, 36)
+TEST1
+TEST2
+1
+9
+1
+1
+Score:  1911
+step time: 0.5125328130015987
+(25, 36)
+TEST1
+TEST2
+2
+0
+1
+1
+Score:  2011
+step time: 0.5309609840005578
+(25, 36)
+TEST1
+TEST2
+2
+1
+1
+1
+Score:  2111
+step time: 0.5007489370000258
+(25, 36)
+TEST1
+TEST2
+2
+2
+1
+1
+Score:  2211
+step time: 0.5132381139992503
+(25, 36)
+TEST1
+TEST2
+2
+2
+1
+1
+Score:  2211
+step time: 0.5731688390005729
+(25, 36)
+TEST1
+TEST2
+2
+2
+1
+1
+Score:  2211
+step time: 0.6429134960017109
+(25, 36)
+TEST1
+TEST2
+2
+3
+1
+1
+Score:  2311
+step time: 0.6616752779991657
+(25, 36)
+TEST1
+TEST2
+2
+4
+1
+1
+Score:  2411
+step time: 0.492165207000653
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.5735953410003276
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.3924136229979922
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.6607828769992921
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.41094069400060107
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.3949945890017261
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.43040933899828815
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.4786970969980757
+
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.41835572099807905
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.41278941899872734
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.3985990969995328
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.4234539829994901
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.41712345899941283
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.4126794779986085
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.40760725799918873
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.3976533050008584
+(25, 36)
+TEST1
+TEST2
+1
+1
+1

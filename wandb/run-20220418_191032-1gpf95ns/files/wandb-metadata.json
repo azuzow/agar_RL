@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.0-107-generic-x86_64-with-glibc2.31",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-04-19T00:10:33.155893",
+    "startedAt": "2022-04-19T00:10:32.389015",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1070 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py",
+    "codePath": "train_DQN.py",
+    "git": {
+        "remote": "https://github.com/azuzow/agar_RL.git",
+        "commit": "378cc2d2765825f008145517769b91a29b4b04b4"
+    },
+    "email": "azuzow@gmail.com",
+    "root": "/home/alexzuzow/Desktop/agar_multiagent",
+    "host": "alexzuzow-MS-7C02",
+    "username": "alexzuzow",
+    "executable": "/home/alexzuzow/anaconda3/envs/myenv/bin/python"
+}

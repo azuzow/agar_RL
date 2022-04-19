@@ -1,0 +1,383 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-133.50817530942956 -148.91463032740143
+2
+2
+1
+Score:  1011
+step time: 0.3124601370000164
+2
+2
+1
+Score:  1011
+step time: 0.3070070809999379
+2
+2
+1
+Score:  1011
+step time: 0.3164956599994184
+2
+2
+1
+Score:  1011
+step time: 0.3243699630002084
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:188: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+2
+3
+1
+Score:  1011
+step time: 0.30221520899976895
+2
+2
+1
+Score:  1011
+step time: 0.3187386059998971
+2
+2
+1
+Score:  1011
+step time: 0.3164134950002335
+2
+2
+1
+Score:  1011
+step time: 0.3105465960006768
+2
+1
+1
+Score:  1111
+step time: 0.30072200399990834
+2
+1
+1
+Score:  1111
+step time: 0.2946189009999216
+2
+1
+1
+Score:  1111
+step time: 0.3039689180004643
+2
+1
+1
+Score:  1111
+step time: 0.3210866010003883
+2
+2
+1
+Score:  1611
+step time: 0.3377918980004324
+2
+2
+1
+Score:  1611
+step time: 0.3143023009997705
+2
+2
+1
+Score:  1611
+step time: 0.32169431300008
+2
+2
+1
+Score:  1111
+step time: 0.3342902869999307
+2
+1
+1
+Score:  1111
+step time: 0.3731463280000753
+2
+1
+1
+1
+Score:  1111
+step time: 0.38788567000028706
+2
+1
+1
+Score:  1111
+step time: 0.39562451199981297
+2
+2
+1
+Score:  1111
+step time: 0.3831435980000606
+2
+1
+1
+Score:  1111
+step time: 0.35768748600003164
+1
+2
+1
+Score:  1011
+step time: 0.33735323600012634
+1
+1
+1
+Score:  1111
+step time: 0.3397448949999671
+3
+3
+1
+Score:  1111
+step time: 0.32249639200017555
+3
+2
+1
+1
+Score:  1111
+step time: 0.3596693580002466
+1
+1
+1
+Score:  1111
+step time: 0.28033930100082216
+1
+1
+1
+Score:  1111
+step time: 0.2608183080001254
+1
+1
+1
+Score:  1111
+step time: 0.2668520779998289
+1
+1
+1
+Score:  1111
+step time: 0.2622867599993697
+1
+2
+1
+Score:  1611
+step time: 0.26600916999996116
+1
+1
+1
+Score:  1111
+step time: 0.29502189999948314
+1
+2
+1
+Score:  1111
+step time: 0.31404751499940176
+1
+1
+1
+Score:  1111
+step time: 0.3180179370001497
+1
+1
+1
+Score:  1111
+step time: 0.2982536350000373
+1
+1
+1
+Score:  1111
+step time: 0.3122605280004791
+1
+1
+1
+Score:  1111
+step time: 0.3185958699996263
+1
+1
+1
+Score:  1111
+step time: 0.3162115899995115
+1
+2
+1
+Score:  1011
+step time: 0.32215602599990234
+1
+2
+1
+Score:  1011
+step time: 0.3398249219999343
+1
+2
+1
+Score:  1011
+step time: 0.3097052640005131
+1
+2
+1
+Score:  1011
+step time: 0.323877010000615
+1
+2
+1
+Score:  1011
+step time: 0.30587033000028896
+1
+1
+1
+Score:  1111
+step time: 0.31086365099963587
+1
+1
+1
+Score:  1111
+step time: 0.30774047399972915
+1
+1
+1
+Score:  1111
+step time: 0.3252980369998113
+1
+1
+1
+Score:  1111
+step time: 0.3268485700000383
+1
+1
+1
+Score:  1111
+step time: 0.3418966339995677
+1
+1
+1
+Score:  1111
+step time: 0.3281065179999132
+1
+1
+1
+Score:  1111
+step time: 0.36222113799976796
+1
+2
+1
+Score:  1111
+step time: 0.36160486199969455
+1
+1
+1
+Score:  1111
+step time: 0.3720886969995263
+1
+1
+1
+Score:  1111
+step time: 0.4156860149996646
+1
+1
+1
+Score:  1111
+step time: 0.3630331899994417
+1
+1
+1
+Score:  1111
+step time: 0.3819414149993463
+2
+3
+Score:  1111
+step time: 0.35397098500016
+2
+2
+Score:  1111
+step time: 0.358920742999544
+2
+3
+Score:  1111
+step time: 0.33189870200021687
+1
+1
+1
+Score:  1111
+step time: 0.32647175599959155
+1
+1
+1
+Score:  1111
+step time: 0.3139525329997923
+1
+1
+1
+Score:  1111
+step time: 0.32712204000017664
+1
+1
+1
+Score:  1111
+step time: 0.32067925700084743
+2
+1
+1
+Score:  1111
+step time: 0.3330155650000961
+1
+1
+1
+Score:  1111
+step time: 0.3298751900001662
+1
+1
+1
+Score:  1111
+step time: 0.4040487660004146
+loss: 0.574957013130188
+Score:  1111
+step time: 0.2598827550000351
+loss: 0.23490524291992188
+Score:  1111
+step time: 0.25858861400047317
+loss: 0.12804289162158966
+Score:  1111
+step time: 0.2535549429994717
+loss: 0.1704426407814026
+Score:  1111
+step time: 0.27001508600005764
+loss: 0.02168150246143341
+Score:  1111
+step time: 0.2618579589998262
+loss: 0.006920663174241781
+Score:  1111
+step time: 0.5138236769998912
+loss: 0.0020748372189700603
+Score:  1111
+step time: 0.2781096999997317
+loss: 0.001508563756942749
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 136, in <module>
+    next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 127, in step
+    self.action_selector.move_by_offset(x_offset,y_offset).perform()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/common/action_chains.py", line 75, in perform
+    self.w3c_actions.perform()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/common/actions/action_builder.py", line 77, in perform
+    self.driver.execute(Command.W3C_ACTIONS, enc)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=99.0.4844.74)
+Stacktrace:
+#0 0x55c6fa7967d3 <unknown>
+#1 0x55c6fa4f2688 <unknown>
+#2 0x55c6fa4e1cee <unknown>
+#3 0x55c6fa4e3132 <unknown>
+#4 0x55c6fa4db486 <unknown>
+#5 0x55c6fa4f3a82 <unknown>
+#6 0x55c6fa559118 <unknown>
+#7 0x55c6fa5465a3 <unknown>
+#8 0x55c6fa51bddc <unknown>
+#9 0x55c6fa51cde5 <unknown>
+#10 0x55c6fa7c749d <unknown>
+#11 0x55c6fa7e060c <unknown>
+#12 0x55c6fa7c9205 <unknown>
+#13 0x55c6fa7e0ee5 <unknown>
+#14 0x55c6fa7bd070 <unknown>
+#15 0x55c6fa7fc488 <unknown>
+#16 0x55c6fa7fc60c <unknown>
+#17 0x55c6fa815c6d <unknown>
+#18 0x7f30e7b59609 <unknown>

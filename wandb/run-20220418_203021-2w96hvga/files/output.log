@@ -1,0 +1,561 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-153.66582434662556 128.01099338678696
+(25, 36)
+Score:  0
+step time: 0.4997185790016374
+(25, 36)
+Score:  0
+step time: 0.5148541369999293
+(25, 36)
+Score:  0
+step time: 0.5410825060025672
+(25, 36)
+Score:  0
+step time: 0.5258257380010036
+(25, 36)
+Score:  0
+step time: 0.5234865689999424
+(25, 36)
+Score:  0
+step time: 0.5157339990000764
+(25, 36)
+Score:  0
+step time: 0.5215557720002835
+(25, 36)
+Score:  0
+step time: 0.5102055879979162
+(25, 36)
+Score:  0
+step time: 0.5048342580012104
+(25, 36)
+Score:  0
+step time: 0.4604143499964266
+(25, 36)
+Score:  0
+step time: 0.47344270900066476
+(25, 36)
+Score:  0
+step time: 0.4587061130005168
+(25, 36)
+Score:  0
+step time: 0.49922643700119806
+(25, 36)
+Score:  0
+step time: 0.47226970400151913
+(25, 36)
+Score:  0
+step time: 0.49906358599764644
+(25, 36)
+Score:  0
+step time: 0.48170395999841276
+(25, 36)
+Score:  0
+step time: 0.4348468319985841
+(25, 36)
+Score:  0
+step time: 0.47209723299965844
+(25, 36)
+Score:  0
+step time: 0.49017908300083946
+(25, 36)
+Score:  0
+step time: 0.438282765000622
+(25, 36)
+Score:  0
+step time: 0.41076558099666727
+(25, 36)
+Score:  0
+step time: 0.4110451109991118
+(25, 36)
+Score:  0
+step time: 0.4426609020010801
+(25, 36)
+Score:  0
+step time: 0.46527457699994557
+(25, 36)
+Score:  0
+step time: 0.4565353049983969
+(25, 36)
+Score:  0
+step time: 0.47454619299969636
+(25, 36)
+Score:  0
+step time: 0.5080927310009429
+(25, 36)
+Score:  0
+step time: 0.5318265409987362
+(25, 36)
+Score:  0
+step time: 0.5074893279997923
+(25, 36)
+Score:  0
+step time: 0.4957557439993252
+(25, 36)
+Score:  0
+step time: 0.4984347930003423
+(25, 36)
+Score:  0
+step time: 0.4764904510011547
+(25, 36)
+Score:  0
+step time: 0.49223996000000625
+(25, 36)
+Score:  0
+step time: 0.482020661002025
+(25, 36)
+Score:  0
+step time: 0.5209183389997634
+(25, 36)
+Score:  0
+step time: 0.5217421029992693
+(25, 36)
+Score:  0
+step time: 0.5564951540000038
+(25, 36)
+Score:  0
+step time: 0.5263827700000547
+(25, 36)
+Score:  0
+step time: 0.4953006819996517
+(25, 36)
+Score:  0
+step time: 0.5042313250014558
+(25, 36)
+Score:  0
+step time: 0.48882593699818244
+(25, 36)
+Score:  0
+step time: 0.4940277169989713
+(25, 36)
+Score:  0
+step time: 0.5770933619969583
+(25, 36)
+Score:  0
+step time: 0.5341279399981431
+(25, 36)
+Score:  0
+step time: 0.6249432740005432
+(25, 36)
+Score:  0
+step time: 0.5847402409999631
+(25, 36)
+Score:  0
+step time: 0.5642914740019478
+(25, 36)
+Score:  0
+step time: 0.551325464999536
+(25, 36)
+Score:  0
+step time: 0.5098562570019567
+(25, 36)
+Score:  0
+step time: 0.4975309910005308
+(25, 36)
+Score:  0
+step time: 0.4910118260013405
+(25, 36)
+Score:  0
+step time: 0.5396959809986583
+(25, 36)
+Score:  0
+step time: 0.5459604440002295
+(25, 36)
+Score:  0
+step time: 0.5841553489990474
+(25, 36)
+Score:  0
+step time: 0.589511099999072
+(25, 36)
+Score:  0
+step time: 0.6131642799991823
+(25, 36)
+Score:  0
+step time: 0.622646605999762
+(25, 36)
+Score:  0
+step time: 0.5958849029993871
+(25, 36)
+Score:  0
+step time: 0.5959079940002994
+(25, 36)
+Score:  0
+step time: 0.6029675699974177
+(25, 36)
+Score:  0
+step time: 0.5631740599965269
+(25, 36)
+Score:  0
+step time: 0.5766859710020071
+(25, 36)
+Score:  0
+step time: 0.5401427609976963
+(25, 36)
+Score:  0
+step time: 0.5820063610008219
+loss: 0.0037534015718847513
+(25, 36)
+Score:  0
+step time: 0.580746816998726
+loss: 0.019810620695352554
+(25, 36)
+Score:  0
+step time: 0.5862423580001632
+loss: 0.02029384672641754
+(25, 36)
+Score:  0
+step time: 0.5555583900022611
+loss: 0.005964429117739201
+(25, 36)
+Score:  0
+step time: 0.5522071580016927
+loss: 0.0009874601382762194
+(25, 36)
+Score:  0
+step time: 0.5456886540014239
+loss: 0.0003877377894241363
+(25, 36)
+Score:  0
+step time: 0.5481425219986704
+loss: 0.00023374414013233036
+(25, 36)
+Score:  0
+step time: 0.5546703760010132
+loss: 0.00010666037269402295
+(25, 36)
+Score:  0
+step time: 0.5423381000000518
+loss: 5.3638272220268846e-05
+(25, 36)
+Score:  0
+step time: 0.5815529790015717
+loss: 0.0002101515419781208
+(25, 36)
+Score:  0
+step time: 0.5362186470010784
+loss: 3.4536627936176956e-05
+(25, 36)
+Score:  0
+step time: 0.5490989069985517
+loss: 2.1251551515888423e-05
+(25, 36)
+Score:  0
+step time: 0.5742011809998075
+loss: 2.4998049411806278e-05
+(25, 36)
+Score:  0
+step time: 0.5405010130016308
+loss: 1.7284095520153642e-05
+(25, 36)
+Score:  0
+step time: 0.538229196001339
+loss: 2.203570693382062e-05
+(25, 36)
+Score:  0
+step time: 0.5163396409989218
+loss: 8.941173291532323e-05
+(25, 36)
+Score:  0
+step time: 0.4861964470001112
+loss: 6.0161346482345834e-05
+(25, 36)
+Score:  0
+step time: 0.4727195349987596
+loss: 1.8664199160411954e-05
+(25, 36)
+Score:  0
+step time: 0.4810974370011536
+loss: 1.5543664630968124e-05
+(25, 36)
+Score:  0
+step time: 0.5496602180028276
+loss: 1.0861013834073674e-05
+(25, 36)
+Score:  0
+step time: 0.5760120279992407
+loss: 1.9934788724640384e-05
+(25, 36)
+Score:  0
+step time: 0.5849378120001347
+loss: 3.545020445017144e-05
+(25, 36)
+Score:  0
+step time: 0.5860067159992468
+loss: 0.00010159134399145842
+(25, 36)
+Score:  0
+step time: 0.5949798500005272
+loss: 8.917077502701432e-05
+
+(25, 36)
+Score:  0
+step time: 0.6095488459977787
+loss: 0.00028983986703678966
+(25, 36)
+Score:  0
+step time: 0.563353969999298
+loss: 0.00011425607954151928
+(25, 36)
+Score:  0
+step time: 0.5771134930000699
+loss: 0.00010139653022633865
+
+(25, 36)
+Score:  0
+step time: 0.5945597589998215
+loss: 1.5063847058627289e-05
+(25, 36)
+Score:  0
+step time: 0.6356513459977577
+loss: 1.1270768482063431e-05
+(25, 36)
+Score:  0
+step time: 0.5744656630013196
+loss: 6.1244063545018435e-06
+
+(25, 36)
+Score:  0
+step time: 0.6099447870001313
+loss: 1.674653276495519e-06
+
+(25, 36)
+Score:  0
+step time: 0.5994427969999379
+loss: 1.0992519037245074e-06
+
+(25, 36)
+Score:  0
+step time: 0.6451644699991448
+loss: 3.586534944588493e-07
+
+(25, 36)
+Score:  0
+step time: 0.6739120389975142
+loss: 2.864486759790452e-06
+(25, 36)
+Score:  0
+step time: 0.6027303690025292
+loss: 2.5213186745531857e-05
+
+(25, 36)
+Score:  0
+step time: 0.594253857001604
+loss: 0.00018921250011771917
+(25, 36)
+Score:  0
+step time: 0.6292276300009689
+loss: 0.0002305525413248688
+
+(25, 36)
+Score:  0
+step time: 0.595427202002611
+loss: 2.717235474847257e-05
+(25, 36)
+Score:  0
+step time: 0.5376420719985617
+loss: 6.624593424930936e-06
+(25, 36)
+Score:  0
+step time: 0.5408163249994686
+loss: 8.713081479072571e-05
+(25, 36)
+Score:  0
+step time: 0.5313505689991871
+loss: 0.0001507781707914546
+(25, 36)
+Score:  0
+step time: 0.5279153250012314
+loss: 6.307478201961203e-07
+(25, 36)
+Score:  0
+step time: 0.5136005809981725
+loss: 4.790131242771167e-07
+(25, 36)
+Score:  0
+step time: 0.5097827460012923
+loss: 9.177787774206081e-08
+(25, 36)
+Score:  0
+step time: 0.5129306989983888
+loss: 2.62093653446982e-08
+(25, 36)
+Score:  0
+step time: 0.5171947449998697
+loss: 5.323752461094955e-08
+(25, 36)
+Score:  0
+step time: 0.5430108420005126
+loss: 8.073845592093676e-09
+(25, 36)
+Score:  0
+step time: 0.5525831089980784
+loss: 2.4875832949078358e-08
+(25, 36)
+Score:  0
+step time: 0.5511696639987349
+loss: 9.198074258165434e-05
+(25, 36)
+Score:  0
+step time: 0.5433190740004648
+loss: 5.045328776986935e-08
+(25, 36)
+Score:  0
+step time: 0.5204779970008531
+loss: 1.544873384773382e-08
+(25, 36)
+Score:  0
+step time: 0.530932006000512
+loss: 9.29369343793951e-06
+(25, 36)
+Score:  0
+step time: 0.5446592690022953
+loss: 1.708934860289446e-07
+(25, 36)
+Score:  0
+step time: 0.5305948649984202
+loss: 7.985501042639953e-07
+(25, 36)
+Score:  0
+step time: 0.5335097559982387
+loss: 1.646617953099394e-08
+(25, 36)
+Score:  0
+step time: 0.5361222560022725
+loss: 4.867986717727035e-06
+(25, 36)
+Score:  0
+step time: 0.5309559369998169
+loss: 0.0001053816667990759
+(25, 36)
+Score:  0
+step time: 0.5450485709989152
+loss: 1.952995944520808e-06
+(25, 36)
+Score:  0
+step time: 0.5295474019985704
+loss: 9.253462280867097e-07
+(25, 36)
+Score:  0
+step time: 0.5137327709999226
+loss: 2.495928015378013e-07
+(25, 36)
+Score:  0
+step time: 0.5019477259993437
+loss: 4.013984835182782e-06
+(25, 36)
+Score:  0
+step time: 0.5449234700026864
+loss: 1.1643454911336448e-07
+(25, 36)
+Score:  0
+step time: 0.5567627749987878
+loss: 4.384325080764029e-08
+(25, 36)
+Score:  0
+step time: 0.5345108900000923
+loss: 2.859167835822518e-08
+(25, 36)
+Score:  0
+step time: 0.5114959830025327
+loss: 9.74469038794723e-09
+(25, 36)
+Score:  0
+step time: 0.511080401000072
+loss: 2.618634376005957e-08
+(25, 36)
+Score:  0
+step time: 0.5139600219990825
+loss: 2.3558044404126122e-08
+(25, 36)
+Score:  0
+step time: 0.5401648320003005
+loss: 1.1493908047555124e-08
+(25, 36)
+Score:  0
+step time: 0.5061583829992742
+loss: 2.749503025256672e-08
+(25, 36)
+Score:  0
+step time: 0.47858824799914146
+loss: 1.5966467259431738e-08
+(25, 36)
+Score:  0
+step time: 0.4929325820012309
+loss: 8.35505975516071e-09
+(25, 36)
+Score:  0
+step time: 0.5351751130001503
+loss: 6.829085741344443e-09
+(25, 36)
+Score:  0
+step time: 0.563850171998638
+loss: 4.950007514992194e-09
+(25, 36)
+Score:  0
+step time: 0.5556463809989509
+loss: 2.780454444462066e-08
+(25, 36)
+Score:  0
+step time: 0.5819860899973719
+loss: 3.4912925883645585e-08
+(25, 36)
+Score:  0
+step time: 0.5439633759997378
+loss: 1.7713727373802612e-08
+(25, 36)
+Score:  0
+step time: 0.7104935280003701
+loss: 4.3828567442005806e-08
+(25, 36)
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 136, in <module>
+    next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 127, in step
+    self.action_selector.move_by_offset(x_offset,y_offset).perform()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/common/action_chains.py", line 75, in perform
+    self.w3c_actions.perform()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/common/actions/action_builder.py", line 77, in perform
+    self.driver.execute(Command.W3C_ACTIONS, enc)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Stacktrace:
+#0 0x557b540897d3 <unknown>
+#1 0x557b53de551f <unknown>
+#2 0x557b53dd3954 <unknown>
+#3 0x557b53dd4369 <unknown>
+#4 0x557b53dd6132 <unknown>
+#5 0x557b53dce486 <unknown>
+#6 0x557b53de6a82 <unknown>
+#7 0x557b53e4c118 <unknown>
+#8 0x557b53e395a3 <unknown>
+#9 0x557b53e0eddc <unknown>
+#10 0x557b53e0fde5 <unknown>
+#11 0x557b540ba49d <unknown>
+#12 0x557b540d360c <unknown>
+#13 0x557b540bc205 <unknown>
+#14 0x557b540d3ee5 <unknown>
+#15 0x557b540b0070 <unknown>
+#16 0x557b540ef488 <unknown>
+#17 0x557b540ef60c <unknown>
+#18 0x557b54108c6d <unknown>
+#19 0x7f4147187609 <unknown>
+Score:  0
+step time: 0.421456781001325
+loss: 2.7872156138641913e-08
+(25, 36)
+Score:  0
+step time: 0.40737046799767995
+loss: 2.0309769865889393e-08
+(25, 36)
+Score:  0
+step time: 0.6523882380024588
+loss: 8.741807278056513e-09
+(25, 36)
+Score:  0
+step time: 0.40069987199967727

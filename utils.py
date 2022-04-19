@@ -112,8 +112,8 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
         score_y1 = 1231
         score_y2 = 1265
     elif username == "alex":
-        game_height = 629
-        game_width = 756
+        game_height = 1029
+        game_width = 1156
 
 
         lb_x1 = 633
@@ -121,10 +121,10 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
         lb_y1 = 4
         lb_y2 = 257
 
-        score_x1 = 46
-        score_x2 = 70
-        score_y1 = 604
-        score_y2 = 612
+        score_x1 = 13
+        score_x2 = 100
+        score_y1 = 990
+        score_y2 = 1015
     else:
         assert False
 
@@ -133,56 +133,63 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
         return None, None, True
 
     #mask out leader boards
+
     cv2.rectangle(img,(lb_x1,lb_y1),(lb_x2,lb_y2),(255,255,255),-1)
 
     if get_score:
 
         score = img[score_y1:score_y2, score_x1:score_x2]
 
-
-        score_=cv2.cvtColor(score, cv2.COLOR_BGR2GRAY)
-
-        score_ = cv2.resize(score_,(100,40),interpolation=cv2.INTER_CUBIC)
-
-        score_ = np.where(score_>=210,255,0).astype(np.uint8)
-        score =  cv2.bitwise_not(score_)
         
-        digit_0_ = score[:, 0:22]
-        digit_1_ = score[:, 22:44]
-        digit_2_ = score[:, 44:66]
-        digit_3_ = score[:, 66:88]
+        score_=cv2.cvtColor(score, cv2.COLOR_BGR2GRAY)
+        score_ = score_[:,51:]
+        
+        print(score_.shape)
+        score_ = cv2.resize(score_,(180,125),interpolation=cv2.INTER_CUBIC)
+
+        score_ = np.where(score_>=210,0,255).astype(np.uint8)
+        cv2.imwrite('5.png',score_)        
+  
+        
+        digit_0_ = score_[20:-10, 0:40]
+        digit_1_ = score_[20:-10, 40:80]
+        digit_2_ = score_[20:-10, 80:120]
+        digit_3_ = score_[20:-10, 120:160]
+
+        # cv2.imwrite('1.png',digit_0_)
+        # cv2.imwrite('2.png',digit_1_)
+        # cv2.imwrite('3.png',digit_2_)
+        # cv2.imwrite('4.png',digit_3_)
         img_0 = "digit_0_{}.png".format(time.time())
         img_1 = "digit_1_{}.png".format(time.time())
         img_2 = "digit_2_{}.png".format(time.time())
         img_3 = "digit_3_{}.png".format(time.time())
         cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/0/'+img_0,digit_0_)
         cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/1/'+img_1,digit_1_)
-
-
-        digit_0 = torch.tensor(digit_0_.astype(np.float32)/255.0).unsqueeze(0).unsqueeze(0)
-        digit_1 = torch.tensor(digit_1_.astype(np.float32)/255.0).unsqueeze(0).unsqueeze(0)
-        digit_2 = torch.tensor(digit_2_.astype(np.float32)/255.0).unsqueeze(0).unsqueeze(0)
-        digit_3 = torch.tensor(digit_3_.astype(np.float32)/255.0).unsqueeze(0).unsqueeze(0)
-
+        cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/2/'+img_2,digit_2_)
+        cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/3/'+img_3,digit_3_)
+        print('TEST1')
+        digit_0 = torch.tensor(digit_0_.astype(np.float32)).unsqueeze(0).unsqueeze(0)
+        digit_1 = torch.tensor(digit_1_.astype(np.float32)).unsqueeze(0).unsqueeze(0)
+        digit_2 = torch.tensor(digit_2_.astype(np.float32)).unsqueeze(0).unsqueeze(0)
+        digit_3 = torch.tensor(digit_3_.astype(np.float32)).unsqueeze(0).unsqueeze(0)
+        print('TEST2')
         digits_=[digit_0_,digit_1_,digit_2_,digit_3_]
         digits=[digit_0,digit_1,digit_2,digit_3]
         outputs=[]
         
         for i in range(len(digits)):
-   
-            if is_noise(digits_[i]):
-                outputs.append(None)
-            else:
-                outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
-        
+
+            outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+            # print(outputs[i])
         for i in range(len(outputs)):
 
-            if outputs[i]==None or outputs[i].max()<.99 or outputs[i].argmax().item()==10  :
+            # print(outputs[i].argmax().item())
+            if outputs[i]==None or outputs[i].max()<.99 or outputs[i].argmax().item()==10 or outputs[i].max()==1 :
                 outputs[i]=''
             else:
                 if i >1:
-                    cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/2/'+img_2,digit_2_)
-                    cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/3/'+img_3,digit_3_)
+                    pass
                 outputs[i]=str(outputs[i].argmax().item())
 
         score = "".join(outputs)
@@ -198,6 +205,7 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
             #TODO: could trigger early if blob is in score label region
             failed=True
     #mask out score
+
     cv2.rectangle(img,(score_x1,score_y1),(score_x2,score_y2),(255,255,255),-1)
 
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

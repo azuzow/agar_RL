@@ -1,0 +1,221 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-168.73567925115017 107.36978414643932
+(25, 36)
+Score:  0
+step time: 0.6099921259992698
+(25, 36)
+Score:  0
+step time: 0.5652722869999707
+(25, 36)
+Score:  0
+step time: 0.576768783001171
+(25, 36)
+Score:  0
+step time: 0.581018236996897
+(25, 36)
+Score:  0
+step time: 0.5766462829997181
+(25, 36)
+Score:  0
+step time: 0.5467000299977371
+(25, 36)
+Score:  0
+step time: 0.5563475000017206
+(25, 36)
+Score:  0
+step time: 0.5606800640016445
+(25, 36)
+Score:  0
+step time: 0.5197330969967879
+(25, 36)
+Score:  0
+step time: 0.5196705060006934
+(25, 36)
+Score:  0
+step time: 0.5040232080027636
+(25, 36)
+Score:  0
+step time: 0.5083859410005971
+(25, 36)
+Score:  0
+step time: 0.5801951050016214
+(25, 36)
+Score:  0
+step time: 0.519152775999828
+(25, 36)
+Score:  0
+step time: 0.49975867600005586
+(25, 36)
+Score:  0
+step time: 0.44121938299940666
+(25, 36)
+Score:  0
+step time: 0.49324307500137365
+(25, 36)
+Score:  0
+step time: 0.56668245399851
+(25, 36)
+Score:  0
+step time: 0.5469507130001148
+(25, 36)
+Score:  0
+step time: 0.5359424089983804
+(25, 36)
+Score:  0
+step time: 0.499683776000893
+(25, 36)
+Score:  0
+step time: 0.49728932899961364
+(25, 36)
+Score:  0
+step time: 0.48845667100249557
+(25, 36)
+Score:  0
+step time: 0.49312319599994225
+(25, 36)
+Score:  0
+step time: 0.5005479889987328
+(25, 36)
+Score:  0
+step time: 0.5205264720025298
+(25, 36)
+Score:  0
+step time: 0.5103913899984036
+
+(25, 36)
+Score:  0
+step time: 0.5430694419992506
+(25, 36)
+Score:  0
+step time: 0.4993719960002636
+(25, 36)
+Score:  0
+step time: 0.5042012220001197
+(25, 36)
+Score:  0
+step time: 0.47906237300048815
+(25, 36)
+Score:  0
+step time: 0.513586031000159
+(25, 36)
+Score:  0
+step time: 0.5142223219991138
+(25, 36)
+Score:  0
+step time: 0.513789602999168
+(25, 36)
+Score:  0
+step time: 0.4540758459988865
+(25, 36)
+Score:  0
+step time: 0.515775247997226
+(25, 36)
+Score:  0
+step time: 0.4704070359985053
+(25, 36)
+Score:  0
+step time: 0.541391779002879
+(25, 36)
+Score:  0
+step time: 0.5347505880017707
+(25, 36)
+Score:  0
+step time: 0.5355757610013825
+(25, 36)
+Score:  0
+step time: 0.5538242170005105
+(25, 36)
+Score:  0
+step time: 0.5850225760004832
+(25, 36)
+Score:  0
+step time: 0.559541584996623
+(25, 36)
+Score:  0
+step time: 0.5688688249974803
+(25, 36)
+Score:  0
+step time: 0.5818290050010546
+(25, 36)
+Score:  0
+step time: 0.5762655780017667
+(25, 36)
+Score:  0
+step time: 0.5168361440009903
+(25, 36)
+Score:  0
+step time: 0.5416903810000804
+(25, 36)
+Score:  0
+step time: 0.5061024700007692
+(25, 36)
+Score:  0
+step time: 0.5198636929999338
+(25, 36)
+Score:  0
+step time: 0.5228260420008155
+(25, 36)
+Score:  0
+step time: 0.5254934810000123
+(25, 36)
+Score:  0
+step time: 0.5356916720011213
+(25, 36)
+Score:  0
+step time: 0.515280599000107
+(25, 36)
+Score:  0
+step time: 0.5751309959996433
+(25, 36)
+Score:  0
+step time: 0.5515694829991844
+(25, 36)
+Score:  0
+step time: 0.520504494998022
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 136, in <module>
+    next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 151, in step
+    obs_2 = self.get_screenshot("f2.png")
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 105, in get_screenshot
+    img = self.driver.get_screenshot_as_png()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 1353, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 1365, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Stacktrace:
+#0 0x5641e0aaa7d3 <unknown>
+#1 0x5641e080651f <unknown>
+#2 0x5641e07f4954 <unknown>
+#3 0x5641e07f5369 <unknown>
+#4 0x5641e07f7132 <unknown>
+#5 0x5641e07ef486 <unknown>
+#6 0x5641e0807a82 <unknown>
+#7 0x5641e086d118 <unknown>
+#8 0x5641e085a5a3 <unknown>
+#9 0x5641e082fddc <unknown>
+#10 0x5641e0830de5 <unknown>
+#11 0x5641e0adb49d <unknown>
+#12 0x5641e0af460c <unknown>
+#13 0x5641e0add205 <unknown>
+#14 0x5641e0af4ee5 <unknown>
+#15 0x5641e0ad1070 <unknown>
+#16 0x5641e0b10488 <unknown>
+#17 0x5641e0b1060c <unknown>
+#18 0x5641e0b29c6d <unknown>
+#19 0x7f9a4e7e5609 <unknown>
+(25, 36)
+Score:  0
+step time: 0.5460247360024368
+(25, 36)
+Score:  0
+step time: 0.42434681600207114

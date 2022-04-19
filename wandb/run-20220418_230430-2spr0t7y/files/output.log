@@ -1,0 +1,659 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-189.31147830435117 -64.50708629461707
+(25, 36)
+TEST1
+TEST2
+1
+3
+1
+1
+Score:  1311
+step time: 0.4985370110007352
+(25, 36)
+TEST1
+TEST2
+1
+3
+1
+1
+Score:  1311
+step time: 0.4799834600016766
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:183: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+(25, 36)
+TEST1
+TEST2
+1
+3
+1
+1
+Score:  1311
+step time: 0.46356448200094746
+(25, 36)
+TEST1
+TEST2
+1
+4
+1
+1
+Score:  1411
+step time: 0.45346635900205
+(25, 36)
+TEST1
+TEST2
+1
+4
+1
+1
+Score:  1411
+step time: 0.5000235640000028
+(25, 36)
+TEST1
+TEST2
+1
+6
+1
+1
+Score:  1611
+step time: 0.5237203679971572
+(25, 36)
+TEST1
+TEST2
+1
+6
+1
+1
+Score:  1611
+step time: 0.5156159600010142
+(25, 36)
+TEST1
+TEST2
+1
+6
+1
+1
+Score:  1611
+step time: 0.5282129989973328
+(25, 36)
+TEST1
+TEST2
+1
+6
+1
+1
+Score:  1611
+step time: 0.49647298700074316
+(25, 36)
+TEST1
+TEST2
+1
+7
+1
+1
+Score:  1711
+step time: 0.49928044399712235
+(25, 36)
+TEST1
+TEST2
+2
+2
+1
+1
+Score:  2211
+step time: 0.5187774170008197
+(25, 36)
+TEST1
+TEST2
+2
+3
+1
+1
+Score:  2311
+step time: 0.5311751349981932
+(25, 36)
+TEST1
+TEST2
+2
+8
+1
+1
+Score:  2811
+step time: 0.5210669920015789
+(25, 36)
+TEST1
+TEST2
+2
+9
+1
+1
+Score:  2911
+step time: 0.5269994760019472
+(25, 36)
+TEST1
+TEST2
+3
+2
+1
+1
+Score:  3211
+step time: 0.5267031559997122
+(25, 36)
+TEST1
+TEST2
+3
+6
+1
+1
+Score:  3611
+step time: 0.555115899998782
+(25, 36)
+TEST1
+TEST2
+3
+9
+1
+1
+Score:  3911
+step time: 0.5034548020012153
+(25, 36)
+TEST1
+TEST2
+4
+3
+1
+1
+Score:  4311
+step time: 0.5210719630013045
+(25, 36)
+TEST1
+TEST2
+4
+4
+1
+1
+Score:  4411
+step time: 0.47876698700201814
+(25, 36)
+TEST1
+TEST2
+4
+4
+1
+1
+Score:  4411
+step time: 0.49588699500236544
+(25, 36)
+TEST1
+TEST2
+4
+6
+1
+1
+Score:  4611
+step time: 0.48322948699933477
+(25, 36)
+TEST1
+TEST2
+4
+6
+1
+1
+Score:  4611
+step time: 0.49485656400065636
+(25, 36)
+TEST1
+TEST2
+4
+6
+1
+1
+Score:  4611
+step time: 0.5014261579999584
+(25, 36)
+TEST1
+TEST2
+4
+7
+1
+1
+Score:  4711
+step time: 0.5081055330010713
+(25, 36)
+TEST1
+TEST2
+4
+7
+1
+1
+Score:  4711
+step time: 0.5041059750001295
+(25, 36)
+TEST1
+TEST2
+4
+9
+1
+1
+Score:  4911
+step time: 0.48913353999887477
+(25, 36)
+TEST1
+TEST2
+4
+9
+1
+1
+Score:  4911
+step time: 0.492842069001199
+(25, 36)
+TEST1
+TEST2
+5
+0
+1
+1
+Score:  5011
+step time: 0.46686482000222895
+(25, 36)
+TEST1
+TEST2
+5
+1
+1
+1
+Score:  5111
+step time: 0.49243741700047394
+(25, 36)
+TEST1
+TEST2
+5
+1
+1
+1
+Score:  5111
+step time: 0.46685255900229095
+(25, 36)
+TEST1
+TEST2
+5
+3
+1
+1
+Score:  5311
+step time: 0.47812355600035517
+(25, 36)
+TEST1
+TEST2
+5
+7
+1
+1
+Score:  5711
+step time: 0.48251378500208375
+(25, 36)
+TEST1
+TEST2
+5
+7
+1
+1
+Score:  5711
+step time: 0.4596968139994715
+(25, 36)
+TEST1
+TEST2
+6
+0
+1
+1
+Score:  6011
+step time: 0.484979430999374
+(25, 36)
+TEST1
+TEST2
+6
+4
+1
+1
+Score:  6411
+step time: 0.496995978999621
+(25, 36)
+TEST1
+TEST2
+6
+7
+1
+1
+Score:  6711
+step time: 0.5199365410007886
+(25, 36)
+TEST1
+TEST2
+6
+8
+1
+1
+Score:  6811
+step time: 0.49578748600106337
+(25, 36)
+TEST1
+TEST2
+6
+8
+1
+1
+Score:  6811
+step time: 0.5208306730019103
+(25, 36)
+TEST1
+TEST2
+6
+8
+1
+1
+Score:  6811
+step time: 0.5263131659994542
+(25, 36)
+TEST1
+TEST2
+6
+8
+1
+1
+Score:  6811
+step time: 0.48430510999969556
+(25, 36)
+TEST1
+TEST2
+7
+0
+1
+1
+Score:  7011
+step time: 0.5095803570002317
+(25, 36)
+TEST1
+TEST2
+7
+0
+1
+1
+Score:  7011
+step time: 0.5070424810000986
+(25, 36)
+TEST1
+TEST2
+7
+0
+1
+1
+Score:  7011
+step time: 0.5066445310003473
+(25, 36)
+TEST1
+TEST2
+7
+3
+1
+1
+Score:  7311
+step time: 0.5043011450034101
+(25, 36)
+TEST1
+TEST2
+7
+3
+1
+1
+Score:  7311
+step time: 0.5090433069999563
+(25, 36)
+TEST1
+TEST2
+7
+5
+1
+1
+Score:  7511
+step time: 0.5118963120003173
+(25, 36)
+TEST1
+TEST2
+7
+7
+1
+1
+Score:  7711
+step time: 0.5080944549990818
+(25, 36)
+TEST1
+TEST2
+7
+7
+1
+1
+Score:  7711
+step time: 0.5195501589987543
+(25, 36)
+TEST1
+TEST2
+7
+7
+1
+1
+Score:  7711
+step time: 0.5066207410018251
+(25, 36)
+TEST1
+TEST2
+7
+7
+1
+1
+Score:  7711
+step time: 0.5345200739975553
+(25, 36)
+TEST1
+TEST2
+7
+7
+1
+1
+Score:  7711
+step time: 0.5104455789987696
+(25, 36)
+TEST1
+TEST2
+7
+7
+1
+1
+Score:  7711
+step time: 0.49844335300076636
+(25, 36)
+TEST1
+TEST2
+7
+7
+1
+1
+Score:  7711
+step time: 0.47980784100218443
+(25, 36)
+TEST1
+TEST2
+7
+7
+1
+1
+Score:  7711
+step time: 0.5438827459984168
+(25, 36)
+TEST1
+TEST2
+7
+9
+1
+1
+Score:  7911
+step time: 0.5185824990003312
+(25, 36)
+TEST1
+TEST2
+7
+9
+1
+1
+Score:  7911
+step time: 0.5088398260013491
+(25, 36)
+TEST1
+TEST2
+7
+9
+1
+1
+Score:  7911
+step time: 0.4674821520020487
+(25, 36)
+TEST1
+TEST2
+7
+9
+1
+1
+Score:  7911
+step time: 0.5187159490014892
+(25, 36)
+TEST1
+TEST2
+7
+9
+1
+1
+Score:  7911
+step time: 0.5236871599990991
+(25, 36)
+TEST1
+TEST2
+7
+9
+1
+1
+Score:  7911
+step time: 0.5452266089996556
+(25, 36)
+TEST1
+TEST2
+7
+9
+1
+1
+Score:  7911
+step time: 0.5393516049989557
+(25, 36)
+TEST1
+TEST2
+8
+1
+1
+1
+Score:  8111
+step time: 0.5561997639997571
+(25, 36)
+TEST1
+TEST2
+8
+2
+1
+1
+Score:  8211
+step time: 0.5684337810016586
+(25, 36)
+TEST1
+TEST2
+8
+2
+1
+1
+Score:  8211
+step time: 0.5819548530016618
+loss: 0.004285265691578388
+(25, 36)
+TEST1
+TEST2
+8
+4
+1
+1
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 136, in <module>
+    next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 127, in step
+    self.action_selector.move_by_offset(x_offset,y_offset).perform()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/common/action_chains.py", line 75, in perform
+    self.w3c_actions.perform()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/common/actions/action_builder.py", line 77, in perform
+    self.driver.execute(Command.W3C_ACTIONS, enc)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Stacktrace:
+#0 0x56432f1227d3 <unknown>
+#1 0x56432ee7e51f <unknown>
+#2 0x56432ee6c954 <unknown>
+#3 0x56432ee6d369 <unknown>
+#4 0x56432ee6f132 <unknown>
+#5 0x56432ee67486 <unknown>
+#6 0x56432ee7fa82 <unknown>
+#7 0x56432eee5118 <unknown>
+#8 0x56432eed25a3 <unknown>
+#9 0x56432eea7ddc <unknown>
+#10 0x56432eea8de5 <unknown>
+#11 0x56432f15349d <unknown>
+#12 0x56432f16c60c <unknown>
+#13 0x56432f155205 <unknown>
+#14 0x56432f16cee5 <unknown>
+#15 0x56432f149070 <unknown>
+#16 0x56432f188488 <unknown>
+#17 0x56432f18860c <unknown>
+#18 0x56432f1a1c6d <unknown>
+#19 0x7f69f4848609 <unknown>
+Score:  8411
+step time: 0.6273035449994495
+loss: 0.008303951472043991
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.47251110399884055
+loss: 0.021781327202916145
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.517487725999672
+loss: 0.007442319765686989
+(25, 36)
+TEST1
+TEST2
+1
+1
+1
+1
+Score:  1111
+step time: 0.4534921110025607

@@ -1,0 +1,353 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-168.73567925115017 107.36978414643932
+1
+2
+1
+Score:  9099
+step time: 0.3109843780002848
+2
+2
+1
+Score:  1099
+step time: 0.3272155140002724
+2
+2
+1
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:188: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+Score:  1099
+step time: 0.33539467100035836
+2
+2
+1
+Score:  1099
+step time: 0.33824189999995724
+2
+3
+1
+Score:  1099
+step time: 0.3071173390007971
+
+2
+2
+1
+Score:  1099
+step time: 0.346918629999891
+2
+2
+1
+Score:  1799
+step time: 0.33313731199996255
+2
+1
+1
+Score:  1999
+step time: 0.311399297999742
+2
+1
+1
+Score:  1999
+step time: 0.32561137700031395
+2
+1
+1
+Score:  1999
+step time: 0.31131281499983743
+2
+1
+1
+Score:  1999
+step time: 0.3189014290001069
+2
+1
+1
+Score:  1999
+step time: 0.33910809099961625
+2
+1
+1
+Score:  1999
+step time: 0.31477038799948787
+2
+1
+1
+Score:  1999
+step time: 0.3315867170003912
+2
+1
+1
+Score:  1999
+step time: 0.31577918399943883
+2
+1
+1
+Score:  1999
+step time: 0.30664729899945087
+2
+2
+1
+Score:  1699
+step time: 0.309704000000238
+2
+3
+Score:  1699
+step time: 0.34284559400020953
+1
+2
+1
+Score:  9099
+step time: 0.2767103549995227
+1
+2
+1
+Score:  9099
+step time: 0.30355749499995
+1
+2
+1
+Score:  9099
+step time: 0.31751058300051227
+3
+2
+1
+Score:  9199
+step time: 0.34726652300014393
+2
+3
+Score:  7299
+step time: 0.25114325100003043
+2
+3
+Score:  7199
+step time: 0.25311414600037097
+1
+2
+1
+Score:  9499
+step time: 0.26465694599937706
+2
+1
+1
+Score:  7999
+step time: 0.3105506810006773
+3
+3
+Score:  9999
+step time: 0.3192169419999118
+1
+1
+1
+Score:  9999
+step time: 0.3009635520002121
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+29.244794900597103 197.85030192350482
+2
+3
+1
+Score:  1099
+step time: 0.27531570799965266
+2
+2
+1
+Score:  1099
+step time: 0.25296476000039547
+2
+2
+1
+Score:  1099
+step time: 0.256663584999842
+2
+2
+1
+Score:  1099
+step time: 0.2610093350003808
+2
+2
+1
+Score:  1099
+step time: 0.24793294299979607
+2
+2
+1
+Score:  1099
+step time: 0.26224097500016796
+2
+2
+1
+Score:  1099
+step time: 0.2673525200007134
+2
+2
+1
+Score:  1099
+step time: 0.2752048239999567
+2
+2
+1
+Score:  1099
+step time: 0.3007756739998513
+2
+2
+1
+Score:  1099
+step time: 0.3204572320000807
+2
+2
+1
+Score:  1099
+step time: 0.32428679700024077
+2
+2
+1
+Score:  1099
+step time: 0.3402561689999857
+2
+2
+1
+Score:  1099
+step time: 0.34525451399986196
+2
+2
+1
+Score:  1099
+step time: 0.334276286000204
+2
+2
+1
+Score:  1099
+step time: 0.34930165100013255
+2
+2
+1
+Score:  1099
+step time: 0.33601956799975596
+2
+1
+1
+Score:  1999
+step time: 0.36517717000060657
+2
+1
+1
+Score:  1999
+step time: 0.372268221000013
+2
+1
+1
+Score:  1999
+step time: 0.38765094700011105
+2
+2
+1
+Score:  1799
+step time: 0.3867631499997515
+2
+1
+1
+Score:  1999
+step time: 0.39368972800002666
+2
+1
+1
+Score:  1999
+step time: 0.34898908300056064
+2
+1
+1
+Score:  1999
+step time: 0.3419269650003116
+2
+1
+1
+Score:  1999
+step time: 0.33928058499986946
+2
+1
+1
+Score:  1999
+step time: 0.32012332899921603
+2
+1
+1
+Score:  1999
+step time: 0.32154677899961825
+2
+2
+1
+Score:  1999
+step time: 0.34105956599978526
+1
+2
+1
+Score:  9099
+step time: 0.3374907389998043
+2
+2
+1
+Score:  7099
+step time: 0.3626603749999049
+1
+3
+1
+Score:  9099
+step time: 0.33005879699976504
+1
+2
+1
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Score:  9099
+step time: 0.3145546280002236
+1
+1
+1
+Score:  9999
+step time: 0.3201510959997904
+1
+1
+1
+Score:  9999
+step time: 0.331308053999237
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 126, in <module>
+    state = agar1.reset()
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 61, in reset
+    self.driver.get("https://agar.io/#ffa")
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 436, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/remote_connection.py", line 421, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/remote_connection.py", line 443, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/http/client.py", line 1371, in getresponse
+    response.begin()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/http/client.py", line 319, in begin
+    version, status, reason = self._read_status()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/http/client.py", line 280, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
