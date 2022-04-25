@@ -3,3 +3,6 @@ models/
 scores/
 agent_observations/
 DATA/
+digits/
+wandb/
+
