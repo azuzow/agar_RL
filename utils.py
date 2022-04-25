@@ -105,7 +105,7 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
         lb_x1 = 2025
         lb_x2 = 2500
         lb_y1 = 15
-        lb_y2 = 460
+        lb_y2 = 470
 
         score_x1 = 18
         score_x2 = 153
@@ -116,10 +116,10 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
         game_width = 1156
 
 
-        lb_x1 = 633
-        lb_x2 = 754
+        lb_x1 = 965
+        lb_x2 = 1150
         lb_y1 = 4
-        lb_y2 = 257
+        lb_y2 = 230
 
         score_x1 = 13
         score_x2 = 100
@@ -148,7 +148,7 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
         score_ = cv2.resize(score_,(180,125),interpolation=cv2.INTER_CUBIC)
 
         score_ = np.where(score_>=210,0,255).astype(np.uint8)
-        cv2.imwrite('5.png',score_)        
+        # cv2.imwrite('5.png',score_)        
   
         
         digit_0_ = score_[20:-10, 0:40]
@@ -164,28 +164,28 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
         img_1 = "digit_1_{}.png".format(time.time())
         img_2 = "digit_2_{}.png".format(time.time())
         img_3 = "digit_3_{}.png".format(time.time())
-        cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/0/'+img_0,digit_0_)
-        cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/1/'+img_1,digit_1_)
-        cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/2/'+img_2,digit_2_)
-        cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/3/'+img_3,digit_3_)
-        print('TEST1')
+        # cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/0/'+img_0,digit_0_)
+        # cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/1/'+img_1,digit_1_)
+        # cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/2/'+img_2,digit_2_)
+        # cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/3/'+img_3,digit_3_)
+        # # print('TEST1')
         digit_0 = torch.tensor(digit_0_.astype(np.float32)).unsqueeze(0).unsqueeze(0)
         digit_1 = torch.tensor(digit_1_.astype(np.float32)).unsqueeze(0).unsqueeze(0)
         digit_2 = torch.tensor(digit_2_.astype(np.float32)).unsqueeze(0).unsqueeze(0)
         digit_3 = torch.tensor(digit_3_.astype(np.float32)).unsqueeze(0).unsqueeze(0)
-        print('TEST2')
+        # print('TEST2')
         digits_=[digit_0_,digit_1_,digit_2_,digit_3_]
         digits=[digit_0,digit_1,digit_2,digit_3]
         outputs=[]
         
         for i in range(len(digits)):
-
-            outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+            value =torch.nn.functional.softmax(classifier(digits[i]).squeeze(0))
+            outputs.append(value)
             # print(outputs[i])
         for i in range(len(outputs)):
 
-            # print(outputs[i].argmax().item())
-            if outputs[i]==None or outputs[i].max()<.99 or outputs[i].argmax().item()==10 or outputs[i].max()==1 :
+            # print(outputs[i].max())
+            if outputs[i]==None or outputs[i].max()<.9 or outputs[i].argmax().item()==10 :
                 outputs[i]=''
             else:
                 if i >1:
@@ -197,15 +197,15 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
 
             score = int(score)
         else:
-            score=0
+            score=-100
 
-        if  score!= 0:
+        if  score!= -100:
             failed=False
         else:
             #TODO: could trigger early if blob is in score label region
             failed=True
     #mask out score
-
+    # failed=False
     cv2.rectangle(img,(score_x1,score_y1),(score_x2,score_y2),(255,255,255),-1)
 
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

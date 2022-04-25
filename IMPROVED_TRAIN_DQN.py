@@ -11,6 +11,7 @@ import torchvision
 import torch.optim as optim
 import torch.nn.functional as F
 import torchvision.transforms as T
+from torch.autograd import Variable
 from collections import namedtuple, deque
 import random
 import numpy as np
@@ -30,94 +31,94 @@ chrome_options.add_argument('load-extension=' + path_to_adblock)
 name='cs394r'
 
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 agar1 = env(chrome_options,name)
 
 memory = ReplayMemory(1000)
+
+
+# if gpu is to be used
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+
 target_DQN = Net(n_actions = len(agar1.action_space)).to(device)
 policy_DQN = Net(n_actions = len(agar1.action_space)).to(device)
 target_DQN.load_state_dict(policy_DQN.state_dict())
 
-# policy_DQN.load_state_dict(torch.load('models/policy_DQN.pt'),strict=False)
-# target_DQN.load_state_dict(torch.load('models/target_DQN.pt'),strict=False)
+
+policy_DQN.load_state_dict(torch.load('models/policy_DQN.pt'),strict=False)
+target_DQN.load_state_dict(torch.load('models/target_DQN.pt'),strict=False)
 
 target_DQN.eval()
 optimizer = optim.RMSprop(policy_DQN.parameters())
 
 BATCH_SIZE = 64
-GAMMA = 0.999
+GAMMA = 0.99
 TARGET_UPDATE = 5
 SAVE_UPDATE = 20
-N_EPISODES = 500
+N_EPISODES = 1000
 
 EPS_START = 0.9
 EPS_END = 0.05
 EPS_DECAY = 200
+steps_done = 0
 
-def select_action(state,steps_done):
+
+def select_action(state):
+
+
+    global steps_done
     sample = random.random()
     eps_threshold = EPS_END + (EPS_START - EPS_END) * math.exp(-1. * steps_done / EPS_DECAY)
-    # print (eps_threshold)
-    steps_done+=1
-    if sample <= eps_threshold:
-        return random.randrange(0,len(agar1.action_space)),steps_done
+    steps_done += 1
+    if sample > eps_threshold and state is not None:
+        policy_DQN.eval()
+        action = policy_DQN(Variable(state.unsqueeze(0), volatile=True)).data.max(1)[1].view(1, 1)
+        policy_DQN.train()
+        return action
     else:
-
-        with torch.no_grad():
-            # t.max(1) will return largest column value of each row.
-            # second column on max result is index of where max element was
-            # found, so we pick action with the larger expected re
-            policy_DQN.eval()
-            action =  torch.squeeze(policy_DQN(state.unsqueeze(0)).max(1)[1].view(1, 1))
-            policy_DQN.train()
-            return action.item(),steps_done
+        return torch.tensor([[random.randrange(0,len(agar1.action_space))]])
 
 def update_model():
-    #For the sake of efficiency, a lot of this code was taken from: https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html
     if len(memory) < BATCH_SIZE:
         return
 
+    # random transition batch is taken from experience replay memory
     transitions = memory.sample(BATCH_SIZE)
-    batch = utils.Transition(*zip(*transitions))
+    batch_state, batch_action, batch_next_state, batch_reward = zip(*transitions)
 
-    non_final_next_states = torch.cat([s for s in batch.next_state if s is not None])
-    state_batch = torch.cat(batch.state)
-    action_batch = torch.cat(batch.action)
-    reward_batch = torch.cat(batch.reward)
-    reward_batch.to(device)
-    action_batch.to(device)
-
-    state_action_values = policy_DQN(state_batch).gather(1, action_batch.unsqueeze(0))
+    batch_state = Variable(torch.cat(batch_state)).to(device)
+    batch_action = Variable(torch.cat(batch_action)).to(device)
+    batch_reward = Variable(torch.cat(batch_reward)).to(device)
 
 
-    #if next state is None mark it as 0
-    non_final_mask = torch.tensor(tuple(map(lambda s: s is not None, batch.next_state)), device=device, dtype=torch.bool)
-    next_state_values = torch.zeros(BATCH_SIZE, device=device)
-    next_state_values[non_final_mask] = target_DQN(non_final_next_states).max(1)[0].detach()
-    expected_state_action_values = (next_state_values * GAMMA) + reward_batch
+    non_final_mask = torch.tensor(tuple(map(lambda s: s is not None, batch_next_state)), dtype=torch.bool, device=device)
+    non_final_next_states = torch.cat([s for s in batch_next_state if s is not None])
 
-    # Compute Huber loss
+    current_q_values = policy_DQN(batch_state).gather(1, batch_action.unsqueeze(0))
+
+    max_next_q_values = torch.zeros(BATCH_SIZE, device=device).float()
+    max_next_q_values[non_final_mask] = target_DQN(non_final_next_states).max(1)[0]
+
+    expected_q_values = batch_reward + (GAMMA * max_next_q_values)
+
+    # loss is measured from error between current and newly expected Q values
+    loss = F.smooth_l1_loss(current_q_values.squeeze(), expected_q_values.squeeze())
     criterion = nn.SmoothL1Loss()
-    loss = criterion(torch.squeeze(state_action_values), expected_state_action_values)
-    print('loss:',loss.item())
-    # Optimize the model
+    # backpropagation of loss to NN
     optimizer.zero_grad()
     loss.backward()
-    for param in policy_DQN.parameters():
-        param.grad.data.clamp_(-1, 1)
-        # print (param)
     optimizer.step()
-    # print ("UPDATED MODEL, LOSS=",loss)
-    # print ("\n")
+
+    print ("LOSS: " + str(loss.item()))
+
 
 episode = 0
 episode_rewards = []
 episode_rewards=np.load("episode_rewards.npy").tolist()
 episode_timestamps=[]
 episode_loss=[]
-steps_done = 0
-wandb.init(project="my-test-project", entity="cs394ragario")
+wandb.init(project="CS394R_AGARIO", entity="cs394ragario")
 for episode in range(N_EPISODES):
     episode_return = 0
     prev_score = 10
@@ -126,34 +127,26 @@ for episode in range(N_EPISODES):
     state = agar1.reset()
     # time.sleep(.5)
     while True:
-        if state is not None:
-            action,steps_done = select_action(state,steps_done)
-        else:
-            action = random.randrange(0,len(agar1.action_space))
-            steps_done +=1
+        action = select_action(state)
+    
 
-        s = timeit.default_timer()
-        next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
-        e = timeit.default_timer()
-        print ("step time: " + str(e-s))
-        # if not done:
-        #     reward = score - prev_score
-        # else:
-        #     reward = score
+        next_state,score,failed,restart,done = agar1.step(action.item(),timestep,episode)
+
         if not done:
-            reward = 0
+            reward = 1
         else:
-            reward = -1
+            reward = -100
 
         episode_return+=reward
-
-        prev_score = score
-
         episode_rewards.append(episode_return)
-        # wandb.log({"episode": episode_return})
 
-        action = torch.tensor([action]).to(device)
-        reward = torch.tensor([reward]).to(device)
+        action = torch.tensor([action])
+        reward = torch.tensor([reward])
+
+        print ("(REWARD: " + str(reward.item()) + ", DONE: " + str(done) + ")")
+
+        # print (next_state)
+        # print ("\n")
         if not done and state is not None and len(next_state)>0:
             state.to(device)
             # next_state.to(device)
@@ -172,6 +165,7 @@ for episode in range(N_EPISODES):
             episode_timestamps.append(timestep)
                 # episode_loss.append(loss)
             break
+
     if episode % TARGET_UPDATE == 0:
         target_DQN.load_state_dict(policy_DQN.state_dict())
     if episode % SAVE_UPDATE == 0:

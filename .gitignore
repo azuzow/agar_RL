@@ -1,3 +1,9 @@
-/models
-/DATA
-/scores
+fails/
+models/
+scores/
+agent_observations/
+DATA/
+digits/
+wandb/
+1.42.2_0/
+__pycache__/

@@ -136,6 +136,7 @@ class env:
         # self.driver.save_screenshot('f3.png')
         # self.driver.save_screenshot('f4.png')
         obs = self.get_screenshot(obs_path)
+        cv2.imwrite('f1.png',obs)
         masked_img,score,failed = img2score(obs,"alex",timestep,self.n_fails,self.classifier)
         if not failed:
             masked_img = torchvision.transforms.functional.to_tensor(masked_img)
@@ -144,11 +145,13 @@ class env:
 
 
         obs_1 = self.get_screenshot("f1.png")
+        cv2.imwrite('f2.png',obs_1)
         masked_img_1 = format_frame (obs_1, "alex",self.n_fails,self.classifier)
         masked_img_1 = torchvision.transforms.functional.to_tensor(masked_img_1)
 
 
         obs_2 = self.get_screenshot("f2.png")
+        cv2.imwrite('f3.png',obs_2)
         masked_img_2 = format_frame (obs_2, "alex",self.n_fails,self.classifier)
         masked_img_2 = torchvision.transforms.functional.to_tensor(masked_img_2)
         frames = torch.cat((masked_img,masked_img_1,masked_img_2))
@@ -165,10 +168,21 @@ class env:
         done = False
 
         if failed:
+            fail_img1 = "fails/fail_1{}.png".format(time.time())
+            fail_img2 = "fails/fail_2{}.png".format(time.time())
+            fail_img3 = "fails/fail_3{}.png".format(time.time())
+            cv2.imwrite(fail_img1,obs)
+            cv2.imwrite(fail_img2,obs_1)
+            cv2.imwrite(fail_img3,obs_2)
             if self.n_fails == 0 and timestep >= 3:
                 self.first_fail_frames = frames
-                masked_img = format_term_img(obs)
-                masked_img = torchvision.transforms.functional.to_tensor(masked_img)
+                img = cv2.cvtColor(obs, cv2.COLOR_BGR2GRAY)
+                # cv2.imwrite(obs,'output0.png')
+                img = cv2.resize(img, (128,128))
+                cv2.imwrite('fail1.png',img)
+                masked_img = torchvision.transforms.functional.to_tensor(img)
+                done = True
+                restart=True
                 self.first_fail_frames[0] = masked_img
                 # cv2.imwrite(obs_path,masked_img)
 
@@ -179,6 +193,7 @@ class env:
                 if timestep >= 6:
                     done = True
                     score=-100
+                
                 frames = self.first_fail_frames
                 restart=True
         else:
