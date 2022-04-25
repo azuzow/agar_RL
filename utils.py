@@ -72,17 +72,17 @@ class ReplayMemory(object):
 
 def is_noise(img):
     # img=cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-   
+
     counts = (cv2.countNonZero(img))
     if counts <=100 or counts >=800:
         return True
-        
+
     contours, hierarchy = cv2.findContours(img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     print(len(contours))
     # if len(contours) == 1 and cv2.contourArea(contours[0]) > 30 and cv2.arcLength(contours[0],True) < 200:
     if len(contours) == 1:
         return True
-    
+
     return False
 
 def format_term_img(img):
@@ -128,9 +128,9 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
     else:
         assert False
 
-    if not (h == game_height and w == game_width):
-        print('height',h,'width',w)
-        return None, None, True
+    # if not (h == game_height and w == game_width):
+    #     print('height',h,'width',w)
+    #     return None, None, True
 
     #mask out leader boards
 
@@ -140,17 +140,17 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
 
         score = img[score_y1:score_y2, score_x1:score_x2]
 
-        
+
         score_=cv2.cvtColor(score, cv2.COLOR_BGR2GRAY)
         score_ = score_[:,51:]
-        
+
         print(score_.shape)
         score_ = cv2.resize(score_,(180,125),interpolation=cv2.INTER_CUBIC)
 
         score_ = np.where(score_>=210,0,255).astype(np.uint8)
-        # cv2.imwrite('5.png',score_)        
-  
-        
+        # cv2.imwrite('5.png',score_)
+
+
         digit_0_ = score_[20:-10, 0:40]
         digit_1_ = score_[20:-10, 40:80]
         digit_2_ = score_[20:-10, 80:120]
@@ -177,9 +177,12 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
         digits_=[digit_0_,digit_1_,digit_2_,digit_3_]
         digits=[digit_0,digit_1,digit_2,digit_3]
         outputs=[]
-        
+
         for i in range(len(digits)):
-            value =torch.nn.functional.softmax(classifier(digits[i]).squeeze(0))
+            if classifier is not None:
+                value =torch.nn.functional.softmax(classifier(digits[i]).squeeze(0))
+            else:
+                value = 0
             outputs.append(value)
             # print(outputs[i])
         for i in range(len(outputs)):
@@ -210,6 +213,9 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
 
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     img = cv2.resize(img, (128,128))
+    img = cv2.GaussianBlur(img,(5,5),0)
+    ret,img = cv2.threshold(img,200,255,cv2.THRESH_TOZERO)
+
     if get_score:
         return img,score,failed
     else:
@@ -219,8 +225,12 @@ def img2score(img, username,timestep,prev_fail,classifier):
 
     return format_frame (img, username,prev_fail,classifier,get_score=True)
 
-# img = cv2.imread("agent_observations/4.png")
 
+# 
+# img = cv2.imread("/Users/stephanehatgiskessell/Downloads/agent_observations/82.png")
+#
+#
+# img = format_frame (img, "alex",False,None,get_score=False)
 # cv2.imshow("img",img)
 # cv2.waitKey(0)
 # img, score, done = img2score(img,"steph",1)
