@@ -1,0 +1,478 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:182: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  value =torch.nn.functional.softmax(classifier(digits[i]).squeeze(0))
+29.244794900597103 197.85030192350482
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 5.3058e-38, 6.8772e-16, 6.7490e-18, 2.6346e-20, 4.4672e-29,
+        2.0652e-16, 6.1522e-31, 1.4698e-18, 6.5399e-25, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.7051e-13, 1.0000e+00, 4.5123e-10, 6.0147e-15, 7.9917e-11, 4.6752e-13,
+        2.0533e-12, 2.1361e-10, 2.9150e-14, 7.3454e-10, 1.6549e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5488684730007662
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 0.0000e+00, 0.0000e+00, 2.2701e-43, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 7.4746e-36, 8.8331e-14, 3.2914e-18, 1.0003e-19, 7.2596e-28,
+        9.6798e-17, 1.9823e-29, 2.2184e-16, 3.9864e-23, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5656370609976875
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 5.3058e-38, 6.8772e-16, 6.7490e-18, 2.6346e-20, 4.4672e-29,
+        2.0652e-16, 6.1522e-31, 1.4698e-18, 6.5399e-25, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5434070570008771
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2666e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 8.3354e-38, 9.9900e-16, 8.8302e-18, 3.5919e-20, 5.5830e-29,
+        1.8905e-16, 6.9868e-31, 1.6376e-18, 1.1150e-24, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5563303109993285
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 5.3058e-38, 6.8772e-16, 6.7490e-18, 2.6346e-20, 4.4672e-29,
+        2.0652e-16, 6.1522e-31, 1.4698e-18, 6.5399e-25, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5567784009981551
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.0354e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 5.1835e-38, 6.6955e-16, 6.5664e-18, 2.6370e-20, 4.6026e-29,
+        2.0850e-16, 5.8770e-31, 1.4795e-18, 6.1956e-25, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.4293e-12, 1.0000e+00, 8.8873e-10, 2.8575e-14, 1.9582e-10, 1.7215e-12,
+        6.8798e-12, 5.9706e-10, 1.4259e-13, 1.6545e-09, 3.0280e-18],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5535434179982985
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 5.7944e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 5.3058e-38, 6.8772e-16, 6.7490e-18, 2.6346e-20, 4.4672e-29,
+        2.0652e-16, 6.1522e-31, 1.4698e-18, 6.5399e-25, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.6122573550019297
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.4849344989997917
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([8.4078e-45, 1.0000e+00, 2.6625e-44, 0.0000e+00, 2.7900e-36, 5.6052e-45,
+        8.4078e-45, 1.6986e-40, 0.0000e+00, 5.6417e-31, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.44343641299929004
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.421704968000995
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.6850712570012547
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.40631375099837896
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.4613832729992282
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.4167566229989461
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.4115604969993001
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.42060545700223884
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.4216451779975614
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.40642229100194527
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.40421926799899666
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.4052544480000506
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.4018293660010386
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.4035333179999725
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.403454868002882
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.3851914670012775
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.38213276299939025
+(25, 36)
+TEST1
+TEST2
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.5387e-13, 1.0000e+00, 1.3064e-10, 1.8034e-15, 3.5083e-11, 1.6209e-13,
+        9.7566e-13, 1.0660e-10, 1.2045e-14, 2.8261e-10, 1.0193e-19],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.5185e-22, 1.0000e+00, 1.3035e-19, 1.3134e-23, 1.1831e-18, 2.4627e-21,
+        6.8321e-21, 7.5169e-17, 1.4807e-22, 1.4872e-16, 4.0414e-27],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 136, in <module>
+    next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 151, in step
+    obs_2 = self.get_screenshot("f2.png")
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 105, in get_screenshot
+    img = self.driver.get_screenshot_as_png()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 1353, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 1365, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Stacktrace:
+#0 0x5638070017d3 <unknown>
+#1 0x563806d5d51f <unknown>
+#2 0x563806d4b954 <unknown>
+#3 0x563806d4ca71 <unknown>
+#4 0x563806d4e132 <unknown>
+#5 0x563806d46486 <unknown>
+#6 0x563806d5ea82 <unknown>
+#7 0x563806dc4118 <unknown>
+#8 0x563806db15a3 <unknown>
+#9 0x563806d86ddc <unknown>
+#10 0x563806d87de5 <unknown>
+#11 0x56380703249d <unknown>
+#12 0x56380704b60c <unknown>
+#13 0x563807034205 <unknown>
+#14 0x56380704bee5 <unknown>
+#15 0x563807028070 <unknown>
+#16 0x563807067488 <unknown>
+#17 0x56380706760c <unknown>
+#18 0x563807080c6d <unknown>
+#19 0x7f61991a0609 <unknown>

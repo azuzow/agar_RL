@@ -1,3 +1,5 @@
-/models
-/DATA
-/scores
+fails/
+models/
+scores/
+agent_observations/
+DATA/

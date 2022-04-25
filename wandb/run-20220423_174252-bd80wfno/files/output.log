@@ -1,0 +1,343 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_linux64.zip
+Driver has been saved in cache [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51]
+
+(25, 36)
+Score:  10
+(REWARD: 10, DONE: False)
+
+(25, 36)
+Score:  10
+(REWARD: 10, DONE: False)
+
+(25, 36)
+Score:  10
+(REWARD: 10, DONE: False)
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:182: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  value =torch.nn.functional.softmax(classifier(digits[i]).squeeze(0))
+/home/alexzuzow/Desktop/agar_multiagent/IMPROVED_TRAIN_DQN.py:76: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  action = policy_DQN(Variable(state.unsqueeze(0), volatile=True)).data.max(1)[1].view(1, 1)
+-136.0867600206002 146.5619109697181
+(25, 36)
+Score:  10
+(REWARD: 10, DONE: False)
+(25, 36)
+Score:  10
+(REWARD: 10, DONE: False)
+(25, 36)
+Score:  10
+(REWARD: 10, DONE: False)
+(25, 36)
+Score:  10
+(REWARD: 10, DONE: False)
+
+(25, 36)
+Score:  10
+(REWARD: 10, DONE: False)
+(25, 36)
+Score:  10
+(REWARD: 10, DONE: False)
+
+(25, 36)
+Score:  10
+(REWARD: 10, DONE: False)
+
+(25, 36)
+Score:  10
+(REWARD: 10, DONE: False)
+(25, 36)
+Score:  11
+(REWARD: 11, DONE: False)
+
+(25, 36)
+Score:  11
+(REWARD: 11, DONE: False)
+(25, 36)
+Score:  12
+(REWARD: 12, DONE: False)
+(25, 36)
+Score:  12
+(REWARD: 12, DONE: False)
+(25, 36)
+Score:  12
+(REWARD: 12, DONE: False)
+(25, 36)
+Score:  12
+(REWARD: 12, DONE: False)
+(25, 36)
+Score:  12
+(REWARD: 12, DONE: False)
+
+(25, 36)
+Score:  13
+(REWARD: 13, DONE: False)
+(25, 36)
+Score:  13
+(REWARD: 13, DONE: False)
+(25, 36)
+Score:  13
+(REWARD: 13, DONE: False)
+(25, 36)
+Score:  13
+(REWARD: 13, DONE: False)
+
+(25, 36)
+Score:  14
+(REWARD: 14, DONE: False)
+(25, 36)
+Score:  14
+(REWARD: 14, DONE: False)
+(25, 36)
+Score:  14
+(REWARD: 14, DONE: False)
+(25, 36)
+Score:  14
+(REWARD: 14, DONE: False)
+(25, 36)
+Score:  14
+(REWARD: 14, DONE: False)
+(25, 36)
+Score:  14
+(REWARD: 14, DONE: False)
+(25, 36)
+Score:  14
+(REWARD: 14, DONE: False)
+
+(25, 36)
+Score:  14
+(REWARD: 14, DONE: False)
+
+(25, 36)
+Score:  14
+(REWARD: 14, DONE: False)
+(25, 36)
+Score:  14
+(REWARD: 14, DONE: False)
+LOSS: 11.583686828613281
+(25, 36)
+Score:  14
+(REWARD: 14, DONE: False)
+LOSS: 11.167930603027344
+(25, 36)
+Score:  14
+(REWARD: 14, DONE: False)
+LOSS: 9.526724815368652
+
+(25, 36)
+Score:  14
+(REWARD: 14, DONE: False)
+LOSS: 7.091196537017822
+(25, 36)
+Score:  14
+(REWARD: 14, DONE: False)
+LOSS: 3.7940711975097656
+(25, 36)
+Score:  15
+(REWARD: 15, DONE: False)
+LOSS: 1.1603364944458008
+(25, 36)
+Score:  16
+(REWARD: 16, DONE: False)
+LOSS: 0.9906937479972839
+
+(25, 36)
+Score:  17
+(REWARD: 17, DONE: False)
+LOSS: 1.1957191228866577
+(25, 36)
+Score:  18
+(REWARD: 18, DONE: False)
+LOSS: 1.4620426893234253
+
+(25, 36)
+Score:  18
+(REWARD: 18, DONE: False)
+LOSS: 2.033025026321411
+
+(25, 36)
+Score:  18
+(REWARD: 18, DONE: False)
+LOSS: 1.1870564222335815
+(25, 36)
+Score:  18
+(REWARD: 18, DONE: False)
+LOSS: 1.6483901739120483
+
+(25, 36)
+Score:  19
+(REWARD: 19, DONE: False)
+LOSS: 1.7223762273788452
+(25, 36)
+Score:  19
+(REWARD: 19, DONE: False)
+LOSS: 1.809478759765625
+
+(25, 36)
+Score:  19
+(REWARD: 19, DONE: False)
+LOSS: 1.550907850265503
+(25, 36)
+Score:  19
+(REWARD: 19, DONE: False)
+LOSS: 1.9474585056304932
+(25, 36)
+Score:  19
+(REWARD: 19, DONE: False)
+LOSS: 1.8527345657348633
+(25, 36)
+Score:  19
+(REWARD: 19, DONE: False)
+LOSS: 2.1294312477111816
+
+(25, 36)
+Score:  20
+(REWARD: 20, DONE: False)
+LOSS: 2.3763906955718994
+
+(25, 36)
+Score:  20
+(REWARD: 20, DONE: False)
+LOSS: 2.100933790206909
+(25, 36)
+Score:  20
+(REWARD: 20, DONE: False)
+LOSS: 2.1276698112487793
+(25, 36)
+Score:  20
+(REWARD: 20, DONE: False)
+LOSS: 1.9993906021118164
+
+(25, 36)
+Score:  22
+(REWARD: 22, DONE: False)
+LOSS: 2.5071396827697754
+(25, 36)
+Score:  24
+(REWARD: 24, DONE: False)
+LOSS: 2.514078140258789
+(25, 36)
+Score:  24
+(REWARD: 24, DONE: False)
+LOSS: 2.9821271896362305
+
+(25, 36)
+Score:  25
+(REWARD: 25, DONE: False)
+LOSS: 2.6354470252990723
+(25, 36)
+Score:  27
+(REWARD: 27, DONE: False)
+LOSS: 2.6297130584716797
+(25, 36)
+Score:  27
+(REWARD: 27, DONE: False)
+LOSS: 3.118353843688965
+
+(25, 36)
+Score:  27
+(REWARD: 27, DONE: False)
+LOSS: 3.239654779434204
+
+(25, 36)
+Score:  27
+(REWARD: 27, DONE: False)
+LOSS: 3.489501476287842
+(25, 36)
+Score:  27
+(REWARD: 27, DONE: False)
+LOSS: 3.3788490295410156
+
+(25, 36)
+Score:  29
+(REWARD: 29, DONE: False)
+LOSS: 2.9586033821105957
+(25, 36)
+Score:  29
+(REWARD: 29, DONE: False)
+LOSS: 3.6005265712738037
+
+(25, 36)
+Score:  29
+(REWARD: 29, DONE: False)
+LOSS: 3.222658157348633
+
+(25, 36)
+Score:  30
+(REWARD: 30, DONE: False)
+LOSS: 4.054538726806641
+(25, 36)
+Score:  31
+(REWARD: 31, DONE: False)
+LOSS: 4.552797794342041
+(25, 36)
+Score:  32
+(REWARD: 32, DONE: False)
+LOSS: 4.665821075439453
+
+(25, 36)
+Score:  34
+(REWARD: 34, DONE: False)
+LOSS: 4.50501823425293
+(25, 36)
+Score:  34
+(REWARD: 34, DONE: False)
+LOSS: 4.552924156188965
+(25, 36)
+Score:  36
+(REWARD: 36, DONE: False)
+LOSS: 4.292070388793945
+(25, 36)
+Score:  37
+(REWARD: 37, DONE: False)
+LOSS: 5.226945400238037
+(25, 36)
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/IMPROVED_TRAIN_DQN.py", line 135, in <module>
+    next_state,score,failed,restart,done = agar1.step(action.item(),timestep,episode)
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 147, in step
+    obs_1 = self.get_screenshot("f1.png")
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 105, in get_screenshot
+    img = self.driver.get_screenshot_as_png()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 1353, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 1365, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: tab crashed
+  (Session info: chrome=99.0.4844.74)
+Stacktrace:
+#0 0x56168d7597d3 <unknown>
+#1 0x56168d4b551f <unknown>
+#2 0x56168d4a15bd <unknown>
+#3 0x56168d4a0fd5 <unknown>
+#4 0x56168d4a04a5 <unknown>
+#5 0x56168d49fbc4 <unknown>
+#6 0x56168d49f953 <unknown>
+#7 0x56168d4b6ac2 <unknown>
+#8 0x56168d51c1b5 <unknown>
+#9 0x56168d5095a3 <unknown>
+#10 0x56168d4deddc <unknown>
+#11 0x56168d4dfde5 <unknown>
+#12 0x56168d78a49d <unknown>
+#13 0x56168d7a360c <unknown>
+#14 0x56168d78c205 <unknown>
+#15 0x56168d7a3ee5 <unknown>
+#16 0x56168d780070 <unknown>
+#17 0x56168d7bf488 <unknown>
+#18 0x56168d7bf60c <unknown>
+#19 0x56168d7d8c6d <unknown>
+#20 0x7fb168e1d609 <unknown>
+Score:  37
+(REWARD: 37, DONE: False)
+LOSS: 4.6548357009887695
+
+(25, 36)
+Score:  37
+(REWARD: 37, DONE: False)
+LOSS: 5.265557289123535
+(25, 36)

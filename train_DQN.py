@@ -34,7 +34,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 agar1 = env(chrome_options,name)
 
-memory = ReplayMemory(100000)
+memory = ReplayMemory(1000)
 target_DQN = Net(n_actions = len(agar1.action_space)).to(device)
 policy_DQN = Net(n_actions = len(agar1.action_space)).to(device)
 target_DQN.load_state_dict(policy_DQN.state_dict())
@@ -154,7 +154,7 @@ for episode in range(N_EPISODES):
 
         action = torch.tensor([action]).to(device)
         reward = torch.tensor([reward]).to(device)
-        if not done and state is not None:
+        if not done and state is not None and len(next_state)>0:
             state.to(device)
             # next_state.to(device)
             memory.push(state.unsqueeze(0), action, next_state.unsqueeze(0), reward)

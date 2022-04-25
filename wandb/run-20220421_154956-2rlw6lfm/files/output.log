@@ -1,0 +1,69 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+197.89176786987053 28.962876399578775
+(25, 36)
+Score:  10
+step time: 0.5901444629998878
+(25, 36)
+Score:  10
+step time: 0.5380237069985014
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:182: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  value =torch.nn.functional.softmax(classifier(digits[i]).squeeze(0))
+(25, 36)
+Score:  10
+step time: 0.5581672949992935
+(25, 36)
+Score:  10
+step time: 0.5785595330016804
+(25, 36)
+Score:  10
+step time: 0.5198054440006672
+(25, 36)
+Score:  10
+step time: 0.61417597900072
+(25, 36)
+Score:  10
+step time: 0.587469799000246
+(25, 36)
+Score:  10
+step time: 0.5687623140001961
+(25, 36)
+Score:  10
+step time: 0.5748587960006262
+(25, 36)
+Score:  10
+step time: 0.5468638729980739
+(25, 36)
+Score:  10
+step time: 0.5632997539978533
+(25, 36)
+Score:  10
+step time: 0.6578772490029223
+(25, 36)
+Score:  0
+step time: 0.5425342859998636
+(25, 36)
+Score:  0
+step time: 0.5157646769985149
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-166.83611887790352 -110.29827486301878
+(25, 36)
+Score:  10
+step time: 0.5708164389980084
+(25, 36)
+Score:  10
+step time: 0.5089795239982777
+(25, 36)
+Score:  10
+step time: 0.4910996709986648
+(25, 36)
+Score:  10
+step time: 0.5405409630002396
+(25, 36)
+Score:  10
+step time: 0.5014647110001533

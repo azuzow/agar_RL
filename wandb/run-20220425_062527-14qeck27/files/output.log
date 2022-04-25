@@ -1,0 +1,4500 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_linux64.zip
+Driver has been saved in cache [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51]
+-133.50817530942956 -148.91463032740143
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+
+(25, 36)
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:182: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  value =torch.nn.functional.softmax(classifier(digits[i]).squeeze(0))
+Score:  10
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+101.16988430093849 172.52435918018858
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+/home/alexzuzow/Desktop/agar_multiagent/IMPROVED_TRAIN_DQN.py:76: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  action = policy_DQN(Variable(state.unsqueeze(0), volatile=True)).data.max(1)[1].view(1, 1)
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  19
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  19
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  19
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+LOSS: 24.065101623535156
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+LOSS: 63.013572692871094
+(25, 36)
+Score:  27
+(REWARD: 1, DONE: False)
+LOSS: 28.236888885498047
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 56.518131256103516
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 43.020999908447266
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+185.46344534728797 -74.85526327462576
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 49.199928283691406
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 24.90571403503418
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 46.05315399169922
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 46.23842239379883
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 44.191070556640625
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 45.82017135620117
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 45.587791442871094
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 29.15003776550293
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 44.79328155517578
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 49.48655700683594
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 47.335838317871094
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 33.24153137207031
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 46.69085693359375
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 50.81385803222656
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 44.44602966308594
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 47.031036376953125
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 42.76911926269531
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 12.442567825317383
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 64.50325012207031
+172.66832668465503 100.92397614006912
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 53.67558288574219
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 67.63734436035156
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 28.234342575073242
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 44.95115280151367
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 26.5131778717041
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 24.12340545654297
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 27.810958862304688
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 25.62492561340332
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 35.831520080566406
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 81.73878479003906
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 46.4581298828125
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 63.319435119628906
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 43.068824768066406
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 37.94286346435547
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 55.07630920410156
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 50.91562271118164
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 26.432153701782227
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 26.24050521850586
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 67.58226013183594
+125.08744475177656 -156.05489792208144
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 45.710575103759766
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 43.05335235595703
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 73.30632019042969
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 45.62734603881836
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 62.420108795166016
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 42.779029846191406
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 63.243160247802734
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 24.43061637878418
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 82.0815200805664
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 43.00094985961914
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 82.7481460571289
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 44.02033615112305
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 43.400550842285156
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 24.73426055908203
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 43.98930358886719
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 47.539634704589844
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 44.12718963623047
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 42.55179977416992
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 81.6810302734375
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 23.31550407409668
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 43.144081115722656
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 66.61045837402344
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 33.726043701171875
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 25.73601722717285
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 62.999732971191406
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 43.10073471069336
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 43.982452392578125
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 62.53030776977539
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 62.587467193603516
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 24.380558013916016
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 43.60821533203125
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 99.94914245605469
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 8.71006965637207
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 64.22303771972656
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 63.14155197143555
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 77.97078704833984
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 11.35910415649414
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 63.25489044189453
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 16.130809783935547
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 46.131187438964844
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 23.194690704345703
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 44.115447998046875
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 23.25726318359375
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 46.45351791381836
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 26.096832275390625
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 42.64268493652344
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 63.000648498535156
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 16.82124900817871
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 28.588973999023438
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 6.196538925170898
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 64.81219482421875
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 3.6804356575012207
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 23.612497329711914
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 2.7613348960876465
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 66.79216766357422
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 46.184146881103516
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+LOSS: 85.4141845703125
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+LOSS: 9.139381408691406
+(25, 36)
+Score:  27
+(REWARD: 1, DONE: False)
+LOSS: 4.289544105529785
+(25, 36)
+Score:  27
+(REWARD: 1, DONE: False)
+LOSS: 44.112060546875
+(25, 36)
+Score:  27
+(REWARD: 1, DONE: False)
+LOSS: 69.60295104980469
+(25, 36)
+Score:  28
+(REWARD: 1, DONE: False)
+LOSS: 45.9571533203125
+(25, 36)
+Score:  28
+(REWARD: 1, DONE: False)
+LOSS: 4.459469795227051
+(25, 36)
+Score:  28
+(REWARD: 1, DONE: False)
+LOSS: 23.63091468811035
+(25, 36)
+Score:  28
+(REWARD: 1, DONE: False)
+LOSS: 43.550148010253906
+(25, 36)
+Score:  28
+(REWARD: 1, DONE: False)
+LOSS: 22.92239761352539
+(25, 36)
+Score:  28
+(REWARD: 1, DONE: False)
+LOSS: 7.0731048583984375
+(25, 36)
+Score:  28
+(REWARD: 1, DONE: False)
+LOSS: 8.174885749816895
+(25, 36)
+Score:  29
+(REWARD: 1, DONE: False)
+LOSS: 44.125579833984375
+(25, 36)
+Score:  30
+(REWARD: 1, DONE: False)
+LOSS: 7.991249084472656
+(25, 36)
+Score:  31
+(REWARD: 1, DONE: False)
+LOSS: 46.985809326171875
+
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 3.0258755683898926
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 23.948062896728516
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 61.15245056152344
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 22.28658676147461
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 22.254472732543945
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 24.507461547851562
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 44.19023513793945
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 43.16656494140625
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 43.033538818359375
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 22.452383041381836
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 3.1548991203308105
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 23.284103393554688
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 62.158935546875
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 22.597726821899414
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 23.31541633605957
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 40.755279541015625
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 28.245288848876953
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 42.33192443847656
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 62.139400482177734
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 62.494476318359375
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 61.98047637939453
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 4.1831254959106445
+(25, 36)
+Score:  33
+(REWARD: 1, DONE: False)
+LOSS: 62.79890441894531
+(25, 36)
+Score:  33
+(REWARD: 1, DONE: False)
+LOSS: 42.60612106323242
+(25, 36)
+Score:  33
+(REWARD: 1, DONE: False)
+LOSS: 23.35148811340332
+(25, 36)
+Score:  33
+(REWARD: 1, DONE: False)
+LOSS: 3.092207431793213
+(25, 36)
+Score:  33
+(REWARD: 1, DONE: False)
+LOSS: 22.414817810058594
+(25, 36)
+Score:  33
+(REWARD: 1, DONE: False)
+LOSS: 62.12895965576172
+(25, 36)
+Score:  33
+(REWARD: 1, DONE: False)
+LOSS: 25.3466796875
+(25, 36)
+Score:  34
+(REWARD: 1, DONE: False)
+LOSS: 54.43141555786133
+(25, 36)
+Score:  34
+(REWARD: 1, DONE: False)
+LOSS: 43.66992950439453
+(25, 36)
+Score:  34
+(REWARD: 1, DONE: False)
+LOSS: 4.786927700042725
+(25, 36)
+Score:  34
+(REWARD: 1, DONE: False)
+LOSS: 23.022123336791992
+(25, 36)
+Score:  34
+(REWARD: 1, DONE: False)
+LOSS: 22.841888427734375
+(25, 36)
+Score:  34
+(REWARD: 1, DONE: False)
+LOSS: 45.346370697021484
+(25, 36)
+Score:  34
+(REWARD: 1, DONE: False)
+LOSS: 46.88258361816406
+(25, 36)
+Score:  34
+(REWARD: 1, DONE: False)
+LOSS: 3.4228339195251465
+(25, 36)
+Score:  34
+(REWARD: 1, DONE: False)
+LOSS: 23.47237777709961
+(25, 36)
+Score:  34
+(REWARD: 1, DONE: False)
+LOSS: 28.7994327545166
+(25, 36)
+Score:  34
+(REWARD: 1, DONE: False)
+LOSS: 26.774919509887695
+(25, 36)
+Score:  34
+(REWARD: 1, DONE: False)
+LOSS: 13.505794525146484
+(25, 36)
+Score:  34
+(REWARD: 1, DONE: False)
+LOSS: 24.788774490356445
+(25, 36)
+Score:  34
+(REWARD: 1, DONE: False)
+LOSS: 24.247947692871094
+(25, 36)
+Score:  36
+(REWARD: 1, DONE: False)
+LOSS: 2.919788360595703
+(25, 36)
+Score:  36
+(REWARD: 1, DONE: False)
+LOSS: 42.040889739990234
+(25, 36)
+Score:  36
+(REWARD: 1, DONE: False)
+LOSS: 2.3183178901672363
+(25, 36)
+Score:  36
+(REWARD: 1, DONE: False)
+LOSS: 3.0316030979156494
+(25, 36)
+Score:  37
+(REWARD: 1, DONE: False)
+LOSS: 22.593326568603516
+(25, 36)
+Score:  37
+(REWARD: 1, DONE: False)
+LOSS: 61.225196838378906
+(25, 36)
+Score:  37
+(REWARD: 1, DONE: False)
+LOSS: 42.697227478027344
+(25, 36)
+Score:  37
+(REWARD: 1, DONE: False)
+LOSS: 22.220287322998047
+(25, 36)
+Score:  38
+(REWARD: 1, DONE: False)
+LOSS: 29.47086524963379
+(25, 36)
+Score:  38
+(REWARD: 1, DONE: False)
+LOSS: 45.120948791503906
+(25, 36)
+Score:  38
+(REWARD: 1, DONE: False)
+LOSS: 23.183359146118164
+(25, 36)
+Score:  39
+(REWARD: 1, DONE: False)
+LOSS: 23.719806671142578
+(25, 36)
+Score:  39
+(REWARD: 1, DONE: False)
+LOSS: 23.339561462402344
+(25, 36)
+Score:  39
+(REWARD: 1, DONE: False)
+LOSS: 22.501483917236328
+(25, 36)
+Score:  39
+(REWARD: 1, DONE: False)
+LOSS: 21.998491287231445
+(25, 36)
+Score:  39
+(REWARD: 1, DONE: False)
+LOSS: 62.40824508666992
+(25, 36)
+Score:  39
+(REWARD: 1, DONE: False)
+LOSS: 2.103795289993286
+(25, 36)
+Score:  39
+(REWARD: 1, DONE: False)
+LOSS: 3.810729503631592
+(25, 36)
+Score:  39
+(REWARD: 1, DONE: False)
+LOSS: 4.423014163970947
+====== WebDriver manager ======
+(25, 36)
+Score:  39
+(REWARD: 1, DONE: False)
+LOSS: 62.12165069580078
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 23.927631378173828
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 61.72711181640625
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-196.65746943477328 36.41208199912797
+(25, 36)
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 27.21155548095703
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 25.72530174255371
+-116.28553483455867 162.71961894080457
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 9.414722442626953
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 27.603557586669922
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 8.025711059570312
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 64.87579345703125
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 25.034021377563477
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 3.619048833847046
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 23.65456771850586
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 24.29415512084961
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 4.311683177947998
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 5.639740943908691
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 24.845523834228516
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 5.653652191162109
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 26.91465950012207
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 26.192007064819336
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 3.7591493129730225
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 26.573829650878906
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 42.28395080566406
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 25.35131072998047
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 43.80957794189453
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 24.80963706970215
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 63.657470703125
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 46.08388137817383
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 41.7919807434082
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 26.870018005371094
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 43.44438934326172
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 41.76735305786133
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 5.257641792297363
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 45.027992248535156
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 25.108083724975586
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 46.01276779174805
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 24.9713077545166
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 41.23546600341797
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 61.30264663696289
+(25, 36)
+====== WebDriver manager ======
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 23.56454849243164
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 24.214414596557617
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 41.61815643310547
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+158.38835817778835 122.11931867540298
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 14.5537109375
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 26.794145584106445
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 24.384851455688477
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 4.86897087097168
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-189.31147830435117 -64.50708629461707
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 6.87247371673584
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 7.934528350830078
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 39.791770935058594
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 24.917844772338867
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 44.13333511352539
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 4.76444673538208
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 47.566734313964844
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 46.36888122558594
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 25.784156799316406
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 23.81500816345215
+====== WebDriver manager ======
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 45.7867431640625
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 67.5194091796875
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 23.111831665039062
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+104.16544087427665 -170.732424944612
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 80.35022735595703
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 28.753448486328125
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 26.221046447753906
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 23.738710403442383
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 7.4290571212768555
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 23.93550682067871
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 64.39555358886719
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 27.513629913330078
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 98.78319549560547
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 27.289775848388672
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 24.44348907470703
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 44.63438415527344
+78.34290562241961 184.0173609707428
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 25.777902603149414
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 58.850013732910156
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 42.87228012084961
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 61.804351806640625
+(25, 36)
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 41.527626037597656
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 42.260765075683594
+158.38835817778835 122.11931867540298
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 81.91802978515625
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 22.73011589050293
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 42.069576263427734
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 43.05524444580078
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 44.93068313598633
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 97.3752212524414
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 61.399269104003906
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 22.840742111206055
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 25.04537010192871
+
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 23.695873260498047
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 60.38301467895508
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 39.26250076293945
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 23.95234489440918
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 44.66133499145508
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 24.91469955444336
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 22.549320220947266
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 4.4713287353515625
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 22.915199279785156
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 22.573322296142578
+
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 22.31573486328125
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 23.68851089477539
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 81.75517272949219
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 42.18988037109375
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 3.444213390350342
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 23.970352172851562
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 80.67265319824219
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 5.177901268005371
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 41.999637603759766
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 3.6961419582366943
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 25.85437774658203
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 38.88346862792969
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 81.31248474121094
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 38.31907272338867
+(25, 36)
+Score:  19
+(REWARD: 1, DONE: False)
+LOSS: 98.89481353759766
+(25, 36)
+Score:  19
+(REWARD: 1, DONE: False)
+LOSS: 24.76823616027832
+(25, 36)
+Score:  19
+(REWARD: 1, DONE: False)
+LOSS: 22.39533805847168
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 3.6842398643493652
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 23.37057113647461
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 42.66856384277344
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 2.800607681274414
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 3.323798656463623
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 23.620853424072266
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 58.987117767333984
+(25, 36)
+Score:  21
+(REWARD: 1, DONE: False)
+LOSS: 16.977720260620117
+(25, 36)
+Score:  21
+(REWARD: 1, DONE: False)
+LOSS: 36.30586624145508
+(25, 36)
+Score:  22
+(REWARD: 1, DONE: False)
+LOSS: 16.781343460083008
+(25, 36)
+Score:  22
+(REWARD: 1, DONE: False)
+LOSS: 3.002241849899292
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 62.00572204589844
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 23.08159065246582
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 42.24006271362305
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 56.68785095214844
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 22.23721694946289
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 43.21903610229492
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 2.924192428588867
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 23.100744247436523
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 21.963035583496094
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 55.468238830566406
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 23.091245651245117
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 21.553205490112305
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 60.822200775146484
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 42.68008041381836
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 2.611222505569458
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 2.7631070613861084
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+LOSS: 41.7462043762207
+(25, 36)
+Score:  27
+(REWARD: 1, DONE: False)
+LOSS: 21.958778381347656
+(25, 36)
+Score:  27
+(REWARD: 1, DONE: False)
+LOSS: 41.152183532714844
+(25, 36)
+Score:  27
+(REWARD: 1, DONE: False)
+LOSS: 15.631841659545898
+(25, 36)
+Score:  28
+(REWARD: 1, DONE: False)
+LOSS: 27.28619956970215
+====== WebDriver manager ======
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 24.67875862121582
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 55.191650390625
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+54.23666554839297 192.5055430635486
+(25, 36)
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 36.487213134765625
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 1.3170270919799805
+-199.69526968887942 11.036270379331585
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 24.261886596679688
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 22.704160690307617
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 56.655792236328125
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 22.49628257751465
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 36.82063674926758
+(25, 36)
+====== WebDriver manager ======
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 43.19464111328125
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 3.6795241832733154
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 43.15392303466797
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-71.34094473949784 186.84343607329617
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 82.1544189453125
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 23.448745727539062
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 22.220989227294922
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 2.3630216121673584
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 3.6928744316101074
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 22.041452407836914
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 55.83561706542969
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 22.057029724121094
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 22.882165908813477
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 30.485862731933594
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 59.130470275878906
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 23.518972396850586
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 82.830322265625
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 23.431604385375977
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 21.945537567138672
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 22.721874237060547
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 4.7626953125
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 41.56159210205078
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 41.79822540283203
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 5.714343070983887
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 2.802666187286377
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 61.297569274902344
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 23.083322525024414
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 22.506616592407227
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 74.74916076660156
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 41.12909698486328
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 62.14150619506836
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 23.55409049987793
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 62.82355499267578
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 4.655133247375488
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 22.60161590576172
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 42.902503967285156
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 48.7115478515625
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 64.8205337524414
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 22.844385147094727
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 3.751789093017578
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 15.140580177307129
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 22.44239044189453
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 84.18363952636719
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 62.753936767578125
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 41.70077133178711
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 3.167670726776123
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 25.171356201171875
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 3.9878652095794678
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 61.19377136230469
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 60.343177795410156
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 49.296382904052734
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 43.97678756713867
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 2.294642448425293
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 41.80462646484375
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 2.762514114379883
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 3.7008469104766846
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 21.677757263183594
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 41.66532897949219
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 42.69407653808594
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 41.347782135009766
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 42.56222915649414
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 55.41776657104492
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 60.66557693481445
+(25, 36)
+Score:  21
+(REWARD: 1, DONE: False)
+LOSS: 3.368680477142334
+(25, 36)
+Score:  21
+(REWARD: 1, DONE: False)
+LOSS: 22.824722290039062
+(25, 36)
+Score:  21
+(REWARD: 1, DONE: False)
+LOSS: 42.19878005981445
+(25, 36)
+Score:  21
+(REWARD: 1, DONE: False)
+LOSS: 39.605106353759766
+
+(25, 36)
+Score:  21
+(REWARD: 1, DONE: False)
+LOSS: 4.849032402038574
+
+(25, 36)
+Score:  21
+(REWARD: 1, DONE: False)
+LOSS: 42.63393783569336
+
+(25, 36)
+Score:  21
+(REWARD: 1, DONE: False)
+LOSS: 63.490909576416016
+
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 2.332622528076172
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 22.072904586791992
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 42.28479766845703
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 2.668774127960205
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 23.055959701538086
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 34.74461364746094
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 30.109050750732422
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 9.092891693115234
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 37.74937057495117
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 26.025373458862305
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 43.507957458496094
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 22.417041778564453
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 42.26213073730469
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 43.63935470581055
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 42.40848922729492
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 2.8695945739746094
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 2.1152713298797607
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+LOSS: 41.50322723388672
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+LOSS: 41.74896240234375
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+LOSS: 60.48896789550781
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+LOSS: 2.427097797393799
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+LOSS: 21.552888870239258
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+LOSS: 41.72673034667969
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+LOSS: 21.844039916992188
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+LOSS: 60.57510757446289
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+LOSS: 22.012554168701172
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+LOSS: 21.32514762878418
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+LOSS: 2.7550745010375977
+(25, 36)
+Score:  27
+(REWARD: 1, DONE: False)
+LOSS: 2.0624873638153076
+(25, 36)
+Score:  27
+(REWARD: 1, DONE: False)
+LOSS: 42.86114501953125
+(25, 36)
+Score:  28
+(REWARD: 1, DONE: False)
+LOSS: 35.22743225097656
+(25, 36)
+Score:  28
+(REWARD: 1, DONE: False)
+LOSS: 24.674789428710938
+(25, 36)
+Score:  28
+(REWARD: 1, DONE: False)
+LOSS: 42.233482360839844
+(25, 36)
+Score:  28
+(REWARD: 1, DONE: False)
+LOSS: 3.5768120288848877
+(25, 36)
+Score:  28
+(REWARD: 1, DONE: False)
+LOSS: 61.36843490600586
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 21.565942764282227
+
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 2.7755379676818848
+158.38835817778835 122.11931867540298
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 64.66860961914062
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 38.97328567504883
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 10.157142639160156
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 8.00779914855957
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 49.16877746582031
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 32.754215240478516
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 23.885818481445312
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 42.4166145324707
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 43.345130920410156
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 5.671478271484375
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 62.093624114990234
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 10.98237419128418
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 26.181949615478516
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 26.83466148376465
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 42.89299774169922
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 25.00069236755371
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 44.57266616821289
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 23.278099060058594
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 25.744457244873047
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 27.291444778442383
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 24.493831634521484
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 4.217912197113037
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 45.295082092285156
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 42.85400390625
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 22.190717697143555
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 64.65562438964844
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 3.8579752445220947
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 3.3954787254333496
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 61.896095275878906
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 44.23064041137695
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 48.67888641357422
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 44.164154052734375
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 29.76352310180664
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 4.358358383178711
+(25, 36)
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 30.860565185546875
+-133.50817530942956 -148.91463032740143
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 46.31214141845703
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 43.975830078125
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 24.91664695739746
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 26.12954330444336
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 8.53288459777832
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 22.72093391418457
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 8.039371490478516
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 70.26854705810547
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 27.555469512939453
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 25.306732177734375
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 59.311607360839844
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 26.072202682495117
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 51.75215530395508
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 29.457298278808594
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 23.599212646484375
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 34.423797607421875
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 28.4687442779541
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 3.885012626647949
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 23.717918395996094
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-166.83611887790352 -110.29827486301878
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 26.350526809692383
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 7.95329475402832
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+LOSS: 84.57213592529297
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 45.078731536865234
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 102.3324966430664
+-21.75567125546615 198.81320571889606
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 78.03440856933594
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 15.819759368896484
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 21.906259536743164
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 4.639250755310059
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 46.57189178466797
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 7.157469749450684
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 93.31706237792969
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 29.614133834838867
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 84.17784118652344
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 88.23966979980469
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 5.8632402420043945
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 26.26983642578125
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 25.91315460205078
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 34.01081848144531
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 5.307580947875977
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 5.4717841148376465
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 15.208239555358887
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 4.381786346435547
+====== WebDriver manager ======
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 42.99957275390625
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 53.94976806640625
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-21.75567125546615 198.81320571889606
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 7.855717658996582
+
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 29.902606964111328
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 43.75417709350586
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 63.64300537109375
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 16.649995803833008
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 29.618261337280273
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 44.32164764404297
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 10.335962295532227
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 46.57604217529297
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+3.7753859634227616 199.96436297707447
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 67.99615478515625
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 77.61840057373047
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 28.808528900146484
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 63.02042770385742
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 42.34025192260742
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 44.13376235961914
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 13.902745246887207
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 12.915975570678711
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 72.6300048828125
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 7.33153772354126
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 5.010641098022461
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 23.34308433532715
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 43.375179290771484
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 66.87962341308594
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 24.909286499023438
+
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 45.93378448486328
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 29.608795166015625
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 2.7209925651550293
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 35.919639587402344
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 47.36482238769531
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 52.697853088378906
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 23.797901153564453
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 23.12557029724121
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+81.54251939360852 -182.6220620049587
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 3.6402182579040527
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 28.05379867553711
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 42.9320068359375
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 46.815834045410156
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 3.509140968322754
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 73.076171875
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 6.925993919372559
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 42.61536407470703
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 24.32823371887207
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 63.444671630859375
+(25, 36)
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 30.013370513916016
+-166.83611887790352 -110.29827486301878
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 44.04521942138672
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 64.34831237792969
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 27.694395065307617
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 23.297855377197266
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 46.50474548339844
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 16.497516632080078
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 47.653099060058594
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 52.665496826171875
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 4.903690338134766
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 26.50771713256836
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 23.287851333618164
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 42.56047439575195
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 25.740116119384766
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 43.42970275878906
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 46.06606674194336
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 26.056344985961914
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 68.65869140625
+-18.282588890052594 -199.16261432175799
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 4.147432804107666
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 45.181297302246094
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 43.83447265625
+
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 42.53819274902344
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 46.67546081542969
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 27.64425277709961
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 43.744354248046875
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 48.22032928466797
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 45.22084426879883
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 47.172607421875
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 25.39852523803711
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 29.266490936279297
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 23.72471809387207
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 24.768646240234375
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 5.251837253570557
+(25, 36)
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 45.8687629699707
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 71.30897521972656
+-68.06921158157658 -188.06005007619922
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 25.159507751464844
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 29.985836029052734
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 42.90761947631836
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 67.86061096191406
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 26.055065155029297
+(25, 36)
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 50.370967864990234
+143.96689560086455 -138.82915029290416
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 15.453569412231445
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 60.526241302490234
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 44.141685485839844
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 64.3234634399414
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 105.2764892578125
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 35.60589599609375
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 31.62154197692871
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 28.1195011138916
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 89.86981201171875
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 41.057029724121094
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 34.948265075683594
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 46.67843246459961
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 57.19889831542969
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 12.072303771972656
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 27.035324096679688
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 137.40589904785156
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+54.23666554839297 192.5055430635486
+====== WebDriver manager ======
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 103.4941177368164
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 42.29844665527344
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+29.244794900597103 197.85030192350482
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 93.2771224975586
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 58.66706848144531
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 28.37629508972168
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 27.174354553222656
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 45.261695861816406
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 63.87727355957031
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 68.8743896484375
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 102.3429946899414
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 34.21513748168945
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 58.152732849121094
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 54.796348571777344
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 45.37359619140625
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 62.7529296875
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 27.253650665283203
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 62.58033752441406
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 35.16114807128906
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 88.61665344238281
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 29.859670639038086
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 29.268444061279297
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 81.18103790283203
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 28.051469802856445
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 59.37615203857422
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 90.0963134765625
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 31.510452270507812
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 70.95687866210938
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 56.0069465637207
+(25, 36)
+Score:  19
+(REWARD: 1, DONE: False)
+LOSS: 15.534472465515137
+(25, 36)
+Score:  19
+(REWARD: 1, DONE: False)
+LOSS: 29.27348518371582
+(25, 36)
+Score:  19
+(REWARD: 1, DONE: False)
+LOSS: 117.25147247314453
+
+(25, 36)
+Score:  21
+(REWARD: 1, DONE: False)
+LOSS: 23.181015014648438
+(25, 36)
+Score:  22
+(REWARD: 1, DONE: False)
+LOSS: 28.898977279663086
+(25, 36)
+Score:  22
+(REWARD: 1, DONE: False)
+LOSS: 33.40277099609375
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 82.05307006835938
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 20.087329864501953
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 38.47959518432617
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-113.42797505928685 -164.72429837139936
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 34.7041130065918
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 56.109039306640625
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 12.952455520629883
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 90.7974853515625
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 78.0369873046875
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 63.37826919555664
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 27.185604095458984
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 48.284149169921875
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 66.45069885253906
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 74.08749389648438
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 52.626930236816406
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 46.14982604980469
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 45.5050163269043
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 37.21862030029297
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 29.714290618896484
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 47.95683288574219
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 32.60606384277344
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 73.64572143554688
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 15.18203067779541
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 57.33797073364258
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 11.153081893920898
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 47.259132385253906
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 24.921010971069336
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 12.179255485534668
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 6.890079021453857
+125.08744475177656 -156.05489792208144
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 10.177251815795898
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 75.85182189941406
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 52.43488311767578
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 44.908172607421875
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 14.195530891418457
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 35.44850158691406
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 31.42029571533203
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 69.49700927734375
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 13.126293182373047
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 39.52351760864258
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 36.60818862915039
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 40.45575714111328
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 29.55353546142578
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 9.275001525878906
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 46.99114990234375
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 38.30322265625
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 56.88567352294922
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 62.756839752197266
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 29.258474349975586
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 38.65241241455078
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 31.61830711364746
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 50.040977478027344
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 33.4061279296875
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 33.091793060302734
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 87.10401916503906
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 38.92950439453125
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 27.078197479248047
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 39.008522033691406
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 10.725833892822266
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 91.62667083740234
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 28.924663543701172
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 21.294178009033203
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 29.559207916259766
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 37.734806060791016
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 41.97344970703125
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 31.197519302368164
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 30.499805450439453
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 8.327675819396973
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 51.53484344482422
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 67.06053161621094
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 10.93898868560791
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 34.24524688720703
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+185.46344534728797 -74.85526327462576
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 5.335210800170898
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 64.43159484863281
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 63.228172302246094
+
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 4.954178810119629
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 66.12247467041016
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 14.146408081054688
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 26.002586364746094
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 49.35027313232422
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 47.224220275878906
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 24.228485107421875
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 23.68394660949707
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 24.999256134033203
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 54.813663482666016
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 66.58130645751953
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 45.49140548706055
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 23.44812774658203
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 25.047529220581055
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 64.99928283691406
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 25.530506134033203
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 63.749969482421875
+(25, 36)
+Score:  189
+(REWARD: 1, DONE: False)
+LOSS: 23.25577163696289
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 34.41880416870117
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 44.7409782409668
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 27.098461151123047
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-199.4722456558482 -14.519752512110792
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 92.81490325927734
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 46.527793884277344
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 88.48307037353516
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 33.806358337402344
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 43.46003723144531
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 23.644779205322266
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 22.489728927612305
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 27.103641510009766
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 30.633466720581055
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 56.95841598510742
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 49.3737907409668
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 25.848506927490234
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 61.84609603881836
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 2.8302488327026367
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 24.519180297851562
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 57.900634765625
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 56.764259338378906
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 43.522071838378906
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 64.91151428222656
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 95.83023071289062
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 22.29996681213379
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 42.98412322998047
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 18.600534439086914
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 32.2339973449707
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 23.04319953918457
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 83.74759674072266
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 84.40545654296875
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 42.875762939453125
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 25.337554931640625
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 64.39396667480469
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 23.236387252807617
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 24.74030876159668
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 63.113224029541016
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 4.926334381103516
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 50.72599792480469
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 62.614261627197266
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 29.98023796081543
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 33.74076843261719
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 23.339252471923828
+
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 7.594256401062012
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 46.01278305053711
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 42.693424224853516
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 24.79598617553711
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 42.95703887939453
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 23.533870697021484
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 42.92189025878906
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 41.70655059814453
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 45.24262619018555
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 53.24986267089844
+(25, 36)
+Score:  19
+(REWARD: 1, DONE: False)
+LOSS: 105.12503051757812
+(25, 36)
+Score:  19
+(REWARD: 1, DONE: False)
+LOSS: 25.78357696533203
+(25, 36)
+Score:  19
+(REWARD: 1, DONE: False)
+LOSS: 84.45753479003906
+(25, 36)
+Score:  19
+(REWARD: 1, DONE: False)
+LOSS: 25.56241798400879
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 24.341064453125
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 24.104419708251953
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 48.74701690673828
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 41.577213287353516
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 40.46845245361328
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 7.720091819763184
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 44.98965072631836
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 25.307727813720703
+(25, 36)
+Score:  21
+(REWARD: 1, DONE: False)
+LOSS: 45.29368209838867
+(25, 36)
+Score:  22
+(REWARD: 1, DONE: False)
+LOSS: 5.230903625488281
+(25, 36)
+Score:  22
+(REWARD: 1, DONE: False)
+LOSS: 64.75331115722656
+(25, 36)
+Score:  22
+(REWARD: 1, DONE: False)
+LOSS: 23.482255935668945
+(25, 36)
+Score:  22
+(REWARD: 1, DONE: False)
+LOSS: 24.83189582824707
+(25, 36)
+Score:  22
+(REWARD: 1, DONE: False)
+LOSS: 48.6953125
+(25, 36)
+Score:  22
+(REWARD: 1, DONE: False)
+LOSS: 23.14600372314453
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 22.952533721923828
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 5.357874393463135
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 9.785490989685059
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 44.258216857910156
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 45.772098541259766
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 55.18839645385742
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 22.773653030395508
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 62.69306945800781
+(25, 36)
+Score:  26
+(REWARD: 1, DONE: False)
+LOSS: 42.181976318359375
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 23.54997444152832
+
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 62.076507568359375
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+172.66832668465503 100.92397614006912
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 27.503334045410156
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 68.37043762207031
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 8.249881744384766
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 74.08993530273438
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 16.061952590942383
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 42.51116943359375
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 42.38005828857422
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 43.00437927246094
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 4.86083984375
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 79.9503173828125
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 4.535481929779053
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 49.21904373168945
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 44.921051025390625
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 41.87653350830078
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 44.30298614501953
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 22.812528610229492
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 43.99458694458008
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 45.01129913330078
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 44.298728942871094
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 71.62646484375
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 23.92835235595703
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 32.456024169921875
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 23.568531036376953
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 84.42829895019531
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 44.569580078125
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 54.935882568359375
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 62.69977569580078
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 63.14906692504883
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 24.085983276367188
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 61.83545684814453
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 4.833951473236084
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 121.13926696777344
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 3.064025402069092
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 7.693546295166016
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 83.2486572265625
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 121.74455261230469
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 2.723999261856079
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 80.17184448242188
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 21.924057006835938
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 35.71013259887695
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 45.689697265625
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 3.448248863220215
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 26.0396785736084
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 42.559879302978516
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 65.40438079833984
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 47.70209503173828
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 23.051950454711914
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 42.966861724853516
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 22.323246002197266
+(25, 36)
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 24.424945831298828
+101.16988430093849 172.52435918018858
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 82.74169921875
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 27.226482391357422
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 3.3370957374572754
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 38.59584045410156
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 82.79156494140625
+
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 43.512046813964844
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 44.38759231567383
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 44.16745376586914
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 65.37872314453125
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 42.54744338989258
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 24.807039260864258
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 26.23187255859375
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 9.779792785644531
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 43.24794006347656
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 45.88709259033203
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 24.11763572692871
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 61.77813720703125
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 63.30543518066406
+(25, 36)
+Score:  124
+(REWARD: 1, DONE: False)
+LOSS: 23.54669761657715
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 42.91999053955078
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 23.094411849975586
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 5.053118705749512
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 109.72454833984375
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 23.16366195678711
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 44.676429748535156
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 62.72809600830078
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 3.7140841484069824
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 9.944766998291016
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 24.4425106048584
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 61.86106491088867
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 42.181549072265625
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 47.14341735839844
+(25, 36)
+Score:  19
+(REWARD: 1, DONE: False)
+LOSS: 61.62234878540039
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 4.147132396697998
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 22.54020118713379
+-43.531311654712454 -195.2050842207249
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 29.32089614868164
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 6.375585556030273
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 48.86871337890625
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 28.451988220214844
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 4.429586410522461
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 63.22771453857422
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 3.9269466400146484
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 55.84496307373047
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 23.219520568847656
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 25.756465911865234
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 62.91205596923828
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 23.305700302124023
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 111.11373138427734
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 23.342365264892578
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 25.641563415527344
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 3.07576584815979
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 82.43814086914062
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 44.63911437988281
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 42.341548919677734
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 62.96528625488281
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 56.17425537109375
+
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 10.198583602905273
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 23.366260528564453
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 27.52342414855957
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 43.549564361572266
+(25, 36)
+Score:  19
+(REWARD: 1, DONE: False)
+LOSS: 94.39031982421875
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 62.14970397949219
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 41.89530563354492
+(25, 36)
+Score:  21
+(REWARD: 1, DONE: False)
+LOSS: 5.214300155639648
+(25, 36)
+Score:  21
+(REWARD: 1, DONE: False)
+LOSS: 11.277128219604492
+(25, 36)
+Score:  21
+(REWARD: 1, DONE: False)
+LOSS: 3.836854934692383
+(25, 36)
+Score:  22
+(REWARD: 1, DONE: False)
+LOSS: 24.39969825744629
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 44.0568733215332
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 62.93484115600586
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 46.858062744140625
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 9.917152404785156
+(25, 36)
+Score:  -100
+(REWARD: 1, DONE: False)
+LOSS: 12.807650566101074
+(25, 36)
+Score:  -100
+(REWARD: -100, DONE: True)
+LOSS: 7.490136623382568
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 3.786658763885498
+172.66832668465503 100.92397614006912
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 42.43979263305664
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 41.99751663208008
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 2.3289308547973633
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 41.34293746948242
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 41.34178161621094
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 40.957847595214844
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 21.006855010986328
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 40.9266357421875
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 21.89634132385254
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 2.8862433433532715
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 40.75003433227539
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 41.103065490722656
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 41.548789978027344
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 22.24628257751465
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 4.010950088500977
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 79.79931640625
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 47.44135284423828
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 41.968902587890625
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 21.42559242248535
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 60.05081558227539
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 54.907962799072266
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 28.206640243530273
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 41.918304443359375
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 40.74324035644531
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 41.206485748291016
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 40.1875
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 21.513694763183594
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 21.008573532104492
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 1.806410551071167
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 41.245811462402344
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 80.1534423828125
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 41.255775451660156
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 3.070309638977051
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 41.28224182128906
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 79.1649169921875
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 21.991775512695312
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 40.71800994873047
+(25, 36)
+Score:  142
+(REWARD: 1, DONE: False)
+LOSS: 2.0829286575317383
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 61.464141845703125
+(25, 36)
+Score:  14
+(REWARD: 1, DONE: False)
+LOSS: 22.619503021240234
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 36.273521423339844
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 26.98009490966797
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 61.682952880859375
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 42.888587951660156
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 2.5409810543060303
+(25, 36)
+Score:  19
+(REWARD: 1, DONE: False)
+LOSS: 21.74357795715332
+(25, 36)
+Score:  20
+(REWARD: 1, DONE: False)
+LOSS: 21.269214630126953
+(25, 36)
+Score:  21
+(REWARD: 1, DONE: False)
+LOSS: 60.75733184814453
+(25, 36)
+Score:  22
+(REWARD: 1, DONE: False)
+LOSS: 61.60945510864258
+(25, 36)
+Score:  22
+(REWARD: 1, DONE: False)
+LOSS: 1.9613282680511475
+(25, 36)
+Score:  22
+(REWARD: 1, DONE: False)
+LOSS: 21.307872772216797
+(25, 36)
+Score:  22
+(REWARD: 1, DONE: False)
+LOSS: 40.92042541503906
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 41.37908172607422
+(25, 36)
+Score:  23
+(REWARD: 1, DONE: False)
+LOSS: 86.551513671875
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 110.88370513916016
+(25, 36)
+Score:  24
+(REWARD: 1, DONE: False)
+LOSS: 41.868408203125
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 42.140987396240234
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 100.53668975830078
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 41.44783401489258
+(25, 36)
+Score:  25
+(REWARD: 1, DONE: False)
+LOSS: 49.419551849365234
+(25, 36)
+Score:  27
+(REWARD: 1, DONE: False)
+LOSS: 85.6443862915039
+(25, 36)
+Score:  27
+(REWARD: 1, DONE: False)
+LOSS: 41.91572952270508
+(25, 36)
+Score:  28
+(REWARD: 1, DONE: False)
+LOSS: 2.9259095191955566
+(25, 36)
+Score:  28
+(REWARD: 1, DONE: False)
+LOSS: 40.60064697265625
+(25, 36)
+Score:  29
+(REWARD: 1, DONE: False)
+LOSS: 43.354217529296875
+(25, 36)
+Score:  29
+(REWARD: 1, DONE: False)
+LOSS: 80.49372863769531
+(25, 36)
+Score:  29
+(REWARD: 1, DONE: False)
+LOSS: 60.1666259765625
+(25, 36)
+Score:  32
+(REWARD: 1, DONE: False)
+LOSS: 21.533512115478516
+(25, 36)
+Score:  33
+(REWARD: 1, DONE: False)
+LOSS: 40.509761810302734
+(25, 36)
+Score:  34
+(REWARD: 1, DONE: False)
+LOSS: 22.62609100341797
+(25, 36)
+Score:  34
+(REWARD: 1, DONE: False)
+LOSS: 7.0343017578125
+(25, 36)
+Score:  34
+(REWARD: 1, DONE: False)
+LOSS: 21.52451515197754
+(25, 36)
+Score:  36
+(REWARD: 1, DONE: False)
+LOSS: 2.7560434341430664
+(25, 36)
+Score:  36
+(REWARD: 1, DONE: False)
+LOSS: 2.4038333892822266
+(25, 36)
+Score:  37
+(REWARD: 1, DONE: False)
+LOSS: 41.53664779663086
+(25, 36)
+Score:  38
+(REWARD: 1, DONE: False)
+LOSS: 75.06391906738281
+(25, 36)
+Score:  38
+(REWARD: 1, DONE: False)
+LOSS: 40.944488525390625
+(25, 36)
+Score:  38
+(REWARD: 1, DONE: False)
+LOSS: 21.8420352935791
+(25, 36)
+Score:  38
+(REWARD: 1, DONE: False)
+LOSS: 60.540489196777344
+(25, 36)
+Score:  38
+(REWARD: 1, DONE: False)
+LOSS: 41.172176361083984
+(25, 36)
+Score:  38
+(REWARD: 1, DONE: False)
+LOSS: 46.14453125
+(25, 36)
+Score:  38
+(REWARD: 1, DONE: False)
+LOSS: 20.709068298339844

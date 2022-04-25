@@ -1,0 +1,112 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-166.83611887790352 -110.29827486301878
+(25, 36)
+Score:  10
+step time: 0.5852522979985224
+(25, 36)
+Score:  10
+step time: 0.543272100003378
+(25, 36)
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:182: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  value =torch.nn.functional.softmax(classifier(digits[i]).squeeze(0))
+Score:  10
+step time: 0.5704187210030796
+(25, 36)
+Score:  11
+step time: 0.5370412379998015
+(25, 36)
+Score:  11
+step time: 0.5742060390002734
+(25, 36)
+Score:  11
+step time: 0.5810186510025233
+(25, 36)
+Score:  11
+step time: 0.5291458829997282
+(25, 36)
+Score:  11
+step time: 0.5512674060009886
+(25, 36)
+Score:  11
+step time: 0.5774766940012341
+(25, 36)
+Score:  11
+step time: 0.5895422270004929
+(25, 36)
+Score:  11
+step time: 0.616232377000415
+(25, 36)
+Score:  11
+step time: 0.5721252740004275
+(25, 36)
+Score:  11
+step time: 0.5660436030011624
+(25, 36)
+Score:  11
+step time: 0.5817001729992626
+(25, 36)
+Score:  11
+step time: 0.5009073410001292
+(25, 36)
+Score:  11
+step time: 0.5228441830004158
+(25, 36)
+Score:  11
+step time: 0.5440686219990312
+(25, 36)
+Score:  11
+step time: 0.5385644320012943
+(25, 36)
+Score:  11
+step time: 0.5493688320020738
+(25, 36)
+Score:  11
+step time: 0.5311051979988406
+(25, 36)
+Score:  11
+step time: 0.5601428430018132
+(25, 36)
+Score:  11
+step time: 0.5785303470001963
+(25, 36)
+Score:  11
+step time: 0.5643539900011092
+(25, 36)
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Score:  0
+step time: 0.5239847139964695
+(25, 36)
+Score:  0
+step time: 0.4766327260003891
+-18.282588890052594 -199.16261432175799
+(25, 36)
+Score:  10
+step time: 0.49833342700003413
+(25, 36)
+Score:  10
+step time: 0.4889257490031014
+(25, 36)
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 136, in <module>
+    next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 153, in step
+    obs_2 = self.get_screenshot("f2.png")
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 105, in get_screenshot
+    img = self.driver.get_screenshot_as_png()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 1353, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+AttributeError: 'NoneType' object has no attribute 'encode'
+Score:  10
+step time: 0.5306158480016165
+(25, 36)
+Score:  10
+step time: 0.5420100880000973
+(25, 36)
+Score:  10
+step time: 0.5554765540000517

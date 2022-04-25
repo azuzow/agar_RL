@@ -1,0 +1,441 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:182: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  value =torch.nn.functional.softmax(classifier(digits[i]).squeeze(0))
+199.96953903127826 3.4904812874567024
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+
+(25, 36)
+Score:  11
+(REWARD: 1, DONE: False)
+LOSS: 0.5719045400619507
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 0.21059909462928772
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.06702442467212677
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.12010445445775986
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.01618180051445961
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.09070899337530136
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.06760178506374359
+
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 0.00023798830807209015
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 2.0994930309825577e-05
+
+(25, 36)
+Score:  18
+(REWARD: 1, DONE: False)
+LOSS: 1.6429120250904816e-06
+
+(25, 36)
+Score:  0
+(REWARD: 1, DONE: False)
+LOSS: 1.436537360177681e-07
+
+(25, 36)
+Score:  0
+(REWARD: -10, DONE: True)
+LOSS: 3.682920942083001e-05
+/home/alexzuzow/Desktop/agar_multiagent/IMPROVED_TRAIN_DQN.py:76: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  action = policy_DQN(Variable(state.unsqueeze(0), volatile=True)).data.max(1)[1].view(1, 1)
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+199.96953903127826 3.4904812874567024
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 5.032886838307604e-05
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 3.9629926681518555
+
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 1.0400824546813965
+
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 0.07082147896289825
+
+(25, 36)
+Score:  10
+(REWARD: 1, DONE: False)
+LOSS: 0.007532894611358643
+
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 1.3512410077964887e-05
+
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 0.43492308259010315
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 0.008335532620549202
+
+(25, 36)
+Score:  12
+(REWARD: 1, DONE: False)
+LOSS: 0.007732322905212641
+
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 2.628288745880127
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 0.018883194774389267
+
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 0.07754441350698471
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 4.856471538543701
+
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 2.6399614810943604
+
+(25, 36)
+Score:  13
+(REWARD: 1, DONE: False)
+LOSS: 0.38305243849754333
+
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 1.7757753133773804
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 0.9145459532737732
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 2.3428988456726074
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 0.1714412122964859
+
+(25, 36)
+Score:  15
+(REWARD: 1, DONE: False)
+LOSS: 1.3445945978164673
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.4147226810455322
+
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.05862930044531822
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.0029429150745272636
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.0698065459728241
+
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.016676081344485283
+
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.5954095125198364
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.3020874261856079
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.05887164920568466
+
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 5.1437087059021
+
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.05957704782485962
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.06871920824050903
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.28927910327911377
+
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.005579211749136448
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.03344963490962982
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.0007939516799524426
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.01762477122247219
+
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.13218839466571808
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.01835535280406475
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.014131005853414536
+
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.10561855882406235
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.1176886111497879
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.004390262998640537
+(25, 36)
+Score:  16
+(REWARD: 1, DONE: False)
+LOSS: 0.10708592087030411
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.002514359075576067
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.0015348022570833564
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 5.383726119995117
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.023786071687936783
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.006865625269711018
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.05493048578500748
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.5075971484184265
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.01627965271472931
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.010696973651647568
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.09757978469133377
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 1.0982099771499634
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.0020042231772094965
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.0009219252387993038
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.04565422609448433
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.1339273303747177
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 1.0010173320770264
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.0006125607178546488
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 5.269138813018799
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.07970014959573746
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.737285852432251
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.8382094502449036
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.8204524517059326
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.2521588206291199
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.009295165538787842
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.3629233241081238
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.018763788044452667
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 1.1091457605361938
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.021863766014575958
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.013096019625663757
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.0069039552472531796
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.006951676681637764
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.0055784075520932674
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.004840390291064978
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.005458044353872538
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.0037094454746693373
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.0032444405369460583
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.24846549332141876
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.0017046169377863407
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.0010975822806358337
+
+(25, 36)
+Score:  17
+(REWARD: 1, DONE: False)
+LOSS: 0.03441666066646576

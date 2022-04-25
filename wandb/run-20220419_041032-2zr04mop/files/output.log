@@ -1,0 +1,28 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+143.96689560086455 -138.82915029290416
+(25, 36)
+TEST1
+TEST2
+tensor(1., grad_fn=<MaxBackward1>)
+tensor(1., grad_fn=<MaxBackward1>)
+tensor(1., grad_fn=<MaxBackward1>)
+tensor(1., grad_fn=<MaxBackward1>)
+Score:  0
+step time: 0.5389325130000202
+(25, 36)
+TEST1
+TEST2
+tensor(1., grad_fn=<MaxBackward1>)
+tensor(1., grad_fn=<MaxBackward1>)
+tensor(1., grad_fn=<MaxBackward1>)
+tensor(1., grad_fn=<MaxBackward1>)
+Score:  0
+step time: 0.54569503700003
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:183: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome

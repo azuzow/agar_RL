@@ -1,0 +1,76 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-91.49560927467569 -177.8441831588986
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 3.0829e-44, 2.5462e-42, 1.5414e-44, 1.4013e-43,
+        0.0000e+00, 5.7313e-43, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 8.5841e-41, 6.2973e-22, 5.3574e-28, 7.2805e-23, 6.0305e-27,
+        3.0350e-22, 2.9520e-30, 1.0368e-17, 1.1192e-21, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5211366370000405
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 1.1631e-43, 1.4013e-45, 1.2612e-44,
+        0.0000e+00, 2.8026e-44, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 4.6307e-40, 3.6046e-22, 6.1076e-28, 6.5722e-23, 8.6872e-27,
+        9.4593e-22, 4.6599e-30, 1.6590e-17, 2.2025e-21, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5222290689999909
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:183: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  outputs.append(torch.nn.functional.softmax(classifier(digits[i]).squeeze(0)))
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 126, in <module>
+    state = agar1.reset()
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 61, in reset
+    self.driver.get("https://agar.io/#ffa")
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 436, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 422, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/remote_connection.py", line 421, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/remote_connection.py", line 443, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/http/client.py", line 1371, in getresponse
+    response.begin()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/http/client.py", line 319, in begin
+    version, status, reason = self._read_status()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/http/client.py", line 280, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt

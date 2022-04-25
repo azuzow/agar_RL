@@ -1,0 +1,83 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+160.49551084703396 -119.33646130981765
+(25, 36)
+Score:  0
+step time: 0.5616343600013352
+(25, 36)
+Score:  0
+step time: 0.6424578219994146
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:182: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  value =torch.nn.functional.softmax(classifier(digits[i]).squeeze(0))
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+125.08744475177656 -156.05489792208144
+(25, 36)
+Score:  10
+step time: 0.4920434079976985
+(25, 36)
+Score:  11
+step time: 0.5331058899973868
+(25, 36)
+Score:  11
+step time: 0.5218454040004872
+(25, 36)
+Score:  11
+step time: 0.5113084069998877
+(25, 36)
+Score:  11
+step time: 0.5211665829992853
+(25, 36)
+Score:  11
+step time: 0.5347479040028702
+(25, 36)
+Score:  11
+step time: 0.4801507310003217
+(25, 36)
+Score:  12
+step time: 0.5009302120015491
+(25, 36)
+Score:  12
+step time: 0.517636558997765
+(25, 36)
+Score:  13
+step time: 0.5017578539991518
+(25, 36)
+Score:  13
+step time: 0.5013687649989151
+(25, 36)
+Score:  13
+step time: 0.49127508899982786
+(25, 36)
+Score:  13
+step time: 0.4968478779992438
+(25, 36)
+Score:  13
+step time: 0.48006432299735025
+(25, 36)
+Score:  13
+step time: 0.47229146099925856
+(25, 36)
+Score:  13
+step time: 0.5306180199986557
+(25, 36)
+Score:  13
+step time: 0.5440048600030423
+(25, 36)
+Score:  15
+step time: 0.6811322499997914
+(25, 36)
+Score:  0
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 136, in <module>
+    next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 171, in step
+    cv2.imwrite(img,'output'+str(self.n_fails)+'.png')
+cv2.error: OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'imwrite'
+> Overload resolution failed:
+>  - Can't convert object of type 'numpy.ndarray' to 'str' for 'filename'
+>  - Can't convert object of type 'numpy.ndarray' to 'str' for 'filename'

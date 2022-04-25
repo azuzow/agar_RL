@@ -1,0 +1,226 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+-46.931480093543094 194.4156273971549
+(25, 36)
+TEST1
+TEST2
+tensor([1.4231e-20, 1.0000e+00, 6.7265e-15, 1.8696e-14, 1.0836e-12, 9.9992e-16,
+        2.3281e-13, 5.7061e-10, 1.7322e-14, 6.7495e-11, 6.3881e-34],
+       grad_fn=<SoftmaxBackward0>)
+tensor([8.3770e-15, 5.5634e-28, 9.1017e-15, 2.0738e-10, 2.4218e-38, 1.0000e+00,
+        7.5644e-10, 2.4434e-14, 6.8699e-14, 1.8176e-09, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 1.9618e-44, 0.0000e+00,
+        0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([9.8523e-16, 1.0000e+00, 5.6107e-14, 1.1778e-14, 3.8700e-12, 3.6177e-14,
+        4.3918e-15, 4.0573e-13, 8.2378e-14, 7.8191e-14, 1.5019e-22],
+       grad_fn=<SoftmaxBackward0>)
+Score:  1511
+step time: 0.5600972819993331
+(25, 36)
+TEST1
+TEST2
+tensor([1.3652e-20, 1.0000e+00, 1.1922e-14, 1.4665e-14, 1.8486e-13, 6.9787e-15,
+        7.6565e-13, 1.2809e-09, 3.9480e-14, 1.3523e-10, 3.7466e-34],
+       grad_fn=<SoftmaxBackward0>)
+tensor([4.4024e-15, 9.0068e-28, 8.1915e-15, 9.9076e-11, 1.1727e-38, 1.0000e+00,
+        5.5900e-10, 1.3655e-14, 6.2471e-14, 1.4005e-09, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+Score:  1511
+step time: 0.6099697070021648
+(25, 36)
+TEST1
+TEST2
+tensor([5.7571e-14, 1.0000e+00, 1.7161e-11, 2.2004e-09, 1.6211e-07, 8.3674e-11,
+        2.1271e-08, 8.8867e-08, 7.8898e-11, 1.2793e-08, 8.8612e-22],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0761e-09, 1.6375e-17, 2.9918e-10, 1.6811e-07, 4.9834e-25, 9.9999e-01,
+        1.4772e-06, 1.5830e-10, 2.7195e-08, 4.3329e-06, 5.0447e-44],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0.0389, 0.5634, 0.0418, 0.0350, 0.1026, 0.0321, 0.0403, 0.0424, 0.0512,
+        0.0452, 0.0072], grad_fn=<SoftmaxBackward0>)
+tensor([0.0389, 0.5634, 0.0418, 0.0350, 0.1026, 0.0321, 0.0403, 0.0424, 0.0512,
+        0.0452, 0.0072], grad_fn=<SoftmaxBackward0>)
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:182: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  value =torch.nn.functional.softmax(classifier(digits[i]).squeeze(0))
+Score:  15
+step time: 0.5794157039999845
+(25, 36)
+TEST1
+TEST2
+tensor([4.5330e-20, 1.0000e+00, 2.1939e-14, 2.7858e-14, 5.4180e-13, 2.9450e-15,
+        2.8725e-13, 1.3997e-09, 6.1964e-14, 3.3816e-10, 2.6066e-34],
+       grad_fn=<SoftmaxBackward0>)
+tensor([8.3770e-15, 5.5634e-28, 9.1017e-15, 2.0738e-10, 2.4218e-38, 1.0000e+00,
+        7.5644e-10, 2.4434e-14, 6.8699e-14, 1.8176e-09, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+Score:  1511
+step time: 0.6121714700020675
+(25, 36)
+TEST1
+TEST2
+tensor([2.3707e-14, 1.0000e+00, 4.6103e-12, 7.0153e-10, 6.9323e-08, 3.7324e-11,
+        1.5125e-08, 2.6882e-08, 3.1888e-11, 5.6707e-09, 2.2246e-22],
+       grad_fn=<SoftmaxBackward0>)
+tensor([5.2754e-10, 1.6375e-18, 1.5885e-10, 7.8406e-08, 1.6591e-26, 1.0000e+00,
+        4.2881e-07, 7.8550e-11, 1.0328e-08, 2.7860e-06, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0.0389, 0.5634, 0.0418, 0.0350, 0.1026, 0.0321, 0.0403, 0.0424, 0.0512,
+        0.0452, 0.0072], grad_fn=<SoftmaxBackward0>)
+tensor([0.0389, 0.5634, 0.0418, 0.0350, 0.1026, 0.0321, 0.0403, 0.0424, 0.0512,
+        0.0452, 0.0072], grad_fn=<SoftmaxBackward0>)
+Score:  15
+step time: 0.741535812998336
+(25, 36)
+TEST1
+TEST2
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+Score:  1111
+step time: 0.6445687859995815
+(25, 36)
+TEST1
+TEST2
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+Score:  1111
+step time: 0.6693263140005001
+(25, 36)
+TEST1
+TEST2
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+Score:  1111
+step time: 0.8280059889984841
+(25, 36)
+TEST1
+TEST2
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+Score:  1111
+step time: 0.6784064029998262
+(25, 36)
+TEST1
+TEST2
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+Score:  1111
+step time: 0.6555499480018625
+(25, 36)
+TEST1
+TEST2
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+Score:  1111
+step time: 0.6701785649966041
+(25, 36)
+TEST1
+TEST2
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+Score:  1111
+step time: 0.6275351969998155
+(25, 36)
+TEST1
+TEST2
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+Score:  1111
+step time: 0.6176379659991653
+(25, 36)
+TEST1
+TEST2
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+Score:  1111
+step time: 0.5746957979972649
+(25, 36)
+TEST1
+TEST2
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+Score:  1111
+step time: 0.5965295220012194
+(25, 36)
+TEST1
+TEST2
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+Score:  1111

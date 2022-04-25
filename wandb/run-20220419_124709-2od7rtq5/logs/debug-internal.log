@@ -1,0 +1,64 @@
+2022-04-19 12:47:10,216 INFO    MainThread:38338 [internal.py:wandb_internal():92] W&B internal server running at pid: 38338, started at: 2022-04-19 12:47:10.216566
+2022-04-19 12:47:10,219 INFO    WriterThread:38338 [datastore.py:open_for_write():77] open: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/run-2od7rtq5.wandb
+2022-04-19 12:47:10,222 DEBUG   SenderThread:38338 [sender.py:send():235] send: header
+2022-04-19 12:47:10,222 DEBUG   SenderThread:38338 [sender.py:send():235] send: run
+2022-04-19 12:47:10,339 DEBUG   HandlerThread:38338 [handler.py:handle_request():141] handle_request: check_version
+2022-04-19 12:47:10,340 INFO    SenderThread:38338 [dir_watcher.py:__init__():169] watching files in: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files
+2022-04-19 12:47:10,340 INFO    SenderThread:38338 [sender.py:_start_run_threads():812] run started: 2od7rtq5 with start time 1650390429
+2022-04-19 12:47:10,341 DEBUG   SenderThread:38338 [sender.py:send():235] send: summary
+2022-04-19 12:47:10,341 INFO    SenderThread:38338 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-19 12:47:10,341 DEBUG   SenderThread:38338 [sender.py:send_request():249] send_request: check_version
+2022-04-19 12:47:10,407 DEBUG   HandlerThread:38338 [handler.py:handle_request():141] handle_request: run_start
+2022-04-19 12:47:10,411 DEBUG   HandlerThread:38338 [meta.py:__init__():37] meta init
+2022-04-19 12:47:10,412 DEBUG   HandlerThread:38338 [meta.py:__init__():51] meta init done
+2022-04-19 12:47:10,412 DEBUG   HandlerThread:38338 [meta.py:probe():211] probe
+2022-04-19 12:47:10,418 DEBUG   HandlerThread:38338 [meta.py:_setup_git():201] setup git
+2022-04-19 12:47:10,437 DEBUG   HandlerThread:38338 [meta.py:_setup_git():208] setup git done
+2022-04-19 12:47:10,437 DEBUG   HandlerThread:38338 [meta.py:_save_pip():55] save pip
+2022-04-19 12:47:10,437 DEBUG   HandlerThread:38338 [meta.py:_save_pip():69] save pip done
+2022-04-19 12:47:10,438 DEBUG   HandlerThread:38338 [meta.py:_save_conda():76] save conda
+2022-04-19 12:47:11,344 INFO    Thread-7  :38338 [dir_watcher.py:_on_file_created():217] file/dir created: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/conda-environment.yaml
+2022-04-19 12:47:11,345 INFO    Thread-7  :38338 [dir_watcher.py:_on_file_created():217] file/dir created: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/requirements.txt
+2022-04-19 12:47:11,345 INFO    Thread-7  :38338 [dir_watcher.py:_on_file_created():217] file/dir created: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/wandb-summary.json
+2022-04-19 12:47:12,950 DEBUG   HandlerThread:38338 [meta.py:_save_conda():86] save conda done
+2022-04-19 12:47:12,950 DEBUG   HandlerThread:38338 [meta.py:probe():249] probe done
+2022-04-19 12:47:12,961 DEBUG   SenderThread:38338 [sender.py:send():235] send: files
+2022-04-19 12:47:12,961 INFO    SenderThread:38338 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-19 12:47:12,968 DEBUG   HandlerThread:38338 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-19 12:47:12,969 DEBUG   SenderThread:38338 [sender.py:send_request():249] send_request: stop_status
+2022-04-19 12:47:13,083 DEBUG   SenderThread:38338 [sender.py:send():235] send: telemetry
+2022-04-19 12:47:13,326 INFO    Thread-11 :38338 [upload_job.py:push():137] Uploaded file /tmp/tmpxupynrx5wandb/15rn88gq-wandb-metadata.json
+2022-04-19 12:47:13,345 INFO    Thread-7  :38338 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/conda-environment.yaml
+2022-04-19 12:47:13,345 INFO    Thread-7  :38338 [dir_watcher.py:_on_file_created():217] file/dir created: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/wandb-metadata.json
+2022-04-19 12:47:13,345 INFO    Thread-7  :38338 [dir_watcher.py:_on_file_created():217] file/dir created: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/output.log
+2022-04-19 12:47:15,346 INFO    Thread-7  :38338 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/output.log
+2022-04-19 12:47:23,000 DEBUG   HandlerThread:38338 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-19 12:47:23,001 DEBUG   SenderThread:38338 [sender.py:send():235] send: history
+2022-04-19 12:47:23,001 DEBUG   SenderThread:38338 [sender.py:send():235] send: summary
+2022-04-19 12:47:23,002 INFO    SenderThread:38338 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-19 12:47:23,349 INFO    Thread-7  :38338 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/wandb-summary.json
+2022-04-19 12:47:23,349 INFO    Thread-7  :38338 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/output.log
+2022-04-19 12:47:25,349 INFO    Thread-7  :38338 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/output.log
+2022-04-19 12:47:26,899 WARNING MainThread:38338 [internal.py:wandb_internal():155] Internal process interrupt: 1
+2022-04-19 12:47:26,907 DEBUG   SenderThread:38338 [sender.py:send():235] send: telemetry
+2022-04-19 12:47:27,380 WARNING MainThread:38338 [internal.py:wandb_internal():155] Internal process interrupt: 2
+2022-04-19 12:47:27,381 ERROR   MainThread:38338 [internal.py:wandb_internal():158] Internal process interrupted.
+2022-04-19 12:47:27,907 INFO    HandlerThread:38338 [handler.py:finish():790] shutting down handler
+2022-04-19 12:47:27,907 INFO    SenderThread:38338 [sender.py:finish():1107] shutting down sender
+2022-04-19 12:47:27,907 INFO    WriterThread:38338 [datastore.py:close():281] close: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/run-2od7rtq5.wandb
+2022-04-19 12:47:27,908 INFO    SenderThread:38338 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-19 12:47:28,351 INFO    SenderThread:38338 [dir_watcher.py:finish():313] scan: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files
+2022-04-19 12:47:28,351 INFO    SenderThread:38338 [dir_watcher.py:finish():327] scan save: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/wandb-metadata.json wandb-metadata.json
+2022-04-19 12:47:28,351 INFO    SenderThread:38338 [dir_watcher.py:finish():327] scan save: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/requirements.txt requirements.txt
+2022-04-19 12:47:28,351 INFO    SenderThread:38338 [dir_watcher.py:finish():327] scan save: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/conda-environment.yaml conda-environment.yaml
+2022-04-19 12:47:28,352 INFO    SenderThread:38338 [dir_watcher.py:finish():327] scan save: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/config.yaml config.yaml
+2022-04-19 12:47:28,355 INFO    SenderThread:38338 [dir_watcher.py:finish():327] scan save: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/wandb-summary.json wandb-summary.json
+2022-04-19 12:47:28,355 INFO    SenderThread:38338 [dir_watcher.py:finish():327] scan save: /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/output.log output.log
+2022-04-19 12:47:28,355 INFO    SenderThread:38338 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-19 12:47:28,356 INFO    SenderThread:38338 [file_pusher.py:join():150] waiting for file pusher
+2022-04-19 12:47:28,684 INFO    Thread-14 :38338 [upload_job.py:push():137] Uploaded file /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/config.yaml
+2022-04-19 12:47:28,700 INFO    Thread-12 :38338 [upload_job.py:push():137] Uploaded file /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/requirements.txt
+2022-04-19 12:47:28,705 INFO    Thread-16 :38338 [upload_job.py:push():137] Uploaded file /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/output.log
+2022-04-19 12:47:28,712 INFO    Thread-13 :38338 [upload_job.py:push():137] Uploaded file /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/conda-environment.yaml
+2022-04-19 12:47:28,749 INFO    Thread-15 :38338 [upload_job.py:push():137] Uploaded file /home/alexzuzow/Desktop/agar_multiagent/wandb/run-20220419_124709-2od7rtq5/files/wandb-summary.json
+2022-04-19 12:47:29,424 INFO    MainThread:38338 [internal.py:handle_exit():82] Internal process exited

@@ -1,0 +1,140 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_linux64.zip
+Driver has been saved in cache [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51]
+
+(25, 36)
+Score:  10
+(REWARD: tensor([1]), DONE: False)
+
+(25, 36)
+Score:  10
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(0.6160, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+
+(25, 36)
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:182: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  value =torch.nn.functional.softmax(classifier(digits[i]).squeeze(0))
+Score:  10
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(0.1630, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+
+(25, 36)
+Score:  10
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(0.2217, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+199.96953903127826 3.4904812874567024
+(25, 36)
+Score:  10
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(0.3678, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+(25, 36)
+Score:  10
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(0.0641, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+(25, 36)
+Score:  10
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(0.0003, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+(25, 36)
+Score:  10
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(0.0020, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+
+(25, 36)
+Score:  12
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(0.0093, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+(25, 36)
+Score:  12
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(0.0082, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+
+(25, 36)
+Score:  12
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(0.0006, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+(25, 36)
+Score:  12
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(0.0010, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+
+(25, 36)
+Score:  12
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(0.0002, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+(25, 36)
+Score:  12
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(4.8628e-05, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+
+/home/alexzuzow/Desktop/agar_multiagent/IMPROVED_TRAIN_DQN.py:76: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  action = policy_DQN(Variable(state.unsqueeze(0), volatile=True)).data.max(1)[1].view(1, 1)
+(25, 36)
+Score:  12
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(2.0909e-05, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+(25, 36)
+Score:  12
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(8.8750e-06, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+(25, 36)
+Score:  12
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(3.9899e-06, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+(25, 36)
+====== WebDriver manager ======
+Score:  12
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(1.7966e-06, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+
+(25, 36)
+Score:  0
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(8.5865e-07, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+
+(25, 36)
+Score:  0
+(REWARD: tensor([-10]), DONE: True)
+LOSS: tensor(6.6731e-07, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+199.96953903127826 3.4904812874567024
+(25, 36)
+Score:  10
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(3.2435e-08, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+
+(25, 36)
+Score:  10
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(1.2271e-06, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+
+(25, 36)
+Score:  10
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(3.5401, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+
+(25, 36)
+Score:  12
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(0.0349, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+
+(25, 36)
+Score:  12
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(3.5646, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+
+(25, 36)
+Score:  0
+(REWARD: tensor([1]), DONE: False)
+LOSS: tensor(0.2933, device='cuda:0', grad_fn=<SmoothL1LossBackward0>)
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+(25, 36)
+Score:  0
+(REWARD: tensor([-10]), DONE: True)

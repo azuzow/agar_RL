@@ -1,0 +1,331 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+197.89176786987053 28.962876399578775
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 5.3058e-38, 6.8772e-16, 6.7490e-18, 2.6346e-20, 4.4672e-29,
+        2.0652e-16, 6.1522e-31, 1.4698e-18, 6.5399e-25, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.534608735000802
+(25, 36)
+TEST1
+TEST2
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 6.4720e-39, 1.7302e-17, 5.1099e-18, 3.4580e-21, 5.4037e-29,
+        1.3541e-14, 4.0112e-32, 5.1905e-18, 2.5585e-27, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5032490499979758
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 5.3058e-38, 6.8772e-16, 6.7490e-18, 2.6346e-20, 4.4672e-29,
+        2.0652e-16, 6.1522e-31, 1.4698e-18, 6.5399e-25, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:182: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  value =torch.nn.functional.softmax(classifier(digits[i]).squeeze(0))
+Score:  0
+step time: 0.517282355001953
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 6.3161e-38, 5.8200e-17, 9.0562e-19, 1.8908e-20, 9.5572e-30,
+        2.6769e-16, 1.5614e-31, 3.8856e-19, 5.3515e-26, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5310381009985576
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.7164e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 5.3058e-38, 6.8772e-16, 6.7490e-18, 2.6346e-20, 4.4672e-29,
+        2.0652e-16, 6.1522e-31, 1.4698e-18, 6.5399e-25, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5138484419985616
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 5.3058e-38, 6.8772e-16, 6.7490e-18, 2.6346e-20, 4.4672e-29,
+        2.0652e-16, 6.1522e-31, 1.4698e-18, 6.5399e-25, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.48829613199995947
+
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 5.0437e-38, 6.6198e-16, 6.5545e-18, 2.6329e-20, 4.4147e-29,
+        2.0941e-16, 5.9320e-31, 1.4665e-18, 6.0684e-25, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5458625989995198
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 1.4198e-39, 6.1847e-17, 7.1942e-19, 6.4325e-22, 1.1603e-29,
+        3.9080e-17, 1.9405e-31, 5.6193e-19, 4.0144e-25, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5348764959999244
+
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 3.5810e-39, 1.9446e-16, 5.7194e-19, 2.0319e-21, 2.1752e-30,
+        2.2242e-17, 6.4525e-32, 1.5825e-19, 2.6145e-25, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5259415049986274
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 1.4533e-37, 2.5420e-18, 1.0835e-20, 5.1137e-21, 2.2695e-30,
+        1.8638e-16, 4.9526e-33, 6.4878e-19, 6.2017e-28, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5029540200011979
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 2.4439e-37, 3.8220e-18, 3.8314e-19, 1.7829e-20, 5.0402e-30,
+        1.8321e-16, 2.4390e-31, 8.7823e-20, 3.0483e-26, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.506895992999489
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 5.3058e-38, 6.8772e-16, 6.7490e-18, 2.6346e-20, 4.4672e-29,
+        2.0652e-16, 6.1522e-31, 1.4698e-18, 6.5399e-25, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5300921099988045
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 5.3058e-38, 6.8772e-16, 6.7490e-18, 2.6346e-20, 4.4672e-29,
+        2.0652e-16, 6.1522e-31, 1.4698e-18, 6.5399e-25, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5105620780013851
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.0000e+00, 5.3058e-38, 6.8772e-16, 6.7490e-18, 2.6346e-20, 4.4672e-29,
+        2.0652e-16, 6.1522e-31, 1.4698e-18, 6.5399e-25, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5309695010000723
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 136, in <module>
+    next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 146, in step
+    obs_1 = self.get_screenshot("f1.png")
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 105, in get_screenshot
+    img = self.driver.get_screenshot_as_png()
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 1353, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 1365, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/alexzuzow/anaconda3/envs/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Stacktrace:
+#0 0x5623a87757d3 <unknown>
+#1 0x5623a84d151f <unknown>
+#2 0x5623a84bf954 <unknown>
+#3 0x5623a84c0a71 <unknown>
+#4 0x5623a84c2132 <unknown>
+#5 0x5623a84ba486 <unknown>
+#6 0x5623a84d2a82 <unknown>
+#7 0x5623a8538118 <unknown>
+#8 0x5623a85255a3 <unknown>
+#9 0x5623a84faddc <unknown>
+#10 0x5623a84fbde5 <unknown>
+#11 0x5623a87a649d <unknown>
+#12 0x5623a87bf60c <unknown>
+#13 0x5623a87a8205 <unknown>
+#14 0x5623a87bfee5 <unknown>
+#15 0x5623a879c070 <unknown>
+#16 0x5623a87db488 <unknown>
+#17 0x5623a87db60c <unknown>
+#18 0x5623a87f4c6d <unknown>
+#19 0x7fbcd763f609 <unknown>
+Score:  0
+step time: 0.5549176370004716
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.8264e-25, 1.4856e-28, 1.0000e+00, 5.4027e-19, 1.0316e-28, 7.5959e-28,
+        1.7297e-29, 5.1097e-24, 1.1126e-22, 9.9335e-20, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5593253229999391
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 1.4013e-45, 0.0000e+00, 6.2820e-42, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([1.3062e-24, 2.1327e-27, 1.0000e+00, 1.5706e-18, 8.9520e-28, 4.0882e-27,
+        9.9486e-29, 4.9621e-23, 6.5084e-22, 7.0956e-19, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],
+       grad_fn=<SoftmaxBackward0>)
+Score:  0
+step time: 0.5261073449983087
+(25, 36)
+TEST1
+TEST2
+tensor([0.0000e+00, 1.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00, 0.0000e+00,
+        0.0000e+00, 0.0000e+00, 0.0000e+00, 1.1070e-43, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([7.0050e-25, 1.7937e-28, 1.0000e+00, 9.1342e-19, 4.0197e-28, 1.7189e-27,
+        7.2391e-29, 1.1814e-23, 2.5086e-22, 1.9456e-19, 0.0000e+00],
+       grad_fn=<SoftmaxBackward0>)
+tensor([0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       grad_fn=<SoftmaxBackward0>)
+tensor([3.6267e-13, 1.0000e+00, 4.4351e-10, 5.8533e-15, 7.8680e-11, 4.5679e-13,
+        2.0148e-12, 2.0995e-10, 2.8464e-14, 7.2419e-10, 1.5897e-19],

@@ -76,7 +76,8 @@ class DigitDataset(Dataset):
         image= (image).astype(np.float32)
 
         label = image_filepath.split('/')[7]
-        label= label[0]
+        
+        # print(label)
         
         return image, label
 
@@ -87,9 +88,10 @@ class CNN(nn.Module):
         self.conv1 = nn.Conv2d(in_channels=1, out_channels=32,kernel_size= 3)
         self.dropout1 = nn.Dropout(0.25)
         self.conv2 = nn.Conv2d(in_channels=32,out_channels= 64, kernel_size=3)
-        self.dropout2 = nn.Dropout(0.5)
+        self.dropout2 = nn.Dropout(0.25)
         self.conv3 = nn.Conv2d(in_channels=64,out_channels= 128, kernel_size=3)
-        self.fc1 = nn.Linear(88064, 256)
+        self.conv4 = nn.Conv2d(in_channels=128,out_channels= 128, kernel_size=3)
+        self.fc1 = nn.Linear(73472, 256)
         self.fc2 = nn.Linear(256, 11)
     def forward(self, x):
         x = x/255.0
@@ -100,8 +102,11 @@ class CNN(nn.Module):
         x = F.max_pool2d(x, 2)
         x = self.conv3(x)
         x = F.relu(x)
+        x = self.conv4(x)
+        x = F.relu(x)
         x = torch.flatten(x, 1)
         x = self.fc1(x)
+        x = self.dropout1(x)
         x = F.relu(x)
         x = self.dropout2(x)
         x = self.fc2(x)
@@ -192,18 +197,18 @@ train_loader = DataLoader(
 )
 
 test_loader = DataLoader(
-    test_dataset, batch_size=256, shuffle=False
+    test_dataset, batch_size=256, shuffle=True
 )
 
-
-
+# class_weights= [1.0,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0]
+# class_weights=torch.tensor(class_weights,dtype=torch.float).to(device)
 # model = CNN().to(device)
 # optimizer = optim.Adam(model.parameters(), lr = 0.01)   
-# loss = nn.CrossEntropyLoss()
+# loss = nn.CrossEntropyLoss(weight=class_weights)
 
-# for epoch in range(1, 50):
+# for epoch in range(1, 10):
 #     train(model, device, train_loader, optimizer, epoch,loss)
-#     # test(model, device, test_loader,loss)
+#     test(model, device, test_loader,loss)
 
 
 # torch.save(model.state_dict(), 'models/classifier.pt')

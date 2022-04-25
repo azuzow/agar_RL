@@ -1,0 +1,111 @@
+====== WebDriver manager ======
+Current google-chrome version is 99.0.4844
+Get LATEST chromedriver version for 99.0.4844 google-chrome
+Driver [/home/alexzuzow/.wdm/drivers/chromedriver/linux64/99.0.4844.51/chromedriver] found in cache
+193.4950631703627 -50.593087756109014
+(25, 36)
+Score:  10
+step time: 0.5542780889954884
+(25, 36)
+/home/alexzuzow/Desktop/agar_multiagent/utils.py:182: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  value =torch.nn.functional.softmax(classifier(digits[i]).squeeze(0))
+Score:  10
+step time: 0.5232146740017924
+(25, 36)
+Score:  10
+step time: 0.49917320400709286
+(25, 36)
+Score:  10
+step time: 0.5039633639971726
+(25, 36)
+Score:  10
+step time: 0.5177965330076404
+(25, 36)
+Score:  10
+step time: 0.54050015998655
+(25, 36)
+Score:  11
+step time: 0.5286147859878838
+(25, 36)
+Score:  12
+step time: 0.5427204840234481
+(25, 36)
+Score:  12
+step time: 0.526389290986117
+(25, 36)
+Score:  12
+step time: 0.5487488259968814
+(25, 36)
+Score:  12
+step time: 0.5361739610088989
+(25, 36)
+Score:  12
+step time: 0.5213313300046138
+(25, 36)
+Score:  13
+step time: 0.5025896209990606
+(25, 36)
+Score:  13
+step time: 0.5137050140183419
+(25, 36)
+Score:  13
+step time: 0.5150313869817182
+(25, 36)
+Score:  13
+step time: 0.4369443229807075
+(25, 36)
+Score:  13
+step time: 0.46962072199676186
+(25, 36)
+Score:  13
+step time: 0.5047554050106555
+(25, 36)
+Score:  13
+step time: 0.5140210239915177
+(25, 36)
+Score:  13
+step time: 0.509296504984377
+(25, 36)
+Score:  13
+step time: 0.4957897769927513
+(25, 36)
+Score:  13
+step time: 0.5276727229938842
+(25, 36)
+Score:  13
+step time: 0.5067581199982669
+(25, 36)
+Score:  13
+step time: 0.536691832006909
+(25, 36)
+Score:  13
+step time: 0.557365924003534
+(25, 36)
+Score:  13
+step time: 0.5629992469912395
+(25, 36)
+Score:  14
+step time: 0.5194679560081568
+(25, 36)
+Score:  14
+step time: 0.5296000769885723
+(25, 36)
+Score:  16
+step time: 0.5307819400040898
+(25, 36)
+Score:  16
+step time: 0.5254001790017355
+(25, 36)
+Score:  16
+step time: 0.533403976005502
+(25, 36)
+Score:  19
+step time: 0.5977078200085089
+(25, 36)
+Score:  0
+Traceback (most recent call last):
+  File "/home/alexzuzow/Desktop/agar_multiagent/train_DQN.py", line 136, in <module>
+    next_state,score,failed,restart,done = agar1.step(action,timestep,episode)
+  File "/home/alexzuzow/Desktop/agar_multiagent/agar.py", line 172, in step
+    self.first_fail_frames[0] = masked_img
+RuntimeError: expand(torch.FloatTensor{[3, 1029, 1156]}, size=[128, 128]): the number of sizes provided (2) must be greater or equal to the number of dimensions in the tensor (3)
