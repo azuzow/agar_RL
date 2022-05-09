@@ -25,7 +25,7 @@ class env:
         self.action_selector = None
         self.screen_width=None
         self.screen_height=None
-        actions=np.linspace(1,360,50)
+        actions=np.linspace(1,360,25)
         actions = np.radians(actions)
         x_actions= 200*np.cos(actions)
         y_actions= 200*np.sin(actions)
@@ -35,9 +35,9 @@ class env:
         self.actions_taken=[]
         self.name=name
         self.action_space = dict()
-        self.action_space[0]= Keys.SPACE
+        # self.action_space[0]= Keys.SPACE
         for i in range(len(actions)):
-            self.action_space[i+1]= tuple((x_actions[i],y_actions[i]))
+            self.action_space[i]= tuple((x_actions[i],y_actions[i]))
         self.n_fails = 0
         self.first_fail_frames = []
 
@@ -61,6 +61,29 @@ class env:
             self.driver.get("https://agar.io/#ffa")
             menu = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="nick"]')))
             menu.send_keys(self.name)
+            settings_button = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="settingsButton"]')))
+            settings_button.click()
+
+
+            skin_checkbox = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="mainui-settings"]/div[2]/div[3]/div[1]')))
+            skin_checkbox.click()
+
+            color_checkbox = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="mainui-settings"]/div[2]/div[3]/div[3]')))
+            color_checkbox.click()
+
+            names_checkbox = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="mainui-settings"]/div[2]/div[3]/div[2]')))
+            names_checkbox.click()
+
+            darktheme_checkbox = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="mainui-settings"]/div[2]/div[3]/div[4]')))
+            darktheme_checkbox.click()
+            
+            graphics_checkbox = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="quality"]/option[3]')))
+            graphics_checkbox.click()
+
+            settings_exit_button = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="mainui-settings"]/div[2]/span')))
+
+            settings_exit_button.click()
+            
             play_button = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="play"]')))
             play_button.click()
             game_screen = self.driver.find_element(By.XPATH,'//*[@id="canvas"]')
@@ -113,21 +136,16 @@ class env:
         obs_path= 'agent_observations/'+ str(timestep+episode)+'.png'
         # print(action)
 
-        if action==0:
-            print(self.action_space[action])
-            self.action_selector.send_keys(self.action_space[action]).perform()
+        self.actions_taken.append(self.action_space[action])
+        #move cursor back to center of screen
+        # tic = timeit.default_timer()
+        if len(self.actions_taken)>1:
+            x_offset = self.actions_taken[-1][0]-self.actions_taken[-2][0]
+            y_offset= self.actions_taken[-1][1]-self.actions_taken[-2][1]
+            self.action_selector.move_by_offset(x_offset,y_offset).perform()
         else:
-
-            self.actions_taken.append(self.action_space[action])
-            #move cursor back to center of screen
-            # tic = timeit.default_timer()
-            if len(self.actions_taken)>1:
-                x_offset = self.actions_taken[-1][0]-self.actions_taken[-2][0]
-                y_offset= self.actions_taken[-1][1]-self.actions_taken[-2][1]
-                self.action_selector.move_by_offset(x_offset,y_offset).perform()
-            else:
-                print(self.actions_taken[0][0],self.actions_taken[0][1])
-                self.action_selector.move_by_offset(self.actions_taken[0][0],self.actions_taken[0][1]).perform()
+            print(self.actions_taken[0][0],self.actions_taken[0][1])
+            self.action_selector.move_by_offset(self.actions_taken[0][0],self.actions_taken[0][1]).perform()
 
 
         frames = []
@@ -168,34 +186,21 @@ class env:
         done = False
 
         if failed:
-            fail_img1 = "fails/fail_1{}.png".format(time.time())
-            fail_img2 = "fails/fail_2{}.png".format(time.time())
-            fail_img3 = "fails/fail_3{}.png".format(time.time())
-            cv2.imwrite(fail_img1,obs)
-            cv2.imwrite(fail_img2,obs_1)
-            cv2.imwrite(fail_img3,obs_2)
+
             if self.n_fails == 0 and timestep >= 3:
                 self.first_fail_frames = frames
                 img = cv2.cvtColor(obs, cv2.COLOR_BGR2GRAY)
                 # cv2.imwrite(obs,'output0.png')
                 img = cv2.resize(img, (128,128))
-                cv2.imwrite('fail1.png',img)
                 masked_img = torchvision.transforms.functional.to_tensor(img)
                 done = True
                 restart=True
-                self.first_fail_frames[0] = masked_img
-                # cv2.imwrite(obs_path,masked_img)
-
-            self.n_fails+=1
-            # if self.n_fails >1:
-            #     os.remove(obs_path)
-            if self.n_fails >=2:
-                if timestep >= 6:
-                    done = True
-                    score=-100
-                
-                frames = self.first_fail_frames
+            else:
+                frames=None
+                done = True
                 restart=True
+
+
         else:
             self.n_fails=0
 
