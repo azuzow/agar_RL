@@ -160,10 +160,10 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
         # cv2.imwrite('2.png',digit_1_)
         # cv2.imwrite('3.png',digit_2_)
         # cv2.imwrite('4.png',digit_3_)
-        img_0 = "digit_0_{}.png".format(time.time())
-        img_1 = "digit_1_{}.png".format(time.time())
-        img_2 = "digit_2_{}.png".format(time.time())
-        img_3 = "digit_3_{}.png".format(time.time())
+        # img_0 = "digit_0_{}.png".format(time.time())
+        # img_1 = "digit_1_{}.png".format(time.time())
+        # img_2 = "digit_2_{}.png".format(time.time())
+        # img_3 = "digit_3_{}.png".format(time.time())
         # cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/0/'+img_0,digit_0_)
         # cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/1/'+img_1,digit_1_)
         # cv2.imwrite('/home/alexzuzow/Desktop/agar_multiagent/scores/2/'+img_2,digit_2_)
@@ -213,8 +213,8 @@ def format_frame (img, username,prev_fail,classifier,get_score=False):
 
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     img = cv2.resize(img, (128,128))
-    img = cv2.GaussianBlur(img,(5,5),0)
-    ret,img = cv2.threshold(img,200,255,cv2.THRESH_TOZERO)
+    # img = cv2.GaussianBlur(img,(5,5),0)
+    # ret,img = cv2.threshold(img,200,255,cv2.THRESH_TOZERO)
 
     if get_score:
         return img,score,failed
