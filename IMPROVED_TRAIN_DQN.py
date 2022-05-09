@@ -34,7 +34,7 @@ name='cs394r'
 
 agar1 = env(chrome_options,name)
 
-memory = ReplayMemory(1000)
+memory = ReplayMemory(10000)
 
 
 # if gpu is to be used
@@ -46,16 +46,16 @@ policy_DQN = Net(n_actions = len(agar1.action_space)).to(device)
 target_DQN.load_state_dict(policy_DQN.state_dict())
 
 
-policy_DQN.load_state_dict(torch.load('models/policy_DQN.pt'),strict=False)
-target_DQN.load_state_dict(torch.load('models/target_DQN.pt'),strict=False)
+# policy_DQN.load_state_dict(torch.load('models/policy_DQN.pt'),strict=False)
+# target_DQN.load_state_dict(torch.load('models/target_DQN.pt'),strict=False)
 
 target_DQN.eval()
 optimizer = optim.RMSprop(policy_DQN.parameters())
 
 BATCH_SIZE = 64
 GAMMA = 0.99
-TARGET_UPDATE = 5
-SAVE_UPDATE = 20
+TARGET_UPDATE = 200
+SAVE_UPDATE = 200
 N_EPISODES = 1000
 
 EPS_START = 0.9
@@ -156,7 +156,14 @@ for episode in range(N_EPISODES):
 
 
         update_model()
-
+        if timestep % TARGET_UPDATE == 0:
+            target_DQN.load_state_dict(policy_DQN.state_dict())
+        if timestep % SAVE_UPDATE == 0:
+            torch.save(target_DQN.state_dict(), "models/target_DQN.pt")
+            torch.save(policy_DQN.state_dict(), "models/policy_DQN.pt")
+        np.save("episode_rewards.npy",episode_rewards)
+        # np.save("episode_losses.npy",episode_loss)
+        np.save("episode_timestamps.npy",episode_timestamps)
         timestep +=1
         if  restart:
             episode +=1
@@ -166,11 +173,4 @@ for episode in range(N_EPISODES):
                 # episode_loss.append(loss)
             break
 
-    if episode % TARGET_UPDATE == 0:
-        target_DQN.load_state_dict(policy_DQN.state_dict())
-    if episode % SAVE_UPDATE == 0:
-        torch.save(target_DQN.state_dict(), "models/target_DQN.pt")
-        torch.save(policy_DQN.state_dict(), "models/policy_DQN.pt")
-        np.save("episode_rewards.npy",episode_rewards)
-        # np.save("episode_losses.npy",episode_loss)
-        np.save("episode_timestamps.npy",episode_timestamps)
+   
